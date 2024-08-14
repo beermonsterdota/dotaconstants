@@ -1305,6 +1305,14 @@
         "description": "Применив Focus Fire, герой стремительно атакует одну цель."
       },
       {
+        "name": "windrunner_focusfire",
+        "icon": "focus_fire",
+        "color": "Yellow",
+        "gradient_id": 2,
+        "title": "Focus Fire",
+        "description": "Применив Focus Fire, герой стремительно атакует одну цель."
+      },
+      {
         "name": "windrunner_whirlwind",
         "icon": "multi_arrow",
         "color": "Green",
@@ -2487,6 +2495,14 @@
       }
     ],
     "facets": [
+      {
+        "name": "faceless_void_chronosphere",
+        "icon": "area_of_effect",
+        "color": "Green",
+        "gradient_id": 0,
+        "title": "Chronosphere",
+        "description": "Герой имеет способность Chronosphere, создающую сферу, в которой застывают враги."
+      },
       {
         "name": "faceless_void_chronosphere",
         "icon": "area_of_effect",
@@ -5910,6 +5926,14 @@
         "gradient_id": 1,
         "title": "Engorged",
         "description": "Змея от способности Mystic Snake увеличивает урон владельца."
+      },
+      {
+        "name": "medusa_slow_attacks",
+        "icon": "slow",
+        "color": "Yellow",
+        "gradient_id": 2,
+        "title": "Venomous Volley",
+        "description": "Каждая пятая атака героя становится отравленной, отчего ненадолго замедляет передвижение, атаку и применение заклинаний жертвы."
       },
       {
         "name": "medusa_slow_attacks",
