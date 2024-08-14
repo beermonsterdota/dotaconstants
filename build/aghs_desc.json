@@ -183,7 +183,7 @@
     "hero_name": "npc_dota_hero_sand_king",
     "hero_id": 16,
     "has_scepter": true,
-    "scepter_desc": "When the pulses start, 3 Stinger attack areas are created every =0.5s at random locations, each measuring 15% of the Epicenter's current radius, that apply =50% of Stinger damage to enemies hit. Shard pulses cause 1 attacks.",
+    "scepter_desc": "When the pulses start, 3 Stinger attack areas are created every =0.5s at random locations, each measuring 15% of the Epicenter's current radius, that apply =50% of Stinger damage to enemies hit. Shard pulses cause 1 attack(s).",
     "scepter_skill_name": "Epicenter",
     "scepter_new_skill": false,
     "has_shard": true,
@@ -211,7 +211,7 @@
     "scepter_skill_name": "Storm Hammer",
     "scepter_new_skill": false,
     "has_shard": true,
-    "shard_desc": "Warcry is now undispellable and passively grants 6 armor all allies near Sven. Increases active movement speed bonus.",
+    "shard_desc": "Warcry is now undispellable and passively grants 6 armor to all allies near Sven. Increases active movement speed bonus.",
     "shard_skill_name": "Warcry",
     "shard_new_skill": false
   },
