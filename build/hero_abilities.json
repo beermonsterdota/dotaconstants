@@ -85,7 +85,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_axe_4",
+        "name": "special_bonus_unique_axe_7",
         "level": 2
       },
       {
@@ -93,7 +93,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_axe_7",
+        "name": "special_bonus_unique_axe_4",
         "level": 3
       },
       {
@@ -1326,7 +1326,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_unique_zeus_jump_cooldown",
+        "name": "special_bonus_mp_regen_175",
         "level": 1
       },
       {
@@ -1334,7 +1334,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_zeus_jump_postjump_movespeed",
+        "name": "special_bonus_unique_zeus_4",
         "level": 2
       },
       {
@@ -1354,7 +1354,7 @@
         "level": 4
       },
       {
-        "name": "special_bonus_unique_zeus_4",
+        "name": "special_bonus_unique_zeus_static_field_dmg",
         "level": 4
       }
     ],
@@ -1707,7 +1707,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_hp_275",
+        "name": "special_bonus_hp_300",
         "level": 2
       },
       {
@@ -1879,7 +1879,7 @@
         "color": "Purple",
         "gradient_id": 0,
         "title": "Cleft Death",
-        "description": "Death Ward attacks 1 targets at once with reduced damage."
+        "description": "Death Ward attacks 1 targets at once with reduced damage. The secondary target takes 65% of the damage."
       }
     ]
   },
@@ -2190,7 +2190,7 @@
         "color": "Green",
         "gradient_id": 3,
         "title": "Rapid Decay",
-        "description": "Necrophos gains movement speed equal to 40% of movement speed lost by enemies."
+        "description": "Necrophos gains movement speed equal to 50% of movement speed lost by enemies."
       }
     ]
   },
@@ -2847,7 +2847,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_viper_6",
+        "name": "special_bonus_unique_viper_7",
         "level": 2
       },
       {
@@ -2855,7 +2855,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_viper_7",
+        "name": "special_bonus_unique_viper_predator_damage",
         "level": 3
       },
       {
@@ -3133,7 +3133,7 @@
         "color": "Gray",
         "gradient_id": 2,
         "title": "Hookup",
-        "description": "When hitting an ally, Hookshot has a larger impact radius, grants Clockwerk and the hit allies a physical damage barrier, equal to the hookshot damage, and partially refunds its cooldown."
+        "description": "When hitting an ally, Hookshot has a larger impact radius, grants Clockwerk and the hit allies bonus armor, and partially refunds its cooldown and manacost."
       },
       {
         "name": "rattletrap_expanded_armature",
@@ -3539,7 +3539,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_attack_damage_45",
+        "name": "special_bonus_unique_enchantress_enchant_attackspeed",
         "level": 2
       },
       {
@@ -3578,7 +3578,7 @@
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Spellbound",
-        "description": "Cast Range of Enchant is increased. If the enemy is a hero, Enchantress has increased attack range against the target."
+        "description": "Cast Range of Enchant is increased. If the enemy is a hero, Enchantress and units she controlls have increased attack range against the target."
       }
     ]
   },
@@ -4328,7 +4328,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_ursa_earthshock_furyswipes",
+        "name": "special_bonus_unique_ursa",
         "level": 2
       },
       {
@@ -4340,7 +4340,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_ursa",
+        "name": "special_bonus_unique_ursa_earthshock_furyswipes",
         "level": 3
       },
       {
@@ -4889,7 +4889,7 @@
         "color": "Yellow",
         "gradient_id": 1,
         "title": "Drunken Master",
-        "description": "When brewed up, Brewmaster moves with a varying amount of movement speed, altering between 20% slower and 50% faster for the duration."
+        "description": "When brewed up, Brewmaster moves with a varying amount of movement speed, altering between 15% slower and 50% faster for the duration."
       }
     ]
   },
@@ -5979,7 +5979,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Bad Influence",
-        "description": "Battle Trance grants allied heroes 30% of the attack speed bonus."
+        "description": "Battle Trance grants allied heroes 40% of the attack speed bonus."
       }
     ]
   },
@@ -6964,7 +6964,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_attack_damage_35",
+        "name": "special_bonus_attack_damage_30",
         "level": 1
       },
       {
@@ -7313,7 +7313,7 @@
         "color": "Purple",
         "gradient_id": 1,
         "title": "Throwing Shade",
-        "description": "While in Shadow Realm, Dark Willow emits a 600 radius aura that increases damage that she deals to enemies in its area of effect by up to 30%. Damage scales based on how long she remains under the effects of Shadow Realm."
+        "description": "While in Shadow Realm, Dark Willow emits a 700 radius aura that increases damage that she deals to enemies in its area of effect by up to 30%. Damage scales based on how long she remains under the effects of Shadow Realm."
       },
       {
         "name": "dark_willow_thorny_thicket",
@@ -7403,7 +7403,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_mars_bulwark_redirect_chance",
+        "name": "special_bonus_unique_mars_bulwark_damage_reduction",
         "level": 1
       },
       {
@@ -7415,7 +7415,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_mars_bulwark_damage_reduction",
+        "name": "special_bonus_unique_mars_arena_cooldown",
         "level": 3
       },
       {
@@ -7438,7 +7438,7 @@
         "color": "Red",
         "gradient_id": 2,
         "title": "Victory Feast",
-        "description": "If Mars is in the Arena when an enemy dies inside of it, he restores 30% of his max health and mana and gets a 20% attack damage buff for 15s."
+        "description": "If Mars is in the Arena when an enemy dies inside of it, he restores 30% of his max health and mana and gets a 20% attack damage buff for 20s."
       },
       {
         "name": "mars_arena",
@@ -7815,7 +7815,7 @@
         "color": "Red",
         "gradient_id": 0,
         "title": "Romp n' Stomp",
-        "description": "Trample grants bonus movement speed and when activated grants a small movement speed aura to allies."
+        "description": "Trample grants bonus movement speed to Primal Beast and his allies when activated."
       },
       {
         "name": "primal_beast_ferocity",
