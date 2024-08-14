@@ -1297,7 +1297,7 @@
     ],
     "facets": [
       {
-        "name": "windrunner_focusfire",
+        "name": "windrunner_focusfire_unused",
         "icon": "focus_fire",
         "color": "Yellow",
         "gradient_id": 2,
@@ -2496,7 +2496,7 @@
     ],
     "facets": [
       {
-        "name": "faceless_void_chronosphere",
+        "name": "faceless_void_chronosphere_unused",
         "icon": "area_of_effect",
         "color": "Green",
         "gradient_id": 0,
@@ -5928,7 +5928,7 @@
         "description": "Змея от способности Mystic Snake увеличивает урон владельца."
       },
       {
-        "name": "medusa_slow_attacks",
+        "name": "medusa_slow_attacks_unused",
         "icon": "slow",
         "color": "Yellow",
         "gradient_id": 2,
