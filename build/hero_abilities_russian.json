@@ -2948,6 +2948,14 @@
     ],
     "facets": [
       {
+        "name": "luna_moonshield_unused",
+        "icon": "armor",
+        "color": "Gray",
+        "gradient_id": 3,
+        "title": "Moonshield",
+        "description": "Активация способности Lunar Orbit снижает урон, получаемый владельцем."
+      },
+      {
         "name": "luna_moonshield",
         "icon": "armor",
         "color": "Gray",
