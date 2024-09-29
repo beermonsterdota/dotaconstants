@@ -6123,7 +6123,7 @@
     ],
     "facets": [
       {
-        "name": "magnataur_reverse_polarity",
+        "name": "magnataur_reverse_polarity_unused",
         "icon": "vortex_in",
         "color": "Gray",
         "gradient_id": 3,
