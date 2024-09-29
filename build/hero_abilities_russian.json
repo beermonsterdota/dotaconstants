@@ -6131,6 +6131,14 @@
         "description": "Способность Reverse Polarity стягивает врагов в одну точку."
       },
       {
+        "name": "magnataur_reverse_polarity",
+        "icon": "vortex_in",
+        "color": "Gray",
+        "gradient_id": 3,
+        "title": "Reverse Polarity",
+        "description": "Способность Reverse Polarity стягивает врагов в одну точку."
+      },
+      {
         "name": "magnataur_reverse_reverse_polarity",
         "icon": "vortex_out",
         "color": "Gray",
