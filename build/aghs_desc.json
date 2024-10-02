@@ -667,7 +667,7 @@
     "scepter_skill_name": "Guardian Angel",
     "scepter_new_skill": false,
     "has_shard": true,
-    "shard_desc": "After a 3s delay, the target is Purified again with 75% effectiveness.",
+    "shard_desc": "After a 3s delay, the target is Purified again with 65% effectiveness.",
     "shard_skill_name": "Purification",
     "shard_new_skill": false
   },
@@ -1438,6 +1438,18 @@
     "shard_desc": "Spear of Mars impales up to 2 and leaves a fire trail behind that deals damage over time and slows movement speed.",
     "shard_skill_name": "Spear of Mars",
     "shard_new_skill": false
+  },
+  {
+    "hero_name": "npc_dota_hero_ringmaster",
+    "hero_id": 131,
+    "has_scepter": false,
+    "scepter_desc": "",
+    "scepter_skill_name": "",
+    "scepter_new_skill": false,
+    "has_shard": true,
+    "shard_desc": "Ringmaster shines a spotlight that sweeps over an area. Enemies in the light have a chance to miss their attacks and are revealed if invisible. Illusions hit by the beam fade away, losing a percentage of their maximum health each second. These effects linger for 0.3 seconds after leaving the light.",
+    "shard_skill_name": "Spotlight",
+    "shard_new_skill": true
   },
   {
     "hero_name": "npc_dota_hero_dawnbreaker",

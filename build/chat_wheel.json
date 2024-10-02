@@ -3920,5 +3920,84 @@
     "id": 680,
     "name": "sprays_crownfall_lil_cm",
     "image": "sprays/crownfall_lil_cm_spray_icon.png"
+  },
+  "681": {
+    "id": 681,
+    "name": "TI13_Caster_Legacy_1",
+    "all_chat": true,
+    "label": "See You Later Nerds",
+    "message": "See you later nerds",
+    "sound_ext": "wav"
+  },
+  "682": {
+    "id": 682,
+    "name": "TI13_Caster_Legacy_2",
+    "all_chat": true,
+    "label": "毁天灭地, NICE啊！",
+    "message": "毁天灭地, NICE啊！",
+    "sound_ext": "wav"
+  },
+  "683": {
+    "id": 683,
+    "name": "TI13_Caster_Legacy_3",
+    "all_chat": true,
+    "label": "3, 2, 1, aaaadios!",
+    "message": "3, 2, 1, aaaadios!",
+    "sound_ext": "wav"
+  },
+  "684": {
+    "id": 684,
+    "name": "TI13_Caster_Legacy_4",
+    "all_chat": true,
+    "label": "Резать Резать Резать Резать",
+    "message": "Резать Резать Резать Резать",
+    "sound_ext": "wav"
+  },
+  "685": {
+    "id": 685,
+    "name": "TI13_Caster_Legacy_5",
+    "all_chat": true,
+    "label": "哇~哦！",
+    "message": "哇~哦！",
+    "sound_ext": "wav"
+  },
+  "686": {
+    "id": 686,
+    "name": "Guild_TI10_Spray_14",
+    "image": "sprays/ti10_jakiro_icon.png"
+  },
+  "687": {
+    "id": 687,
+    "name": "Guild_ti11_phantom_lancer",
+    "image": "sprays/ti11_phantom_lancer_icon.png"
+  },
+  "688": {
+    "id": 688,
+    "name": "Guild_TI9_Ursa_Funny_Bear",
+    "image": "sprays/ti9_ursa_funny_bear_icon.png"
+  },
+  "689": {
+    "id": 689,
+    "name": "Guild_Jia_You",
+    "all_chat": true,
+    "label": "加油！",
+    "message": "加油！",
+    "sound_ext": "wav"
+  },
+  "690": {
+    "id": 690,
+    "name": "Guild_Takaya_Haliava",
+    "all_chat": true,
+    "label": "Такая халява!",
+    "message": "Такая халява...Ха!",
+    "sound_ext": "wav"
+  },
+  "691": {
+    "id": 691,
+    "name": "Guild_Oh_My_God_What",
+    "all_chat": true,
+    "label": "Oh My God. What?",
+    "message": "Oh my god. What? Oh! Oh!",
+    "sound_ext": "wav"
   }
 }

@@ -10,7 +10,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_unique_antimage_4",
+        "name": "special_bonus_hp_regen_3",
         "level": 1
       },
       {
@@ -3043,7 +3043,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_attack_speed_80",
+        "name": "special_bonus_attack_speed_90",
         "level": 2
       },
       {
@@ -3468,7 +3468,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_unique_omniknight_guardian_angel_duration",
+        "name": "special_bonus_unique_omniknight_5",
         "level": 1
       },
       {
@@ -3484,7 +3484,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_omniknight_5",
+        "name": "special_bonus_unique_omniknight_guardian_angel_duration",
         "level": 3
       },
       {
@@ -3570,7 +3570,7 @@
         "color": "Green",
         "gradient_id": 0,
         "title": "Overprotective Wisps",
-        "description": "Whenever Enchantress takes more than 250 damage from enemy heroes, 1 wisps appear for 4s to heal her. A maximum of 4 overprotective wisps can exist at the same time."
+        "description": "Whenever Enchantress takes more than 275 damage from enemy heroes, 1 wisps appear for 4s to heal her. A maximum of 4 overprotective wisps can exist at the same time."
       },
       {
         "name": "enchantress_spellbound",
@@ -3991,7 +3991,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_batrider_1",
+        "name": "special_bonus_unique_batrider_smoldering_resin_ticks",
         "level": 3
       },
       {
@@ -4944,7 +4944,7 @@
         "color": "Gray",
         "gradient_id": 0,
         "title": "Promulgate",
-        "description": "If the target is an enemy, they lose 20% of their health, regaining half of it after the effect is lifted. If the target is an ally, increases their health by that amount instead."
+        "description": "If the target is an enemy, they lose 9% of their health, regaining half of it after the effect is lifted. If the target is an ally, increases their health by that amount instead."
       },
       {
         "name": "shadow_demon_facet_soul_mastery",
@@ -4961,9 +4961,10 @@
       "lone_druid_spirit_bear",
       "lone_druid_spirit_link",
       "lone_druid_savage_roar",
-      "lone_druid_gift_bearer",
       "generic_hidden",
-      "lone_druid_true_form"
+      "generic_hidden",
+      "lone_druid_true_form",
+      "lone_druid_gift_bearer"
     ],
     "talents": [
       {
@@ -5793,7 +5794,7 @@
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Death Toll",
-        "description": "Soul Assumption kills give 35 gold per soul charge, up to 105 140 175 210 gold. Reduced gold from creeps. Enemy heroes killed within 3s of being affected by Soul Assumption also give gold."
+        "description": "The ability can be cast in the alt-cast state to recall Visages familiars after 4s, during which they cannot attack or act."
       }
     ]
   },
@@ -7187,7 +7188,7 @@
         "color": "Red",
         "gradient_id": 2,
         "title": "Wukong's Faithful",
-        "description": "Monkey King's soldiers last longer and do not disperse unless he spends more than 3 seconds outside the area."
+        "description": "Monkey King's soldiers last longer and do not disperse unless he spends more than 4 seconds outside the area."
       },
       {
         "name": "monkey_king_simian_stride",
@@ -7195,7 +7196,7 @@
         "color": "Green",
         "gradient_id": 4,
         "title": "Simian Stride",
-        "description": "Tree Dance has no cooldown while Monkey King is above 90% health."
+        "description": "Tree Dance has no cooldown while Monkey King is above 95% health."
       }
     ]
   },
@@ -7889,6 +7890,77 @@
         "gradient_id": 0,
         "title": "Ofrenda",
         "description": "Muerta can place a beneficial Ofrenda on the map to respawn there instead of the fountain."
+      }
+    ]
+  },
+  "npc_dota_hero_ringmaster": {
+    "abilities": [
+      "ringmaster_tame_the_beasts",
+      "ringmaster_the_box",
+      "ringmaster_impalement",
+      "ringmaster_empty_souvenir",
+      "ringmaster_spotlight",
+      "ringmaster_wheel",
+      "ringmaster_tame_the_beasts_crack"
+    ],
+    "talents": [
+      {
+        "name": "special_bonus_unique_ringmaster_whip_radius",
+        "level": 1
+      },
+      {
+        "name": "special_bonus_unique_ringmaster_box_cast_range",
+        "level": 1
+      },
+      {
+        "name": "special_bonus_unique_ringmaster_dagger_penetrates",
+        "level": 2
+      },
+      {
+        "name": "special_bonus_unique_ringmaster_whip_debuff_immunity",
+        "level": 2
+      },
+      {
+        "name": "special_bonus_unique_ringmaster_dagger_bleed_and_slow_duration",
+        "level": 3
+      },
+      {
+        "name": "special_bonus_unique_ringmaster_whip_damage",
+        "level": 3
+      },
+      {
+        "name": "special_bonus_unique_ringmaster_wheel_radius",
+        "level": 4
+      },
+      {
+        "name": "special_bonus_unique_ringmaster_the_box_strong_dispel_and_flying",
+        "level": 4
+      },
+      {
+        "name": "ringmaster_dark_carnival_souvenirs",
+        "level": 5
+      },
+      {
+        "name": "ringmaster_funhouse_mirror",
+        "level": 5
+      },
+      {
+        "name": "ringmaster_strongman_tonic",
+        "level": 6
+      },
+      {
+        "name": "ringmaster_whoopee_cushion",
+        "level": 6
+      }
+    ],
+    "facets": [
+      {
+        "name": "ringmaster_default",
+        "icon": "item",
+        "color": "Gray",
+        "gradient_id": 3,
+        "title": "Center Stage",
+        "description": "Ringmaster is still new to the spotlight. This facet doesn't do anything... yet."
       }
     ]
   }
