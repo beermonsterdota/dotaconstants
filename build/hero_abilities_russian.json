@@ -44,6 +44,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "antimage_magebanes_mirror",
         "icon": "ricochet",
         "color": "Purple",
@@ -52,6 +53,7 @@
         "description": "Способности Counterspell и Counterspell Ally не только блокируют заклинания, но и отражают их обратно во врага."
       },
       {
+        "id": 1,
         "name": "antimage_mana_thirst",
         "icon": "mana",
         "color": "Blue",
@@ -107,14 +109,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "axe_one_man_army",
         "icon": "strength",
         "color": "Red",
         "gradient_id": 0,
         "title": "One Man Army",
-        "description": "Когда рядом с героем нет союзников, его сила увеличивается на долю от показателя брони."
+        "description": "Когда рядом с героем нет союзников, его сила увеличивается на долю от показателя брони.",
+        "abilities": [
+          "axe_one_man_army"
+        ]
       },
       {
+        "id": 1,
         "name": "axe_call_out",
         "icon": "armor",
         "color": "Red",
@@ -171,6 +178,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "bane_dream_stalker",
         "icon": "damage",
         "color": "Gray",
@@ -179,6 +187,7 @@
         "description": "Герой атакует жертв Nightmare с увеличенной скоростью."
       },
       {
+        "id": 1,
         "name": "bane_sleepwalk",
         "icon": "movement",
         "color": "Purple",
@@ -233,6 +242,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "bloodseeker_arterial_spray",
         "icon": "movement",
         "color": "Red",
@@ -241,6 +251,7 @@
         "description": "Атаки героя толкают жертву способности Rupture."
       },
       {
+        "id": 1,
         "name": "bloodseeker_bloodrush",
         "icon": "speed",
         "color": "Gray",
@@ -296,6 +307,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "crystal_maiden_frozen_expanse",
         "icon": "area_of_effect",
         "color": "Gray",
@@ -304,6 +316,7 @@
         "description": "Эта способность даёт владельцу бонус к дальности применения и радиусу заклинаний."
       },
       {
+        "id": 1,
         "name": "crystal_maiden_cold_comfort",
         "icon": "mana",
         "color": "Blue",
@@ -358,14 +371,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "drow_ranger_high_ground",
         "icon": "damage",
         "color": "Gray",
         "gradient_id": 1,
         "title": "Vantage Point",
-        "description": "Атакуя с возвышенности, герой наносит на 20% больше урона."
+        "description": "Атакуя с возвышенности, герой наносит на 20% больше урона.",
+        "abilities": [
+          "drow_ranger_vantage_point"
+        ]
       },
       {
+        "id": 1,
         "name": "drow_ranger_sidestep",
         "icon": "multi_arrow",
         "color": "Blue",
@@ -421,6 +439,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "earthshaker_tectonic_buildup",
         "icon": "area_of_effect",
         "color": "Red",
@@ -429,12 +448,16 @@
         "description": "Радиус Aftershock увеличивается на 50 за каждые 10 уровней владельца."
       },
       {
+        "id": 1,
         "name": "earthshaker_slugger",
         "icon": "movement",
         "color": "Yellow",
         "gradient_id": 1,
         "title": "Slugger",
-        "description": "Тело врага, убитого атакой с эффектом Enchant Totem или способностями, отлетит и нанесёт урон задетым противникам."
+        "description": "Тело врага, убитого атакой с эффектом Enchant Totem или способностями, отлетит и нанесёт урон задетым противникам.",
+        "abilities": [
+          "earthshaker_slugger"
+        ]
       }
     ]
   },
@@ -483,6 +506,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "juggernaut_bladestorm",
         "icon": "spinning",
         "color": "Yellow",
@@ -491,12 +515,16 @@
         "description": "Способность Blade Fury может наносить критический урон в зависимости от уровня Blade Dance."
       },
       {
+        "id": 1,
         "name": "juggernaut_agigain",
         "icon": "agility",
         "color": "Red",
         "gradient_id": 2,
         "title": "Bladeform",
-        "description": "Герой получает бонус к ловкости и скорости передвижения, пока ему не наносят урон."
+        "description": "Герой получает бонус к ловкости и скорости передвижения, пока ему не наносят урон.",
+        "abilities": [
+          "juggernaut_bladeform"
+        ]
       }
     ]
   },
@@ -545,20 +573,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "mirana_moonlight",
         "icon": "moon",
         "color": "Blue",
         "gradient_id": 1,
         "title": "Moonlight Shadow",
-        "description": "Ульт даёт союзникам невидимость и бонус к скорости передвижения."
+        "description": "Ульт даёт союзникам невидимость и бонус к скорости передвижения.",
+        "abilities": [
+          "mirana_invis"
+        ]
       },
       {
+        "id": 1,
         "name": "mirana_sunlight",
         "icon": "sun",
         "color": "Gray",
         "gradient_id": 3,
         "title": "Solar Flare",
-        "description": "Ульт даёт союзникам постепенно увеличивающийся бонус к скорости атаки и урону."
+        "description": "Ульт даёт союзникам постепенно увеличивающийся бонус к скорости атаки и урону.",
+        "abilities": [
+          "mirana_solar_flare"
+        ]
       }
     ]
   },
@@ -608,6 +644,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "nevermore_lasting_presence",
         "icon": "armor_broken",
         "color": "Gray",
@@ -616,6 +653,7 @@
         "description": "Снижение брони от Presence of the Dark Lord временно повышается, когда рядом погибает вражеский герой. Максимум душ увеличивается на 1 за каждого убитого героя, пока владелец аспекта не умрёт."
       },
       {
+        "id": 1,
         "name": "nevermore_shadowmire",
         "icon": "slow",
         "color": "Red",
@@ -673,20 +711,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "morphling_agi",
         "icon": "agility",
         "color": "Green",
         "gradient_id": 0,
         "title": "Ebb",
-        "description": "Основной атрибут героя — ловкость . Способность Adaptive Strike (сила) отталкивает жертву."
+        "description": "Основной атрибут героя — ловкость . Способность Adaptive Strike (сила) отталкивает жертву.",
+        "abilities": [
+          "morphling_ebb"
+        ]
       },
       {
+        "id": 1,
         "name": "morphling_str",
         "icon": "strength",
         "color": "Red",
         "gradient_id": 0,
         "title": "Flow",
-        "description": "Основной атрибут героя — сила . Способность Attribute Shift позволяет ускорять перезарядки."
+        "description": "Основной атрибут героя — сила . Способность Attribute Shift позволяет ускорять перезарядки.",
+        "abilities": [
+          "morphling_flow"
+        ]
       }
     ]
   },
@@ -735,6 +781,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "phantom_lancer_convergence",
         "icon": "illusion",
         "color": "Yellow",
@@ -743,6 +790,7 @@
         "description": "Doppleganger создаёт тем больше иллюзий, чем ниже здоровье владельца."
       },
       {
+        "id": 1,
         "name": "phantom_lancer_divergence",
         "icon": "summons",
         "color": "Blue",
@@ -797,6 +845,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "puck_jostling_rift",
         "icon": "movement",
         "color": "Purple",
@@ -805,6 +854,7 @@
         "description": "Способность Waning Rift отталкивает либо притягивает врагов."
       },
       {
+        "id": 1,
         "name": "puck_curveball",
         "icon": "curve_ball",
         "color": "Blue",
@@ -859,6 +909,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "pudge_fresh_meat",
         "icon": "meat",
         "color": "Green",
@@ -867,6 +918,7 @@
         "description": "Способность Dismember увеличивает силу владельца, когда наносит урон героям."
       },
       {
+        "id": 1,
         "name": "pudge_flayers_hook",
         "icon": "pudge_hook",
         "color": "Red",
@@ -921,6 +973,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "razor_thunderhead",
         "icon": "barrier",
         "color": "Gray",
@@ -929,12 +982,16 @@
         "description": "Молния от Storm Surge срабатывает чаще и бьёт всех врагов в радиусе действия способности Eye of the Storm, когда та активирована."
       },
       {
+        "id": 1,
         "name": "razor_spellamp",
         "icon": "nuke",
         "color": "Blue",
         "gradient_id": 0,
         "title": "Dynamo",
-        "description": "Герой получает +1% к урону способностями за каждые 20 очков атаки."
+        "description": "Герой получает +1% к урону способностями за каждые 20 очков атаки.",
+        "abilities": [
+          "razor_dynamo"
+        ]
       }
     ]
   },
@@ -983,6 +1040,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "sand_king_sandshroud",
         "icon": "vision",
         "color": "Gray",
@@ -991,6 +1049,7 @@
         "description": "Увеличивает радиус песчаной бури от Sand Storm. Она делает владельца невидимым."
       },
       {
+        "id": 1,
         "name": "sand_king_dust_devil",
         "icon": "speed",
         "color": "Yellow",
@@ -1046,6 +1105,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "storm_spirit_shock_collar",
         "icon": "nuke",
         "color": "Blue",
@@ -1054,6 +1114,7 @@
         "description": "Если жертва Electric Vortex совершит атаку, на неё сработает отрицательный эффект способности Overload."
       },
       {
+        "id": 1,
         "name": "storm_spirit_static_slide",
         "icon": "movement",
         "color": "Gray",
@@ -1109,6 +1170,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "sven_heavy_plate",
         "icon": "armor",
         "color": "Blue",
@@ -1117,12 +1179,16 @@
         "description": "Способность Warcry даёт физический барьер."
       },
       {
+        "id": 1,
         "name": "sven_strscaling",
         "icon": "strength",
         "color": "Red",
         "gradient_id": 0,
         "title": "Wrath of God",
-        "description": "Базовый урон героя уменьшен, но каждая единица силы приносит ему дополнительный бонус к урону."
+        "description": "Базовый урон героя уменьшен, но каждая единица силы приносит ему дополнительный бонус к урону.",
+        "abilities": [
+          "sven_wrath_of_god"
+        ]
       }
     ]
   },
@@ -1172,6 +1238,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "tiny_crash_landing",
         "icon": "nuke",
         "color": "Gray",
@@ -1180,12 +1247,16 @@
         "description": "Существа, подброшенные способностью Toss, наносят больше урона врагам в месте приземления и замедляют их."
       },
       {
+        "id": 1,
         "name": "tiny_insurmountable",
         "icon": "armor",
         "color": "Green",
         "gradient_id": 4,
         "title": "Insurmountable",
-        "description": "Каждое очко силы даёт герою бонус к сопротивлению эффектам и замедлениям."
+        "description": "Каждое очко силы даёт герою бонус к сопротивлению эффектам и замедлениям.",
+        "abilities": [
+          "tiny_insurmountable"
+        ]
       }
     ]
   },
@@ -1234,6 +1305,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "vengefulspirit_avenging_missile",
         "icon": "nuke",
         "color": "Purple",
@@ -1242,12 +1314,16 @@
         "description": "Урон способности Magic Missile увеличивается на 0.75 за каждого крипа, добитого целью."
       },
       {
+        "id": 1,
         "name": "vvengefulspirit_melee",
         "icon": "fist",
         "color": "Blue",
         "gradient_id": 1,
         "title": "Soul Strike",
-        "description": "Атаки героя имеют все преимущества как дальнего, так и ближнего боя."
+        "description": "Атаки героя имеют все преимущества как дальнего, так и ближнего боя.",
+        "abilities": [
+          "vengefulspirit_soul_strike"
+        ]
       }
     ]
   },
@@ -1297,14 +1373,17 @@
     ],
     "facets": [
       {
-        "name": "windrunner_focusfire_unused",
-        "icon": "focus_fire",
+        "id": 0,
+        "name": "windrunner_tailwind",
+        "deprecated": "true",
+        "icon": "speed",
         "color": "Yellow",
         "gradient_id": 2,
-        "title": "Focus Fire",
-        "description": "Применив Focus Fire, герой стремительно атакует одну цель."
+        "title": "Tailwind",
+        "description": "Ускорение от Windrun увеличено для владельца и действует на союзников неподалёку."
       },
       {
+        "id": 1,
         "name": "windrunner_focusfire",
         "icon": "focus_fire",
         "color": "Yellow",
@@ -1313,6 +1392,7 @@
         "description": "Применив Focus Fire, герой стремительно атакует одну цель."
       },
       {
+        "id": 2,
         "name": "windrunner_whirlwind",
         "icon": "multi_arrow",
         "color": "Green",
@@ -1368,6 +1448,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "zuus_livewire",
         "icon": "range",
         "color": "Blue",
@@ -1376,6 +1457,7 @@
         "description": "Способность Static Field наносит тем больше урона, чем ближе жертва."
       },
       {
+        "id": 1,
         "name": "zuus_divine_rampage",
         "icon": "nuke",
         "color": "Gray",
@@ -1431,6 +1513,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "kunkka_high_tide",
         "icon": "cooldown",
         "color": "Blue",
@@ -1439,6 +1522,7 @@
         "description": "Перезарядка Tidebringer снижается за каждого героя, которому эта способность нанесла урон."
       },
       {
+        "id": 1,
         "name": "kunkka_grog",
         "icon": "armor",
         "color": "Yellow",
@@ -1493,6 +1577,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "lina_supercharge",
         "icon": "damage",
         "color": "Yellow",
@@ -1501,12 +1586,16 @@
         "description": "Применение Laguna Blade озаряет владельца, давая ему эффекты способности Fiery Soul."
       },
       {
+        "id": 1,
         "name": "lina_dot",
         "icon": "nuke",
         "color": "Red",
         "gradient_id": 0,
         "title": "Slow Burn",
-        "description": "Заклинания героя наносят дополнительный периодический урон."
+        "description": "Заклинания героя наносят дополнительный периодический урон.",
+        "abilities": [
+          "lina_slow_burn"
+        ]
       }
     ]
   },
@@ -1555,6 +1644,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "lich_frostbound",
         "icon": "snowflake",
         "color": "Blue",
@@ -1563,6 +1653,7 @@
         "description": "Если снаряду Chain Frost не в кого отскочить, он будет кружить вокруг последней цели, пока в радиусе не появится новая."
       },
       {
+        "id": 1,
         "name": "lich_growing_cold",
         "icon": "cooldown",
         "color": "Gray",
@@ -1617,6 +1708,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "lion_essence_eater",
         "icon": "nuke",
         "color": "Purple",
@@ -1625,6 +1717,7 @@
         "description": "Mana Drain наносит урон в размере 100% от поглощаемой маны."
       },
       {
+        "id": 1,
         "name": "lion_fist_of_death",
         "icon": "fist",
         "color": "Red",
@@ -1679,6 +1772,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "shadow_shaman_cluster_cluck",
         "icon": "chicken",
         "color": "Yellow",
@@ -1687,6 +1781,7 @@
         "description": "Hex позволяет превратить союзника в стаю куриц и снять с него отрицательные эффекты."
       },
       {
+        "id": 1,
         "name": "shadow_shaman_massive_serpent_ward",
         "icon": "snake",
         "color": "Red",
@@ -1741,6 +1836,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "slardar_leg_day",
         "icon": "speed",
         "color": "Red",
@@ -1749,6 +1845,7 @@
         "description": "В начале действия способность Guardian Sprint даёт сопротивление замедлениям и ускоряет передвижение ещё сильнее."
       },
       {
+        "id": 1,
         "name": "slardar_brineguard",
         "icon": "armor",
         "color": "Purple",
@@ -1804,6 +1901,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "tidehunter_kraken_swell",
         "icon": "armor",
         "color": "Green",
@@ -1812,12 +1910,16 @@
         "description": "Блок урона у Kraken Shell навсегда увеличивается с каждым вражеским героем, погибшим под действием Anchor Smash."
       },
       {
+        "id": 1,
         "name": "tidehunter_sizescale",
         "icon": "overshadow",
         "color": "Green",
         "gradient_id": 0,
         "title": "Krill Eater",
-        "description": "С каждым уровнем герой становится больше и получает определённые бонусы."
+        "description": "С каждым уровнем герой становится больше и получает определённые бонусы.",
+        "abilities": [
+          "tidehunter_krill_eater"
+        ]
       }
     ]
   },
@@ -1866,6 +1968,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "witch_doctor_headhunter",
         "icon": "ricochet",
         "color": "Gray",
@@ -1874,6 +1977,7 @@
         "description": "Урон способности Paralyzing Cask увеличивается с каждым отскоком."
       },
       {
+        "id": 1,
         "name": "witch_doctor_voodoo_festeration",
         "icon": "nuke",
         "color": "Red",
@@ -1882,6 +1986,7 @@
         "description": "Способность Voodoo Restoration наносит урон врагам и лечит только владельца."
       },
       {
+        "id": 2,
         "name": "witch_doctor_cleft_death",
         "icon": "death_ward",
         "color": "Purple",
@@ -1936,6 +2041,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "riki_contract_killer",
         "icon": "xp",
         "color": "Gray",
@@ -1944,6 +2050,7 @@
         "description": "Герой получает дополнительный опыт за совершение убийств и помощь в них."
       },
       {
+        "id": 1,
         "name": "riki_exterminator",
         "icon": "agility",
         "color": "Purple",
@@ -1998,20 +2105,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "enigma_gravity",
         "icon": "slow",
         "color": "Gray",
         "gradient_id": 3,
         "title": "Event Horizon",
-        "description": "Враги в радиусе 600, удаляющиеся от владельца аспекта, замедляются на 9%."
+        "description": "Враги в радиусе 600, удаляющиеся от владельца аспекта, замедляются на 9%.",
+        "abilities": [
+          "enigma_event_horizon"
+        ]
       },
       {
+        "id": 1,
         "name": "enigma_fragment",
         "icon": "summons",
         "color": "Purple",
         "gradient_id": 0,
         "title": "Splitting Image",
-        "description": "Получая урон, этот герой призывает эйдолонов."
+        "description": "Получая урон, этот герой призывает эйдолонов.",
+        "abilities": [
+          "enigma_splitting_image"
+        ]
       }
     ]
   },
@@ -2061,6 +2176,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "tinker_repair_bots",
         "icon": "healing",
         "color": "Blue",
@@ -2069,6 +2185,7 @@
         "description": "Роботы от March of the Machines накладывают эффект постепенного лечения на союзников, сквозь которых проезжают. Лечение от нескольких роботов не складывается."
       },
       {
+        "id": 1,
         "name": "tinker_translocator",
         "icon": "movement",
         "color": "Yellow",
@@ -2123,6 +2240,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "sniper_ghillie_suit",
         "icon": "vision",
         "color": "Yellow",
@@ -2131,6 +2249,7 @@
         "description": "Атакуя под действием способности Take Aim, герой не становится виден в тумане войны."
       },
       {
+        "id": 1,
         "name": "sniper_scattershot",
         "icon": "nuke",
         "color": "Red",
@@ -2185,6 +2304,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "necrolyte_profane_potency",
         "icon": "area_of_effect",
         "color": "Yellow",
@@ -2193,6 +2313,7 @@
         "description": "Эффекты способности Sadist также дают бонус к радиусу заклинаний."
       },
       {
+        "id": 1,
         "name": "necrolyte_rapid_decay",
         "icon": "speed",
         "color": "Green",
@@ -2247,6 +2368,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "warlock_golem",
         "icon": "summons",
         "color": "Red",
@@ -2255,12 +2377,16 @@
         "description": "Часть восстановления здоровья и маны героя добавляется к урону от горения у его големов от Chaotic Offering."
       },
       {
+        "id": 1,
         "name": "warlock_grimoire",
         "icon": "xp",
         "color": "Gray",
         "gradient_id": 3,
         "title": "Black Grimoire",
-        "description": "Герой начинает игру с расходуемым предметом Black Grimoire, применение которого даёт дополнительный опыт за каждое участие в убийстве. Изначально имеет 1 заряд."
+        "description": "Герой начинает игру с расходуемым предметом Black Grimoire, применение которого даёт дополнительный опыт за каждое участие в убийстве. Изначально имеет 1 заряд.",
+        "abilities": [
+          "warlock_black_grimoire"
+        ]
       }
     ]
   },
@@ -2310,6 +2436,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "beastmaster_wild_hunt",
         "icon": "summons",
         "color": "Red",
@@ -2318,6 +2445,7 @@
         "description": "Герой атакует быстрее рядом со своими существами."
       },
       {
+        "id": 1,
         "name": "beastmaster_beast_mode",
         "icon": "damage",
         "color": "Yellow",
@@ -2372,20 +2500,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "queenofpain_lifesteal",
         "icon": "healing",
         "color": "Blue",
         "gradient_id": 0,
         "title": "Succubus",
-        "description": "Даёт вампиризм заклинаниями. Чем ближе герой к жертве, тем больше вампиризм."
+        "description": "Даёт вампиризм заклинаниями. Чем ближе герой к жертве, тем больше вампиризм.",
+        "abilities": [
+          "queenofpain_succubus"
+        ]
       },
       {
+        "id": 1,
         "name": "queenofpain_selfdmg",
         "icon": "nuke",
         "color": "Red",
         "gradient_id": 0,
         "title": "Masochist",
-        "description": "Даёт бонус к урону от заклинаний, но доля урона, наносимого вражеским героям заклинаниями, наносится и владельцу."
+        "description": "Даёт бонус к урону от заклинаний, но доля урона, наносимого вражеским героям заклинаниями, наносится и владельцу.",
+        "abilities": [
+          "queenofpain_masochist"
+        ]
       }
     ]
   },
@@ -2434,6 +2570,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "venomancer_patient_zero",
         "icon": "snot",
         "color": "Green",
@@ -2442,6 +2579,7 @@
         "description": "Зараза от способности Noxious Plague распространяется дважды."
       },
       {
+        "id": 1,
         "name": "venomancer_plague_carrier",
         "icon": "summons",
         "color": "Yellow",
@@ -2496,28 +2634,38 @@
     ],
     "facets": [
       {
-        "name": "faceless_void_chronosphere_unused",
-        "icon": "area_of_effect",
+        "id": 0,
+        "name": "faceless_void_temporal_impunity",
+        "deprecated": "true",
+        "icon": "armor",
         "color": "Green",
         "gradient_id": 0,
-        "title": "Chronosphere",
-        "description": "Герой имеет способность Chronosphere, создающую сферу, в которой застывают враги."
+        "title": "Temporal Impunity",
+        "description": "Применение способности Time Walk ненадолго даёт защиту от любого урона."
       },
       {
+        "id": 1,
         "name": "faceless_void_chronosphere",
         "icon": "area_of_effect",
         "color": "Green",
         "gradient_id": 0,
         "title": "Chronosphere",
-        "description": "Герой имеет способность Chronosphere , создающую сферу, в которой застывают враги."
+        "description": "Герой имеет способность Chronosphere , создающую сферу, в которой застывают враги.",
+        "abilities": [
+          "faceless_void_chronosphere"
+        ]
       },
       {
+        "id": 2,
         "name": "faceless_void_time_zone",
         "icon": "chrono_cube",
         "color": "Purple",
         "gradient_id": 1,
         "title": "Time Zone",
-        "description": "Герой имеет способность Time Zone , которая значительно замедляет врагов и ускоряет союзников в указанной области."
+        "description": "Герой имеет способность Time Zone , которая значительно замедляет врагов и ускоряет союзников в указанной области.",
+        "abilities": [
+          "faceless_void_time_zone"
+        ]
       }
     ]
   },
@@ -2566,20 +2714,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "skeleton_king_facet_bone_guard",
         "icon": "summons",
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Bone Guard",
-        "description": "Герой может призывать скелетов."
+        "description": "Герой может призывать скелетов.",
+        "abilities": [
+          "skeleton_king_bone_guard"
+        ]
       },
       {
+        "id": 1,
         "name": "skeleton_king_facet_cursed_blade",
         "icon": "damage",
         "color": "Red",
         "gradient_id": 0,
         "title": "Spectral Blade",
-        "description": "Атаки героя накладывают сглаз, который после задержки наносит дополнительный урон."
+        "description": "Атаки героя накладывают сглаз, который после задержки наносит дополнительный урон.",
+        "abilities": [
+          "skeleton_king_spectral_blade"
+        ]
       }
     ]
   },
@@ -2628,6 +2784,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "death_prophet_suppress",
         "icon": "slow",
         "color": "Purple",
@@ -2636,20 +2793,28 @@
         "description": "Способность Silence замедляет врагов."
       },
       {
+        "id": 1,
         "name": "death_prophet_ghosts",
         "icon": "spirit",
         "color": "Green",
         "gradient_id": 1,
         "title": "Spirit Collector",
-        "description": "Смерти героев делают следующее применение Exorcism сильнее."
+        "description": "Смерти героев делают следующее применение Exorcism сильнее.",
+        "abilities": [
+          "death_prophet_spirit_collector"
+        ]
       },
       {
+        "id": 2,
         "name": "death_prophet_delayed_damage",
         "icon": "healing",
         "color": "Red",
         "gradient_id": 1,
         "title": "Mourning Ritual",
-        "description": "Герой получает часть урона не сразу, а с короткими интервалами за небольшой промежуток времени."
+        "description": "Герой получает часть урона не сразу, а с короткими интервалами за небольшой промежуток времени.",
+        "abilities": [
+          "death_prophet_mourning_ritual"
+        ]
       }
     ]
   },
@@ -2698,6 +2863,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "phantom_assassin_veiled_one",
         "icon": "mana",
         "color": "Blue",
@@ -2706,6 +2872,7 @@
         "description": "Атаки больше не снимают эффект Blur. Под действием этой способности и после неё снижается расход маны."
       },
       {
+        "id": 1,
         "name": "phantom_assassin_methodical",
         "icon": "damage",
         "color": "Gray",
@@ -2760,6 +2927,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "pugna_siphoning_ward",
         "icon": "healing",
         "color": "Green",
@@ -2768,6 +2936,7 @@
         "description": "Нанося урон, тотем от Nether Ward восстанавливает владельцу здоровье и ману."
       },
       {
+        "id": 1,
         "name": "pugna_rewards_of_ruin",
         "icon": "siege",
         "color": "Purple",
@@ -2823,6 +2992,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "templar_assassin_voidblades",
         "icon": "ricochet",
         "color": "Gray",
@@ -2831,6 +3001,7 @@
         "description": "Дополнительный урон и отрицательные эффекты от Meld действуют и на врагов, задетых пробитием от Psi Blades."
       },
       {
+        "id": 1,
         "name": "templar_assassin_refractor",
         "icon": "damage",
         "color": "Purple",
@@ -2885,6 +3056,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "viper_poison_burst",
         "icon": "area_of_effect",
         "color": "Green",
@@ -2893,6 +3065,7 @@
         "description": "Когда действие яда заканчивается, он наносит урон всем врагам вокруг жертвы."
       },
       {
+        "id": 1,
         "name": "viper_caustic_bath",
         "icon": "armor",
         "color": "Yellow",
@@ -2948,14 +3121,17 @@
     ],
     "facets": [
       {
-        "name": "luna_moonshield_unused",
+        "id": 0,
+        "name": "luna_lunar_orbit",
+        "deprecated": "true",
         "icon": "armor",
         "color": "Gray",
         "gradient_id": 3,
-        "title": "Moonshield",
-        "description": "Активация способности Lunar Orbit снижает урон, получаемый владельцем."
+        "title": "Lunar Orbit",
+        "description": ""
       },
       {
+        "id": 1,
         "name": "luna_moonshield",
         "icon": "armor",
         "color": "Gray",
@@ -2964,6 +3140,7 @@
         "description": "Активация способности Lunar Orbit снижает урон, получаемый владельцем."
       },
       {
+        "id": 2,
         "name": "luna_moonstorm",
         "icon": "damage",
         "color": "Blue",
@@ -3019,6 +3196,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "dragon_knight_fire_dragon",
         "icon": "dragon_fire",
         "color": "Red",
@@ -3027,6 +3205,7 @@
         "description": "Добавляет к атакам героя прорубание, которое в облике дракона усиливается и становится уроном по области."
       },
       {
+        "id": 1,
         "name": "dragon_knight_corrosive_dragon",
         "icon": "dragon_poison",
         "color": "Green",
@@ -3035,6 +3214,7 @@
         "description": "Добавляет к атакам героя периодический урон и снижение брони, которые становятся сильнее в облике дракона."
       },
       {
+        "id": 2,
         "name": "dragon_knight_frost_dragon",
         "icon": "dragon_frost",
         "color": "Blue",
@@ -3089,14 +3269,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "dazzle_facet_nothl_boon",
         "icon": "armor",
         "color": "Red",
         "gradient_id": 1,
         "title": "Nothl Boon",
-        "description": "Всё лечение героя сверх максимального здоровья превращается в барьер."
+        "description": "Всё лечение героя сверх максимального здоровья превращается в барьер.",
+        "abilities": [
+          "dazzle_nothl_boon"
+        ]
       },
       {
+        "id": 1,
         "name": "dazzle_poison_bloom",
         "icon": "ricochet",
         "color": "Purple",
@@ -3152,6 +3337,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "rattletrap_hookup",
         "icon": "cooldown",
         "color": "Gray",
@@ -3160,6 +3346,7 @@
         "description": "Попадание способностью Hookshot в союзника увеличивает её радиус действия, уменьшает её перезарядку и расход маны, а также даёт бонус к броне."
       },
       {
+        "id": 1,
         "name": "rattletrap_expanded_armature",
         "icon": "area_of_effect",
         "color": "Red",
@@ -3214,14 +3401,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "leshrac_attacks_mana",
         "icon": "mana",
         "color": "Blue",
         "gradient_id": 1,
         "title": "Chronoptic Nourishment",
-        "description": "Атаки героя восстанавливают ему ману."
+        "description": "Атаки героя восстанавливают ему ману.",
+        "abilities": [
+          "leshrac_chronoptic_nourishment"
+        ]
       },
       {
+        "id": 1,
         "name": "leshrac_misanthropy",
         "icon": "nuke",
         "color": "Purple",
@@ -3276,6 +3468,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "furion_soothing_saplings",
         "icon": "healing",
         "color": "Green",
@@ -3284,6 +3477,7 @@
         "description": "Деревья от Sprout постепенно излечивают союзников рядом."
       },
       {
+        "id": 1,
         "name": "furion_ironwood_treant",
         "icon": "siege",
         "color": "Blue",
@@ -3339,20 +3533,41 @@
     ],
     "facets": [
       {
+        "id": 0,
+        "name": "life_stealer_maxhp_gain",
+        "deprecated": "true",
+        "icon": "armor",
+        "color": "Yellow",
+        "gradient_id": 3,
+        "title": "Corpse Eater",
+        "description": "Герой получает +1 к максимальному здоровью за каждого убитого крипа и +15 — за каждого убитого героя",
+        "abilities": [
+          "life_stealer_corpse_eater"
+        ]
+      },
+      {
+        "id": 1,
         "name": "life_stealer_rage",
         "icon": "lifestealer_rage",
         "color": "Yellow",
         "gradient_id": 3,
         "title": "Rage",
-        "description": "Герой имеет способность Rage , которая делает его невосприимчивым к эффектам и увеличивает его сопротивление магии."
+        "description": "Герой имеет способность Rage , которая делает его невосприимчивым к эффектам и увеличивает его сопротивление магии.",
+        "abilities": [
+          "life_stealer_rage"
+        ]
       },
       {
+        "id": 2,
         "name": "life_stealer_rage_dispell",
         "icon": "broken_chain",
         "color": "Red",
         "gradient_id": 0,
         "title": "Unfettered",
-        "description": "Герой имеет способность Unfettered , даже в оглушении позволяющую применить на себя сильное развеивание и стать выносливее."
+        "description": "Герой имеет способность Unfettered , даже в оглушении позволяющую применить на себя сильное развеивание и стать выносливее.",
+        "abilities": [
+          "life_stealer_unfettered"
+        ]
       }
     ]
   },
@@ -3401,20 +3616,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "dark_seer_atkspd",
         "icon": "damage",
         "color": "Gray",
         "gradient_id": 3,
         "title": "Quick Wit",
-        "description": "Интеллект также увеличивает скорость атаки этого героя."
+        "description": "Интеллект также увеличивает скорость атаки этого героя.",
+        "abilities": [
+          "dark_seer_quick_wit"
+        ]
       },
       {
+        "id": 1,
         "name": "dark_seer_movespd",
         "icon": "speed",
         "color": "Purple",
         "gradient_id": 2,
         "title": "Heart of Battle",
-        "description": "Этот герой передвигается быстрее рядом с другими."
+        "description": "Этот герой передвигается быстрее рядом с другими.",
+        "abilities": [
+          "dark_seer_heart_of_battle"
+        ]
       }
     ]
   },
@@ -3464,6 +3687,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "clinkz_suppressive_fire",
         "icon": "no_vision",
         "color": "Gray",
@@ -3472,6 +3696,7 @@
         "description": "Атаки с эффектом Strafe вынуждают врагов промахиваться."
       },
       {
+        "id": 1,
         "name": "clinkz_engulfing_step",
         "icon": "teleport",
         "color": "Yellow",
@@ -3526,6 +3751,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "omniknight_omnipresent",
         "icon": "damage",
         "color": "Gray",
@@ -3534,12 +3760,16 @@
         "description": "Владелец способности Degen Aura наносит больше урона вражеским героям под её действием."
       },
       {
+        "id": 1,
         "name": "omniknight_dmgheals",
         "icon": "healing",
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Healing Hammer",
-        "description": "Урон, нанесённый способностями этого героя, постепенно его излечивает."
+        "description": "Урон, нанесённый способностями этого героя, постепенно его излечивает.",
+        "abilities": [
+          "omniknight_healing_hammer"
+        ]
       }
     ]
   },
@@ -3589,6 +3819,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "enchantress_overprotective_wisps",
         "icon": "healing",
         "color": "Green",
@@ -3597,6 +3828,7 @@
         "description": "При получении урона призывает исцеляющих светлячков."
       },
       {
+        "id": 1,
         "name": "enchantress_spellbound",
         "icon": "range",
         "color": "Yellow",
@@ -3651,6 +3883,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "huskar_bloodbath",
         "icon": "area_of_effect",
         "color": "Red",
@@ -3659,6 +3892,7 @@
         "description": "Life Break замедляет врагов вокруг основной цели."
       },
       {
+        "id": 1,
         "name": "huskar_nothl_transfusion",
         "icon": "healing",
         "color": "Blue",
@@ -3667,6 +3901,7 @@
         "description": "Life Break излечивает союзников вокруг основной цели."
       },
       {
+        "id": 2,
         "name": "huskar_nothl_conflagration",
         "icon": "damage",
         "color": "Yellow",
@@ -3722,6 +3957,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "night_stalker_blinding_void",
         "icon": "no_vision",
         "color": "Blue",
@@ -3730,12 +3966,16 @@
         "description": "Враг под действием этой способности не делится обзором со своими союзниками и получает урон каждую секунду, если союзники его не видят."
       },
       {
+        "id": 1,
         "name": "night_stalker_dayswap",
         "icon": "moon",
         "color": "Gray",
         "gradient_id": 0,
         "title": "Night Reign",
-        "description": "Игра начинается с ночи, а не со дня. Увеличивает длительность ночи и уменьшает длительность дня."
+        "description": "Игра начинается с ночи, а не со дня. Увеличивает длительность ночи и уменьшает длительность дня.",
+        "abilities": [
+          "night_stalker_night_reign"
+        ]
       }
     ]
   },
@@ -3784,6 +4024,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "broodmother_necrotic_webs",
         "icon": "debuff",
         "color": "Gray",
@@ -3792,6 +4033,7 @@
         "description": "У врагов в паутине уменьшается восстановление здоровья."
       },
       {
+        "id": 1,
         "name": "broodmother_feeding_frenzy",
         "icon": "summons",
         "color": "Red",
@@ -3846,6 +4088,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "bounty_hunter_shuriken",
         "icon": "nuke",
         "color": "Red",
@@ -3854,12 +4097,16 @@
         "description": "Снаряд Shuriken Toss наносит урон всем врагам, через которых проходит, и замедляет их."
       },
       {
+        "id": 1,
         "name": "bounty_hunter_mugging",
         "icon": "gold",
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Cutpurse",
-        "description": "Герой крадёт золото у вражеских героев, ставших целью его способности или предмета."
+        "description": "Герой крадёт золото у вражеских героев, ставших целью его способности или предмета.",
+        "abilities": [
+          "bounty_hunter_cutpurse"
+        ]
       }
     ]
   },
@@ -3909,6 +4156,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "weaver_skitterstep",
         "icon": "speed",
         "color": "Red",
@@ -3917,6 +4165,7 @@
         "description": "Shukuchi замедляет задетых врагов и сильнее ускоряет владельца."
       },
       {
+        "id": 1,
         "name": "weaver_hivemind",
         "icon": "xp",
         "color": "Blue",
@@ -3971,20 +4220,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "jakiro_fire",
         "icon": "nuke",
         "color": "Red",
         "gradient_id": 0,
         "title": "Liquid Fire",
-        "description": "Способность, замедляющая атаку и наносящая периодический урон цели атаки и врагам вокруг неё."
+        "description": "Способность, замедляющая атаку и наносящая периодический урон цели атаки и врагам вокруг неё.",
+        "abilities": [
+          "jakiro_liquid_fire"
+        ]
       },
       {
+        "id": 1,
         "name": "jakiro_ice",
         "icon": "snowflake",
         "color": "Blue",
         "gradient_id": 1,
         "title": "Liquid Frost",
-        "description": "Способность, замедляющая передвижение цели атаки и увеличивающая урон этого героя по ней."
+        "description": "Способность, замедляющая передвижение цели атаки и увеличивающая урон этого героя по ней.",
+        "abilities": [
+          "jakiro_liquid_ice"
+        ]
       }
     ]
   },
@@ -4033,14 +4290,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "batrider_buff_on_displacement",
         "icon": "speed",
         "color": "Yellow",
         "gradient_id": 1,
         "title": "Stoked",
-        "description": "Переместив врага, герой передвигается быстрее и наносит больше урона заклинаниями."
+        "description": "Переместив врага, герой передвигается быстрее и наносит больше урона заклинаниями.",
+        "abilities": [
+          "batrider_stoked"
+        ]
       },
       {
+        "id": 1,
         "name": "batrider_arsonist",
         "icon": "siege",
         "color": "Red",
@@ -4095,6 +4357,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "chen_centaur_convert",
         "icon": "area_of_effect",
         "color": "Blue",
@@ -4103,6 +4366,7 @@
         "description": "Способность Summon Convert призывает либо кентавра-следопыта, либо кентавра-захватчика."
       },
       {
+        "id": 1,
         "name": "chen_wolf_convert",
         "icon": "damage",
         "color": "Yellow",
@@ -4111,6 +4375,7 @@
         "description": "Способность Summon Convert призывает либо гигантского волка, либо вожака волков."
       },
       {
+        "id": 2,
         "name": "chen_hellbear_convert",
         "icon": "slow",
         "color": "Red",
@@ -4119,6 +4384,7 @@
         "description": "Способность Summon Convert призывает либо медведемона, либо медведемона-крушителя."
       },
       {
+        "id": 3,
         "name": "chen_troll_convert",
         "icon": "summons",
         "color": "Green",
@@ -4127,6 +4393,7 @@
         "description": "Способность Summon Convert призывает либо холмового тролля, либо тролля-некроманта."
       },
       {
+        "id": 4,
         "name": "chen_satyr_convert",
         "icon": "mana",
         "color": "Purple",
@@ -4182,6 +4449,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "spectre_forsaken",
         "icon": "spectre",
         "color": "Gray",
@@ -4190,6 +4458,7 @@
         "description": "Способность Desolate может наносить частичный урон, а её эффект накладывается кинжалом от Spectral Dagger."
       },
       {
+        "id": 1,
         "name": "spectre_twist_the_knife",
         "icon": "nuke",
         "color": "Purple",
@@ -4245,6 +4514,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "doom_bringer_gluttony",
         "icon": "meat",
         "color": "Red",
@@ -4253,14 +4523,19 @@
         "description": "Заменяет перезарядку Devour на 2 заряда и улучшает полученные способности на один уровень."
       },
       {
+        "id": 1,
         "name": "doom_bringer_boost_selling",
         "icon": "gold",
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Devil's Bargain",
-        "description": "Позволяет герою продавать предметы за %bonus_item_sellback_percent% от их стоимости, но увеличивает стоимость выкупа на %bonus_buyback_penalty%%."
+        "description": "Позволяет герою продавать предметы за %bonus_item_sellback_percent% от их стоимости, но увеличивает стоимость выкупа на %bonus_buyback_penalty%%.",
+        "abilities": [
+          "doom_bringer_devils_bargain"
+        ]
       },
       {
+        "id": 2,
         "name": "doom_bringer_impending_doom",
         "icon": "cooldown",
         "color": "Gray",
@@ -4316,6 +4591,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "ancient_apparition_bone_chill",
         "icon": "debuff",
         "color": "Gray",
@@ -4324,6 +4600,7 @@
         "description": "Способности героя уменьшают силу жертв."
       },
       {
+        "id": 1,
         "name": "ancient_apparition_exposure",
         "icon": "area_of_effect",
         "color": "Blue",
@@ -4378,6 +4655,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "ursa_grudge_bearer",
         "icon": "damage",
         "color": "Red",
@@ -4386,12 +4664,16 @@
         "description": "Урон от атак героя повышается, когда он получает урон под действием Enrage."
       },
       {
+        "id": 1,
         "name": "ursa_debuff_reduce",
         "icon": "cooldown",
         "color": "Blue",
         "gradient_id": 0,
         "title": "Bear Down",
-        "description": "Отрицательные эффекты, накладываемые героем, действуют дольше."
+        "description": "Отрицательные эффекты, накладываемые героем, действуют дольше.",
+        "abilities": [
+          "ursa_bear_down"
+        ]
       }
     ]
   },
@@ -4440,6 +4722,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "spirit_breaker_bull_rush",
         "icon": "speed",
         "color": "Red",
@@ -4448,6 +4731,7 @@
         "description": "Ускорение от Charge of Darkness действует некоторое время после окончания разбега."
       },
       {
+        "id": 1,
         "name": "spirit_breaker_imbalanced",
         "icon": "movement",
         "color": "Blue",
@@ -4504,6 +4788,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "gyrocopter_secondary_strikes",
         "icon": "nuke",
         "color": "Red",
@@ -4512,6 +4797,7 @@
         "description": "Способность Call Down вызывает вторичные удары по задетым героям."
       },
       {
+        "id": 1,
         "name": "gyrocopter_afterburner",
         "icon": "speed",
         "color": "Yellow",
@@ -4567,6 +4853,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "alchemist_seed_money",
         "icon": "gold",
         "color": "Yellow",
@@ -4575,6 +4862,7 @@
         "description": "Герой начинает игру, имея 250 дополнительного золота."
       },
       {
+        "id": 1,
         "name": "alchemist_mixologist",
         "icon": "cooldown",
         "color": "Purple",
@@ -4643,6 +4931,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "invoker_agnostic",
         "icon": "invoker_passive",
         "color": "Purple",
@@ -4651,6 +4940,7 @@
         "description": "Каждый уровень сфер пассивно дарует герою <font color='#7998b5'>периодический урон</font>, <font color='#d671a9'>скорость атаки</font> и <font color='#cabe68'>урон от атак</font>."
       },
       {
+        "id": 1,
         "name": "invoker_elitist",
         "icon": "invoker_active",
         "color": "Gray",
@@ -4705,14 +4995,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "silencer_irrepressible",
         "icon": "silencer",
         "color": "Purple",
         "gradient_id": 1,
         "title": "Irrepressible",
-        "description": "На этого героя не действует безмолвие."
+        "description": "На этого героя не действует безмолвие.",
+        "abilities": [
+          "silencer_irrepressible"
+        ]
       },
       {
+        "id": 1,
         "name": "silencer_reverberating_silence",
         "icon": "debuff",
         "color": "Gray",
@@ -4767,6 +5062,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "obsidian_destroyer_obsidian_decimator",
         "icon": "mana",
         "color": "Blue",
@@ -4775,6 +5071,7 @@
         "description": "Срабатывание Essence Flux не только восстанавливает ману, но и временно повышает её максимум."
       },
       {
+        "id": 1,
         "name": "obsidian_destroyer_overwhelming_devourer",
         "icon": "healing",
         "color": "Blue",
@@ -4829,6 +5126,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "lycan_pack_leader",
         "icon": "summons",
         "color": "Gray",
@@ -4837,6 +5135,7 @@
         "description": "Время действия способности Shapeshift продлевается, когда её владелец или его существа убивают вражеского героя."
       },
       {
+        "id": 1,
         "name": "lycan_spirit_wolves",
         "icon": "spirit",
         "color": "Red",
@@ -4845,6 +5144,7 @@
         "description": "Summon Wolves призывает неуязвимых и неуправляемых волков, которые не атакуют, но увеличивают здоровье и урон владельца."
       },
       {
+        "id": 2,
         "name": "lycan_alpha_wolves",
         "icon": "wolf",
         "color": "Green",
@@ -4900,6 +5200,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "brewmaster_roll_out_the_barrel",
         "icon": "nuke",
         "color": "Red",
@@ -4908,6 +5209,7 @@
         "description": "Cinder Brew позволяет швырнуть бочку, которая наносит врагам урон и обливает их алкоголем."
       },
       {
+        "id": 1,
         "name": "brewmaster_drunken_master",
         "icon": "speed",
         "color": "Yellow",
@@ -4963,6 +5265,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "shadow_demon_promulgate",
         "icon": "nuke",
         "color": "Gray",
@@ -4971,12 +5274,16 @@
         "description": "Disseminate мгновенно лишает жертву части её здоровья."
       },
       {
+        "id": 1,
         "name": "shadow_demon_facet_soul_mastery",
         "icon": "illusion",
         "color": "Purple",
         "gradient_id": 0,
         "title": "Shadow Servant",
-        "description": "Создаёт иллюзии вражеских героев, погибших неподалёку."
+        "description": "Создаёт иллюзии вражеских героев, погибших неподалёку.",
+        "abilities": [
+          "shadow_demon_shadow_servant"
+        ]
       }
     ]
   },
@@ -5026,6 +5333,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "lone_druid_bear_with_me",
         "icon": "healing",
         "color": "Green",
@@ -5034,6 +5342,7 @@
         "description": "Увеличивает общую броню от Spirit Link. Своими атаками герой излечивает медведя."
       },
       {
+        "id": 1,
         "name": "lone_druid_unbearable",
         "icon": "overshadow",
         "color": "Yellow",
@@ -5042,12 +5351,16 @@
         "description": "Способность True Form действует не на героя, а на медведя. Увеличивает расстояние от владельца, на котором дух-медведь может атаковать."
       },
       {
+        "id": 2,
         "name": "lone_druid_bear_necessities",
         "icon": "item",
         "color": "Gray",
         "gradient_id": 1,
         "title": "Bear Necessities",
-        "description": "Предметы героя сильнее, а его инвентарь — меньше."
+        "description": "Предметы героя сильнее, а его инвентарь — меньше.",
+        "abilities": [
+          "lone_druid_bear_necessities"
+        ]
       }
     ]
   },
@@ -5096,14 +5409,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "chaos_knight_strong_illusions",
         "icon": "illusion",
         "color": "Red",
         "gradient_id": 1,
         "title": "Phantasmagoria",
-        "description": "Все иллюзии героя являются сильными и получают меньше урона, находясь рядом с ним."
+        "description": "Все иллюзии героя являются сильными и получают меньше урона, находясь рядом с ним.",
+        "abilities": [
+          "chaos_knight_phantasmagoria"
+        ]
       },
       {
+        "id": 1,
         "name": "chaos_knight_irrationality",
         "icon": "rng",
         "color": "Gray",
@@ -5160,6 +5478,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "meepo_more_meepo",
         "icon": "summons",
         "color": "Blue",
@@ -5168,12 +5487,16 @@
         "description": "Клонов можно получить раньше, и их число увеличивается на одного."
       },
       {
+        "id": 1,
         "name": "meepo_pack_rat",
         "icon": "item",
         "color": "Yellow",
         "gradient_id": 1,
         "title": "Pack Rat",
-        "description": "В нейтральную ячейку можно поместить любой предмет, чтобы его могли использовать и клоны."
+        "description": "В нейтральную ячейку можно поместить любой предмет, чтобы его могли использовать и клоны.",
+        "abilities": [
+          "meepo_pack_rat"
+        ]
       }
     ]
   },
@@ -5223,6 +5546,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "treant_primeval_power",
         "icon": "damage",
         "color": "Yellow",
@@ -5231,6 +5555,7 @@
         "description": "Базовый урон от атак этого героя увеличивается на 5 за каждый его уровень."
       },
       {
+        "id": 1,
         "name": "treant_sapling",
         "icon": "tree",
         "color": "Green",
@@ -5286,6 +5611,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "ogre_magi_fat_chance",
         "icon": "rng",
         "color": "Red",
@@ -5294,6 +5620,7 @@
         "description": "Шанс срабатывания Multicast увеличивается на 0.06% от силы героя."
       },
       {
+        "id": 1,
         "name": "ogre_magi_learning_curve",
         "icon": "ogre",
         "color": "Blue",
@@ -5348,6 +5675,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "undying_rotting_mitts",
         "icon": "summons",
         "color": "Green",
@@ -5356,6 +5684,7 @@
         "description": "Герой призывает зомби, атакуя под действием Flesh Golem."
       },
       {
+        "id": 1,
         "name": "undying_ripped",
         "icon": "strength",
         "color": "Red",
@@ -5415,6 +5744,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "rubick_frugal_filch",
         "icon": "mana",
         "color": "Purple",
@@ -5423,6 +5753,7 @@
         "description": "Украденные способности расходуют меньше маны."
       },
       {
+        "id": 1,
         "name": "rubick_arcane_accumulation",
         "icon": "area_of_effect",
         "color": "Green",
@@ -5477,6 +5808,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "disruptor_thunderstorm",
         "icon": "area_of_effect",
         "color": "Red",
@@ -5485,12 +5817,16 @@
         "description": "Thunder Strike дополнительно бьёт молнией всех врагов в области действия Kinetic Field."
       },
       {
+        "id": 1,
         "name": "disruptor_line_walls",
         "icon": "fence",
         "color": "Blue",
         "gradient_id": 1,
         "title": "Kinetic Fence",
-        "description": "Заменяет Kinetic Field на способность, создающую непроходимые стены."
+        "description": "Заменяет Kinetic Field на способность, создающую непроходимые стены.",
+        "abilities": [
+          "disruptor_kinetic_fence"
+        ]
       }
     ]
   },
@@ -5540,14 +5876,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "nyx_assassin_burn_mana",
         "icon": "nuke",
         "color": "Blue",
         "gradient_id": 3,
         "title": "Mana Burn",
-        "description": "Урон, наносимый способностями этого героя, сжигает врагам ману."
+        "description": "Урон, наносимый способностями этого героя, сжигает врагам ману.",
+        "abilities": [
+          "nyx_assassin_innate_mana_burn"
+        ]
       },
       {
+        "id": 1,
         "name": "nyx_assassin_scuttle",
         "icon": "speed",
         "color": "Red",
@@ -5603,20 +5944,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "naga_siren_passive_riptide",
         "icon": "armor_broken",
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Rip Tide",
-        "description": "Совершив в сумме 6 атак, герой и его иллюзии наносят урон врагам вокруг и снижают их броню."
+        "description": "Совершив в сумме 6 атак, герой и его иллюзии наносят урон врагам вокруг и снижают их броню.",
+        "abilities": [
+          "naga_siren_rip_tide"
+        ]
       },
       {
+        "id": 1,
         "name": "naga_siren_active_riptide",
         "icon": "nuke",
         "color": "Green",
         "gradient_id": 2,
         "title": "Deluge",
-        "description": "Герой и его иллюзии обдают водой врагов неподалёку, нанося им урон и снижая их сопротивление эффектам."
+        "description": "Герой и его иллюзии обдают водой врагов неподалёку, нанося им урон и снижая их сопротивление эффектам.",
+        "abilities": [
+          "naga_siren_deluge"
+        ]
       }
     ]
   },
@@ -5669,20 +6018,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "keeper_of_the_light_facet_solar_bind",
         "icon": "slow",
         "color": "Yellow",
         "gradient_id": 1,
-        "title": "",
-        "description": "Применение дарует владельцу способность Solar Bind."
+        "title": "Solar Bind",
+        "description": "Применение дарует владельцу способность Solar Bind.",
+        "abilities": [
+          "keeper_of_the_light_radiant_bind"
+        ]
       },
       {
+        "id": 1,
         "name": "keeper_of_the_light_facet_recall",
         "icon": "teleport",
         "color": "Gray",
         "gradient_id": 3,
         "title": "Recall",
-        "description": "Этот аспект дарует способность Recall ."
+        "description": "После небольшой задержки телепортирует указанного союзного героя к себе. Если во время задержки цель способности получит урон от игрока, телепортация прервётся. Применение способности увеличивает скорость передвижения цели. При успешной телепортации применяет на цель и на владельца способности эффект Chakra Magic и также ускоряет их передвижение.\n\nАльтернативное применение телепортирует владельца способности к выбранному герою. \n\n Уровень этой способности повышается вместе со Spirit Form.",
+        "abilities": [
+          "keeper_of_the_light_recall"
+        ]
       }
     ]
   },
@@ -5733,6 +6090,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "wisp_kritzkrieg",
         "icon": "damage",
         "color": "Blue",
@@ -5741,6 +6099,7 @@
         "description": "Способность Overcharge увеличивает скорость атаки и урон от заклинаний как владельцу, так и связанному с помощью Tether существу."
       },
       {
+        "id": 1,
         "name": "wisp_medigun",
         "icon": "armor",
         "color": "Gray",
@@ -5797,6 +6156,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "visage_sepulchre",
         "icon": "area_of_effect",
         "color": "Gray",
@@ -5805,6 +6165,7 @@
         "description": "Grave Chill действует и на существ вокруг цели. Герой может вернуть гаргулий к себе."
       },
       {
+        "id": 1,
         "name": "visage_faithful_followers",
         "icon": "summons",
         "color": "Blue",
@@ -5813,6 +6174,7 @@
         "description": "Гаргульи автоматически следуют за владельцем и атакуют те же цели, что и он."
       },
       {
+        "id": 2,
         "name": "visage_gold_assumption",
         "icon": "gold",
         "color": "Yellow",
@@ -5867,6 +6229,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "slark_leeching_leash",
         "icon": "agility",
         "color": "Green",
@@ -5875,6 +6238,7 @@
         "description": "Способность Pounce накладывает на жертву эффекты Essence Shift."
       },
       {
+        "id": 1,
         "name": "slark_dark_reef_renegade",
         "icon": "cooldown",
         "color": "Blue",
@@ -5929,6 +6293,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "medusa_engorged",
         "icon": "snake",
         "color": "Green",
@@ -5937,20 +6302,26 @@
         "description": "Змея от способности Mystic Snake увеличивает урон владельца."
       },
       {
-        "name": "medusa_slow_attacks_unused",
-        "icon": "slow",
-        "color": "Yellow",
-        "gradient_id": 2,
-        "title": "Venomous Volley",
-        "description": "Каждая пятая атака героя становится отравленной, отчего ненадолго замедляет передвижение, атаку и применение заклинаний жертвы."
+        "id": 1,
+        "name": "medusa_mana_pact",
+        "deprecated": "true",
+        "icon": "mana",
+        "color": "Blue",
+        "gradient_id": 1,
+        "title": "Mana Pact",
+        "description": "Герой может увеличить свою скорость атаки ценой маны."
       },
       {
+        "id": 2,
         "name": "medusa_slow_attacks",
         "icon": "slow",
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Venomous Volley",
-        "description": "Каждая 5-я атака героя становится отравленной, отчего ненадолго замедляет передвижение, атаку и применение заклинаний жертвы."
+        "description": "Каждая 5-я атака героя становится отравленной, отчего ненадолго замедляет передвижение, атаку и применение заклинаний жертвы.",
+        "abilities": [
+          "medusa_venomed_volley"
+        ]
       }
     ]
   },
@@ -5999,6 +6370,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "troll_warlord_insensitive",
         "icon": "armor",
         "color": "Blue",
@@ -6007,6 +6379,7 @@
         "description": "В ближнем бою каждый эффект Fervor увеличивает броню."
       },
       {
+        "id": 1,
         "name": "troll_warlord_bad_influence",
         "icon": "damage",
         "color": "Red",
@@ -6062,6 +6435,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "centaur_counter_strike",
         "icon": "nuke",
         "color": "Red",
@@ -6070,12 +6444,16 @@
         "description": "Урон от Double Edge увеличивается, когда героя атакуют."
       },
       {
+        "id": 1,
         "name": "centaur_horsepower",
         "icon": "speed",
         "color": "Gray",
         "gradient_id": 3,
         "title": "Horsepower",
-        "description": "Герой получает бонус к скорости передвижения, пропорциональный его силе."
+        "description": "Герой получает бонус к скорости передвижения, пропорциональный его силе.",
+        "abilities": [
+          "centaur_horsepower"
+        ]
       }
     ]
   },
@@ -6124,14 +6502,17 @@
     ],
     "facets": [
       {
-        "name": "magnataur_reverse_polarity_unused",
-        "icon": "vortex_in",
+        "id": 0,
+        "name": "magnataur_run_through",
+        "deprecated": "true",
+        "icon": "movement",
         "color": "Gray",
         "gradient_id": 3,
-        "title": "Reverse Polarity",
-        "description": "Способность Reverse Polarity стягивает врагов в одну точку."
+        "title": "Run Through",
+        "description": "Способность Skewer наносит больше урона, если протаскивает врага через деревья и уступы."
       },
       {
+        "id": 1,
         "name": "magnataur_reverse_polarity",
         "icon": "vortex_in",
         "color": "Gray",
@@ -6140,6 +6521,7 @@
         "description": "Способность Reverse Polarity стягивает врагов в одну точку."
       },
       {
+        "id": 2,
         "name": "magnataur_reverse_reverse_polarity",
         "icon": "vortex_out",
         "color": "Gray",
@@ -6197,6 +6579,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "shredder_shredder",
         "icon": "tree",
         "color": "Green",
@@ -6205,12 +6588,16 @@
         "description": "Способность Timber Chain разбивает попавшееся дерево на щепки, наносящие урон вокруг."
       },
       {
+        "id": 1,
         "name": "shredder_second_chakram",
         "icon": "spinning",
         "color": "Red",
         "gradient_id": 1,
         "title": "Twisted Chakram",
-        "description": "Этот аспект дарует способность Twisted Chakram ."
+        "description": "Выпускает в указанную точку пилу, идентичную пиле от способности Chakram. Она виляет из стороны в сторону и возвращается к владельцу, нанося урон задетым врагам и замедляя их передвижение. Замедление усиливается за каждые 5% отсутствующего у жертвы здоровья.",
+        "abilities": [
+          "shredder_twisted_chakram"
+        ]
       }
     ]
   },
@@ -6260,6 +6647,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "bristleback_berserk",
         "icon": "damage",
         "color": "Yellow",
@@ -6268,6 +6656,7 @@
         "description": "Эффекты Warpath увеличивают не урон, а скорость атаки."
       },
       {
+        "id": 1,
         "name": "bristleback_snot_rocket",
         "icon": "snot",
         "color": "Green",
@@ -6276,6 +6665,7 @@
         "description": "Когда героя бьют в спину, он выпускает не иглы, а сопли от Viscous Nasal Goo. Кроме того, усиливает эффект соплей."
       },
       {
+        "id": 2,
         "name": "bristleback_seeing_red",
         "icon": "no_vision",
         "color": "Red",
@@ -6331,20 +6721,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "tusk_facet_tag_team",
         "icon": "damage",
         "color": "Blue",
         "gradient_id": 3,
         "title": "Tag Team",
-        "description": "Даёт способность Tag Team , которая увеличивает урон от атак, получаемый врагами неподалёку."
+        "description": "Даёт способность Tag Team , которая увеличивает урон от атак, получаемый врагами неподалёку.",
+        "abilities": [
+          "tusk_tag_team"
+        ]
       },
       {
+        "id": 1,
         "name": "tusk_facet_fist_bump",
         "icon": "movement",
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Drinking Buddies",
-        "description": "Даёт способность Drinking Buddies , которая притягивает союзника и увеличивает как ему, так и владельцу скорость передвижения и урон."
+        "description": "Даёт способность Drinking Buddies , которая притягивает союзника и увеличивает как ему, так и владельцу скорость передвижения и урон.",
+        "abilities": [
+          "tusk_drinking_buddies"
+        ]
       }
     ]
   },
@@ -6393,20 +6791,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "skywrath_mage_shield",
         "icon": "armor",
         "color": "Blue",
         "gradient_id": 0,
         "title": "Shield of the Scion",
-        "description": "Владелец аспекта получает барьер, когда наносит магический урон вражеским героям."
+        "description": "Владелец аспекта получает барьер, когда наносит магический урон вражеским героям.",
+        "abilities": [
+          "skywrath_mage_shield_of_the_scion"
+        ]
       },
       {
+        "id": 1,
         "name": "skywrath_mage_staff",
         "icon": "cooldown",
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Staff of the Scion",
-        "description": "Текущие перезарядки способностей уменьшаются каждый раз, когда владелец аспекта наносит магический урон вражеским героям."
+        "description": "Текущие перезарядки способностей уменьшаются каждый раз, когда владелец аспекта наносит магический урон вражеским героям.",
+        "abilities": [
+          "skywrath_mage_staff_of_the_scion"
+        ]
       }
     ]
   },
@@ -6455,14 +6861,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "abaddon_death_dude",
         "icon": "cooldown",
         "color": "Gray",
         "gradient_id": 0,
         "title": "The Quickening",
-        "description": "Когда рядом умирают существа, у героя уменьшается оставшееся время перезарядки способностей."
+        "description": "Когда рядом умирают существа, у героя уменьшается оставшееся время перезарядки способностей.",
+        "abilities": [
+          "abaddon_the_quickening"
+        ]
       },
       {
+        "id": 1,
         "name": "abaddon_mephitic_shroud",
         "icon": "barrier",
         "color": "Blue",
@@ -6519,6 +6930,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "elder_titan_deconstruction",
         "icon": "armor_broken",
         "color": "Blue",
@@ -6527,12 +6939,16 @@
         "description": "Аура от Natural Order постепенно уменьшает сопротивление магии и броню сверх обычного эффекта."
       },
       {
+        "id": 1,
         "name": "elder_titan_boost_atkspd",
         "icon": "damage",
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Momentum",
-        "description": "Базовая скорость атаки героя уменьшена, но к ней добавляется доля от скорости передвижения."
+        "description": "Базовая скорость атаки героя уменьшена, но к ней добавляется доля от скорости передвижения.",
+        "abilities": [
+          "elder_titan_momentum"
+        ]
       }
     ]
   },
@@ -6581,6 +6997,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "legion_commander_stonehall_plate",
         "icon": "armor",
         "color": "Yellow",
@@ -6589,6 +7006,7 @@
         "description": "Урон, нанесённый вражеским героям способностью Overwhelming Odds, превращается в барьер, защищающий от всего урона."
       },
       {
+        "id": 1,
         "name": "legion_commander_spoils_of_war",
         "icon": "damage",
         "color": "Red",
@@ -6643,6 +7061,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "ember_spirit_double_impact",
         "icon": "fist",
         "color": "Red",
@@ -6651,6 +7070,7 @@
         "description": "Способность Sleight of Fist добавляет вторую атаку по одной из жертв."
       },
       {
+        "id": 1,
         "name": "ember_spirit_chain_gang",
         "icon": "debuff",
         "color": "Yellow",
@@ -6705,6 +7125,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "earth_spirit_resonance",
         "icon": "damage",
         "color": "Green",
@@ -6713,6 +7134,7 @@
         "description": "Способность Magnetize увеличивает урон от атак при воздействии на каменные копии."
       },
       {
+        "id": 1,
         "name": "earth_spirit_stepping_stone",
         "icon": "cooldown",
         "color": "Gray",
@@ -6721,6 +7143,7 @@
         "description": "Вместо зарядов Stone Remnant имеет перезарядку в {s:bonus_AbilityCooldown} сек. Способность Rolling Boulder не разрушает каменные копии."
       },
       {
+        "id": 2,
         "name": "earth_spirit_ready_to_roll",
         "icon": "spinning",
         "color": "Yellow",
@@ -6776,6 +7199,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "terrorblade_condemned",
         "icon": "twin_hearts",
         "color": "Gray",
@@ -6784,6 +7208,7 @@
         "description": "Ограничение на минимум здоровья после применения Sunder не действует на врагов."
       },
       {
+        "id": 1,
         "name": "terrorblade_soul_fragment",
         "icon": "illusion",
         "color": "Blue",
@@ -6841,14 +7266,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "phoenix_facet_immolate",
         "icon": "barrier",
         "color": "Red",
         "gradient_id": 2,
         "title": "Dying Light",
-        "description": "Герой каждую секунду наносит врагам в радиусе 400 магический урон в размере 4.5% от недостающего у него здоровья."
+        "description": "Герой каждую секунду наносит врагам в радиусе 400 магический урон в размере 4.5% от недостающего у него здоровья.",
+        "abilities": [
+          "phoenix_dying_light"
+        ]
       },
       {
+        "id": 1,
         "name": "phoenix_hotspot",
         "icon": "nuke",
         "color": "Red",
@@ -6903,20 +7333,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "oracle_facet_dmg",
         "icon": "nuke",
         "color": "Red",
         "gradient_id": 2,
         "title": "Clairvoyant Curse",
-        "description": "Урон от заклинаний этого героя увеличивается на 0.75% с каждым его уровнем."
+        "description": "Урон от заклинаний этого героя увеличивается на 0.75% с каждым его уровнем.",
+        "abilities": [
+          "oracle_clairvoyant_curse"
+        ]
       },
       {
+        "id": 1,
         "name": "oracle_facet_heal",
         "icon": "healing",
         "color": "Green",
         "gradient_id": 1,
         "title": "Clairvoyant Cure",
-        "description": "Лечение от заклинаний этого героя увеличивается на 0.75% с каждым его уровнем."
+        "description": "Лечение от заклинаний этого героя увеличивается на 0.75% с каждым его уровнем.",
+        "abilities": [
+          "oracle_clairvoyant_cure"
+        ]
       }
     ]
   },
@@ -6965,14 +7403,19 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "techies_atk_range",
         "icon": "range",
         "color": "Gray",
         "gradient_id": 0,
         "title": "Squee's Scope",
-        "description": "Каждая единица скорости атаки героя увеличивает его дальность атаки и скорость снарядов на 1."
+        "description": "Каждая единица скорости атаки героя увеличивает его дальность атаки и скорость снарядов на 1.",
+        "abilities": [
+          "techies_squees_scope"
+        ]
       },
       {
+        "id": 1,
         "name": "techies_spleens_secret_sauce",
         "icon": "nuke",
         "color": "Red",
@@ -6981,12 +7424,16 @@
         "description": "Увеличивает урон от Blast Off! на долю от максимального здоровья её владельца."
       },
       {
+        "id": 2,
         "name": "techies_backpack",
         "icon": "item",
         "color": "Blue",
         "gradient_id": 1,
         "title": "Spoon's Stash",
-        "description": "Герой может использовать предметы из ранца, словно они находятся в основном инвентаре."
+        "description": "Герой может использовать предметы из ранца, словно они находятся в основном инвентаре.",
+        "abilities": [
+          "techies_spoons_stash"
+        ]
       }
     ]
   },
@@ -7035,20 +7482,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "winter_wyvern_heal_mana",
         "icon": "mana",
         "color": "Blue",
         "gradient_id": 0,
         "title": "Essence of the Blueheart",
-        "description": "Этот герой восстанавливает лечением не только здоровье, но и ману."
+        "description": "Этот герой восстанавливает лечением не только здоровье, но и ману.",
+        "abilities": [
+          "winter_wyvern_essence_of_the_blueheart"
+        ]
       },
       {
+        "id": 1,
         "name": "winter_wyvern_atk_range",
         "icon": "damage",
         "color": "Gray",
         "gradient_id": 3,
         "title": "Dragon Sight",
-        "description": "Урон от атак героя увеличивается, когда его дальность атаки превышает 400."
+        "description": "Урон от атак героя увеличивается, когда его дальность атаки превышает 400.",
+        "abilities": [
+          "winter_wyvern_dragon_sight"
+        ]
       }
     ]
   },
@@ -7097,6 +7552,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "arc_warden_order",
         "icon": "arc_warden",
         "color": "Gray",
@@ -7105,6 +7561,7 @@
         "description": "Герой и его электрическая копия используют свои версии способностей."
       },
       {
+        "id": 1,
         "name": "arc_warden_disorder",
         "icon": "arc_warden_alt",
         "color": "Gray",
@@ -7159,6 +7616,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "abyssal_underlord_demons_reach",
         "icon": "area_of_effect",
         "color": "Green",
@@ -7167,12 +7625,16 @@
         "description": "Когда у героя есть бонус к урону от Atrophy Aura, его атаки становятся прорубающими."
       },
       {
+        "id": 1,
         "name": "abyssal_underlord_summons",
         "icon": "summons",
         "color": "Yellow",
         "gradient_id": 3,
         "title": "Abyssal Horde",
-        "description": "Врата от Fiend's Gate периодически призывают демонов."
+        "description": "Врата от Fiend's Gate периодически призывают демонов.",
+        "abilities": [
+          "abyssal_underlord_abyssal_horde"
+        ]
       }
     ]
   },
@@ -7223,6 +7685,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "monkey_king_wukongs_faithful",
         "icon": "summons",
         "color": "Red",
@@ -7231,6 +7694,7 @@
         "description": "Солдаты от Wukong's Command существуют дольше и исчезают только через 4.0 сек. после выхода героя из круга."
       },
       {
+        "id": 1,
         "name": "monkey_king_simian_stride",
         "icon": "tree",
         "color": "Green",
@@ -7287,6 +7751,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "pangolier_double_jump",
         "icon": "double_bounce",
         "color": "Red",
@@ -7295,6 +7760,7 @@
         "description": "Герой может совершить с помощью Shield Crash двойной прыжок, увеличив урон и получаемый барьер."
       },
       {
+        "id": 1,
         "name": "pangolier_thunderbolt",
         "icon": "speed",
         "color": "Yellow",
@@ -7349,6 +7815,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "dark_willow_throwing_shade",
         "icon": "damage",
         "color": "Purple",
@@ -7357,6 +7824,7 @@
         "description": "Способность Shadow Realm увеличивает урон, который её владелец наносит вражеским героям поблизости."
       },
       {
+        "id": 1,
         "name": "dark_willow_thorny_thicket",
         "icon": "area_of_effect",
         "color": "Green",
@@ -7412,6 +7880,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "grimstroke_inkstigate",
         "icon": "area_of_effect",
         "color": "Gray",
@@ -7420,6 +7889,7 @@
         "description": "Позволяет активировать Ink Swell преждевременно."
       },
       {
+        "id": 1,
         "name": "grimstroke_fine_art",
         "icon": "brush",
         "color": "Red",
@@ -7474,6 +7944,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "mars_victory_feast",
         "icon": "healing",
         "color": "Red",
@@ -7482,6 +7953,7 @@
         "description": "Когда враг умирает на одной арене от Arena of Blood с её владельцем, тот восполняет здоровье и ману, а также получает бонус к урону."
       },
       {
+        "id": 1,
         "name": "mars_arena",
         "icon": "no_vision",
         "color": "Yellow",
@@ -7536,6 +8008,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "void_spirit_sanctuary",
         "icon": "armor",
         "color": "Purple",
@@ -7544,6 +8017,20 @@
         "description": "Способность Resonant Pulse даёт усиленный барьер, защищающий от любого урона."
       },
       {
+        "id": 1,
+        "name": "void_spirit_phys_barrier",
+        "deprecated": "true",
+        "icon": "nuke",
+        "color": "Gray",
+        "gradient_id": 3,
+        "title": "Symmetry",
+        "description": "Герой получает физический барьер, когда наносит магический урон вражеским героям.",
+        "abilities": [
+          "void_spirit_symmetry"
+        ]
+      },
+      {
+        "id": 2,
         "name": "void_spirit_aether_artifice",
         "icon": "illusion",
         "color": "Gray",
@@ -7599,6 +8086,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "snapfire_ricochet_ii",
         "icon": "ricochet",
         "color": "Gray",
@@ -7607,6 +8095,7 @@
         "description": "Если герой промахнётся атакой или у него произойдёт осечка, во врагов неподалёку от цели срикошетят две атаки."
       },
       {
+        "id": 1,
         "name": "snapfire_full_bore",
         "icon": "range",
         "color": "Red",
@@ -7663,6 +8152,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "hoodwink_hunter",
         "icon": "range",
         "color": "Yellow",
@@ -7671,6 +8161,7 @@
         "description": "Активация Scurry увеличивает дальность атаки и применения заклинаний."
       },
       {
+        "id": 1,
         "name": "hoodwink_treebounce_trickshot",
         "icon": "tree",
         "color": "Green",
@@ -7726,6 +8217,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "dawnbreaker_solar_charged",
         "icon": "cooldown",
         "color": "Gray",
@@ -7734,6 +8226,7 @@
         "description": "Совершая атаку с эффектом Luminosity, герой уменьшает перезарядки всех своих способностей."
       },
       {
+        "id": 1,
         "name": "dawnbreaker_gleaming_hammer",
         "icon": "dawnbreaker_hammer",
         "color": "Yellow",
@@ -7788,20 +8281,28 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "marci_sidekick",
         "icon": "healing",
         "color": "Gray",
         "gradient_id": 3,
         "title": "Sidekick",
-        "description": "Позволяет поддерживать союзника дополнительным уроном и общим вампиризмом. Эффект сильнее, если находиться рядом."
+        "description": "Позволяет поддерживать союзника дополнительным уроном и общим вампиризмом. Эффект сильнее, если находиться рядом.",
+        "abilities": [
+          "marci_guardian"
+        ]
       },
       {
+        "id": 1,
         "name": "marci_bodyguard",
         "icon": "ricochet",
         "color": "Blue",
         "gradient_id": 1,
         "title": "Bodyguard",
-        "description": "Позволяет защищать союзника, отвечая на направленные на него атаки, если обидчик находится неподалёку."
+        "description": "Позволяет защищать союзника, отвечая на направленные на него атаки, если обидчик находится неподалёку.",
+        "abilities": [
+          "marci_bodyguard"
+        ]
       }
     ]
   },
@@ -7851,6 +8352,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "primal_beast_romp_n_stomp",
         "icon": "speed",
         "color": "Red",
@@ -7859,6 +8361,7 @@
         "description": "Применение способности Trample увеличивает скорость передвижения владельца и его союзников."
       },
       {
+        "id": 1,
         "name": "primal_beast_ferocity",
         "icon": "area_of_effect",
         "color": "Yellow",
@@ -7916,6 +8419,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "muerta_dance_of_the_dead",
         "icon": "spirit",
         "color": "Green",
@@ -7924,12 +8428,16 @@
         "description": "Способность The Calling становится сильнее, если внутри неё погибают герои."
       },
       {
+        "id": 1,
         "name": "muerta_ofrenda",
         "icon": "teleport",
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Ofrenda",
-        "description": "Позволяет разместить на карте офренду, которая даёт герою бонусы и становится новым местом его воскрешения."
+        "description": "Позволяет разместить на карте офренду, которая даёт герою бонусы и становится новым местом его воскрешения.",
+        "abilities": [
+          "muerta_ofrenda"
+        ]
       }
     ]
   },
@@ -7995,6 +8503,7 @@
     ],
     "facets": [
       {
+        "id": 0,
         "name": "ringmaster_default",
         "icon": "item",
         "color": "Gray",

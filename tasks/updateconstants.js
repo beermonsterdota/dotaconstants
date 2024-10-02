@@ -127,7 +127,7 @@ const idsUrl =
   "https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_ability_ids.txt";
 const heroesUrl =
   "https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_heroes.txt";
-  const abilitiesLoc =
+const abilitiesLoc =
   "https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/localization/abilities_english.txt";
 const abilitiesLocRussian =
   "https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/localization/abilities_russian.txt";
@@ -1058,19 +1058,19 @@ async function start() {
     },
     {
       key: "hero_abilities_russian",
-      url: [
-        ...abilitiesUrlsRussian.slice(2, abilitiesUrlsRussian.length),
-        heroesUrl,
-        ...heroDataUrlsRussian
-      ],
+      url: [heroesUrl, ...abilitiesUrlsRussian],
       transform: (respObj) => {
-        const heroAbils = respObj.splice(0, abilitiesUrlsRussian.length - 2);
-        const [heroObj, ...heroData] = respObj;
+        const [heroObj, abilityLoc, _, ...heroAbils] = respObj;
+
+        const strings = abilityLoc.lang.Tokens;
+        // Fix places where valve doesn't care about correct case
+        Object.keys(strings).forEach((key) => {
+          strings[key.toLowerCase()] = strings[key];
+        });
+
         let scripts = {};
-        // Merge into scripts all the hero abilities (the rest of the array)
         for (let i = 0; i < heroAbils.length; i++) {
-          const heroAbs = heroAbils[i].DOTAAbilities;
-          scripts = { ...scripts, ...heroAbs };
+          scripts[heroDataIndex[i]] = heroAbils[i].DOTAAbilities;
         }
 
         let heroes = heroObj.DOTAHeroes;
@@ -1105,83 +1105,52 @@ async function start() {
             });
             heroAbilities[heroKey] = newHero;
           }
-        });
 
-        const facetColors = [
-          "Red",
-          "Yellow",
-          "Green",
-          "Blue",
-          "Purple",
-          "Gray",
-        ];
+          Object.entries(heroes[heroKey].Facets ?? []).forEach(
+            ([key, value], i) => {
+              const abilities = Object.values(value.Abilities || {}).map(
+                (a) => a.AbilityName,
+              );
+              const [ability] = abilities;
+              const title =
+                strings[`dota_tooltip_facet_${key}`] ||
+                strings[`dota_tooltip_ability_${ability}`] ||
+                "";
+              let description =
+                strings[`dota_tooltip_facet_${key}_description`] ||
+                strings[`dota_tooltip_ability_${ability}_description`] ||
+                "";
 
-        heroData.forEach((hero) => {
-          hero = hero.result.data.heroes[0];
-          const { name, facets, abilities, facet_abilities } = hero;
-          facets?.forEach((facet) => {
-            heroAbilities[name].facets.push({
-              name: facet.name,
-              icon: facet.icon,
-              color: facetColors[facet.color],
-              gradient_id: facet.gradient_id,
-              title: facet.title_loc,
-              description: facet.description_loc || "",
-            });
-          });
-
-          const allAttribs = [];
-
-          abilities?.forEach((ability) => {
-            ability?.facets_loc?.forEach((str, i) => {
-              let specialAttrs = getSpecialAttrs(scripts[ability.name]) || [];
-              allAttribs.push(...specialAttrs);
-              if (str > 0 && heroAbilities[name].facets[i]) {
-                heroAbilities[name].facets[i].description =
-                  replaceSpecialAttribs(
-                    str,
-                    specialAttrs,
-                    false,
-                    scripts[ability.name],
-                    ability.name,
-                    );
-              }
-            });
-          });
-
-          facet_abilities?.forEach((facet_ability, i) => {
-            facet_ability?.abilities?.forEach((ability) => {
-              let { description } = heroAbilities[name].facets[i];
               if (description.includes("{s:facet_ability_name}")) {
                 description = description.replace(
                   "{s:facet_ability_name}",
-                  ability.name_loc,
+                  title,
                 );
               }
-              
-              heroAbilities[name].facets[i].description = replaceSpecialAttribs(
-                description,
-                getSpecialAttrs(scripts[ability.name]),
-                false,
-                scripts[ability.name],
-                ability.name,
-                );
-            });
-          });
 
-          // Insert {s:bonus_} values. Some attributes are tied to seemingly unrelated passives, so we need all abilities
-          heroAbilities[name].facets = heroAbilities[name].facets.map(
-            ({ description, ...rest }) => {
+              const allAttribs = [];
+              Object.values(scripts[heroKey]).forEach((ability) => {
+                const specialAttribs = getSpecialAttrs(ability) || [];
+                allAttribs.push(...specialAttribs);
+              });
+
+              if (abilities.length > 0) {
+                description = replaceSpecialAttribs(
+                  description,
+                  getSpecialAttrs(scripts[heroKey][ability]) || [],
+                  false,
+                  scripts[heroKey][ability],
+                  ability,
+                );
+              }
+
               const matches = description.matchAll(/{s:bonus_(\w+)}/g);
               for ([, bonusKey] of matches) {
                 const obj =
                   allAttribs.find((obj) => bonusKey in obj)?.[bonusKey] ?? {};
                 const facetKey = Object.keys(obj).find(
-                  (k) =>
-                    k.startsWith("special_bonus_facet") &&
-                    k.includes(rest.name),
+                  (k) => k.startsWith("special_bonus_facet") && k.includes(key),
                 );
-                if (rest.name === 'furion_ironwood_treant') console.log(facetKey)
                 if (facetKey) {
                   description = description.replace(
                     `{s:bonus_${bonusKey}}`,
@@ -1189,13 +1158,20 @@ async function start() {
                   );
                 }
               }
-              return {
-                ...rest,
+
+              heroAbilities[heroKey].facets.push({
+                id: i,
+                name: key,
+                deprecated: value.Deprecated,
+                icon: value.Icon,
+                color: value.Color,
+                gradient_id: Number(value.GradientID),
+                title,
                 description,
-              };
+                abilities: abilities.length > 0 ? abilities : undefined,
+              });
             },
           );
-
         });
 
         return heroAbilities;
@@ -1532,7 +1508,9 @@ async function start() {
     const resps = await Promise.all(
       arr.map(async (url) => {
         console.log(url);
-        const resp = await axios.get(url, { responseType: "text" });
+        const resp = await axios.get(url, { responseType: "text" }).catch(() => {
+          debugger
+        });
         return parseJsonOrVdf(resp.data, url);
       }),
     );
