@@ -8760,10 +8760,10 @@
         "key": "slow",
         "header": "MOVEMENT SLOW:",
         "value": [
-          "-11%",
-          "-19%",
-          "-27%",
-          "-35%"
+          "-15%",
+          "-20%",
+          "-25%",
+          "-30%"
         ]
       },
       {
@@ -8890,7 +8890,7 @@
       },
       {
         "key": "armor_bonus",
-        "header": "ARMOR BONUS:",
+        "header": "KILL ARMOR BONUS:",
         "value": [
           "20",
           "25",
@@ -8899,12 +8899,12 @@
       },
       {
         "key": "speed_duration",
-        "header": "KILL SPEED DURATION:",
+        "header": "KILL BUFF DURATION:",
         "value": "6"
       },
       {
         "key": "speed_aoe",
-        "header": "KILL SPEED RADIUS:",
+        "header": "KILL BUFF RADIUS:",
         "value": "900"
       },
       {
@@ -8956,7 +8956,7 @@
       {
         "key": "armor_pct_as_strength",
         "header": "ARMOR PCT AS STRENGTH:",
-        "value": "50",
+        "value": "40",
         "generated": true
       },
       {
@@ -8998,30 +8998,6 @@
       }
     ],
     "img": "/apps/dota2/images/dota_react/abilities/axe_coat_of_blood.png"
-  },
-  "special_bonus_unique_axe": {
-    "dname": "2x Battle Hunger Armor Multiplier"
-  },
-  "special_bonus_unique_axe_2": {
-    "dname": "+100 Berserker's Call AoE"
-  },
-  "special_bonus_unique_axe_4": {
-    "dname": "+25 Counter Helix Damage"
-  },
-  "special_bonus_unique_axe_5": {
-    "dname": "+100 Culling Blade Damage"
-  },
-  "special_bonus_unique_axe_6": {
-    "dname": "+10% Battle Hunger Slow"
-  },
-  "special_bonus_unique_axe_7": {
-    "dname": "+{s:bonus_bonus_armor} Berserker's Call Armor"
-  },
-  "special_bonus_unique_axe_8": {
-    "dname": "+10% Movement Speed per active Battle Hunger"
-  },
-  "special_bonus_unique_axe_culling_blade_speed_duration": {
-    "dname": "+3s Culling Blade Speed Bonus Duration"
   },
   "bane_enfeeble": {
     "dname": "Enfeeble",
@@ -9103,7 +9079,12 @@
       }
     ],
     "lore": "Each tendril of fear that Atropos weaves increases the vulnerability of his victims to arcane and unknown arts.",
-    "mc": "120",
+    "mc": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
     "cd": [
       "28",
       "21",
@@ -11350,9 +11331,9 @@
       "120"
     ],
     "cd": [
-      "42",
-      "34",
-      "26",
+      "36",
+      "30",
+      "24",
       "18"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/juggernaut_blade_fury.png"
@@ -12412,9 +12393,9 @@
         "header": "DAMAGE PER SOUL:",
         "value": [
           "1",
+          "2",
           "3",
-          "4",
-          "5"
+          "4"
         ]
       },
       {
@@ -12520,16 +12501,16 @@
       "Instant Cast"
     ],
     "dispellable": "Yes",
-    "desc": "Shadow Fiend gains Bonus Attack Speed for 8 seconds. After the effect finishes, Shadow Fiend loses a fixed amount of souls.",
+    "desc": "Shadow Fiend gains Bonus Attack Speed for 8 seconds. For the duration of the effect, Shadow Fiend's Max Soul count is increased by 5, but he loses that amount of souls after it is done.",
     "attrib": [
       {
         "key": "bonus_attack_speed",
         "header": "BONUS ATTACK SPEED:",
         "value": [
-          "40",
+          "30",
           "50",
-          "60",
-          "70"
+          "70",
+          "90"
         ]
       },
       {
@@ -13652,7 +13633,7 @@
       {
         "key": "agility_duration",
         "header": "BONUS AGILITY DURATION:",
-        "value": "1.5"
+        "value": "2"
       }
     ],
     "lore": "Azwraith knows that on the field of battle, speed can mean everything.",
@@ -13836,7 +13817,7 @@
   "puck_puckish": {
     "dname": "Puckish",
     "behavior": "Passive",
-    "desc": "Whenever Puck disjoints an attack, it restores 15 + 2% of its max mana and 15 + 2% of its max health. Dodging a targeted spell projectile restores 4x that amount.",
+    "desc": "Whenever Puck disjoints an attack, it restores 15 + 2% of its max mana and 15 + 2% of its max health. Dodging a targeted spell projectile restores 3.5x that amount.",
     "attrib": [
       {
         "key": "mana_restore_base",
@@ -13865,7 +13846,7 @@
       {
         "key": "dodged_spell_multiplier",
         "header": "DODGED SPELL MULTIPLIER:",
-        "value": "4",
+        "value": "3.5",
         "generated": true
       }
     ],
@@ -14140,7 +14121,7 @@
     "dname": "+1.25s Waning Rift Silence Duration"
   },
   "special_bonus_unique_puck_orb_damage": {
-    "dname": "+50 Illusory Orb Damage"
+    "dname": "+40 Illusory Orb Damage"
   },
   "special_bonus_unique_puck_coil_damage": {
     "dname": "+200 Initial/Break Dream Coil Damage"
@@ -15011,10 +14992,10 @@
         "key": "abilityduration",
         "header": "DURATION:",
         "value": [
+          "16",
           "20",
-          "25",
-          "30",
-          "35"
+          "24",
+          "28"
         ],
         "generated": true
       },
@@ -15032,10 +15013,10 @@
         "key": "sand_storm_damage",
         "header": "DAMAGE PER SECOND:",
         "value": [
-          "25",
+          "30",
           "50",
-          "75",
-          "100"
+          "70",
+          "90"
         ]
       },
       {
@@ -16063,8 +16044,8 @@
     "lore": "With the strength that shattered the Sacred Helm, the Rogue Knight stands unopposed in melee combat.",
     "mc": [
       "100",
-      "150",
-      "200"
+      "125",
+      "150"
     ],
     "cd": [
       "110",
@@ -16076,12 +16057,12 @@
   "sven_vanquisher": {
     "dname": "Vanquisher",
     "behavior": "Passive",
-    "desc": "Sven's attacks deal 17% bonus damage to stunned enemies.",
+    "desc": "Sven's attacks deal 20% bonus damage to stunned enemies.",
     "attrib": [
       {
         "key": "bonus_damage_pct",
         "header": "BONUS DAMAGE PCT:",
-        "value": "17",
+        "value": "20",
         "generated": true
       }
     ],
@@ -20397,10 +20378,10 @@
     ],
     "lore": "Rhasta often ended performances by turning himself into a chicken - now, the humiliation is shared.",
     "mc": [
-      "110",
-      "140",
+      "130",
+      "150",
       "170",
-      "200"
+      "190"
     ],
     "cd": [
       "24",
@@ -21328,10 +21309,10 @@
     ],
     "lore": "Stolen from one of Admiral Kunkka's flagships, Leviathan's heavy anchor proves useful as a melee weapon.",
     "mc": [
+      "40",
       "45",
       "50",
-      "55",
-      "60"
+      "55"
     ],
     "cd": [
       "7",
@@ -21969,7 +21950,7 @@
       {
         "key": "duration",
         "header": "DURATION:",
-        "value": "3"
+        "value": "2.5"
       },
       {
         "key": "attack_speed_reduction",
@@ -22663,7 +22644,7 @@
       {
         "key": "eidolon_gold_bounty_min",
         "header": "EIDOLON GOLD BOUNTY MIN:",
-        "value": "14",
+        "value": "17",
         "generated": true
       },
       {
@@ -24104,27 +24085,6 @@
       }
     ],
     "img": "/apps/dota2/images/dota_react/abilities/sniper_keen_scope.png"
-  },
-  "special_bonus_unique_sniper_2": {
-    "dname": "-30s Shrapnel Charge Restore Time"
-  },
-  "special_bonus_unique_sniper_3": {
-    "dname": "+50 Max Headshot Knockback Distance"
-  },
-  "special_bonus_unique_sniper_4": {
-    "dname": "+1s Take Aim Duration"
-  },
-  "special_bonus_unique_sniper_5": {
-    "dname": "+{s:bonus_slow_movement_speed}% Shrapnel Movement Slow"
-  },
-  "special_bonus_unique_sniper_headshot_damage": {
-    "dname": "+30 Headshot Damage"
-  },
-  "special_bonus_unique_sniper_take_aim_armor": {
-    "dname": "+15 Take Aim Armor"
-  },
-  "special_bonus_unique_sniper_shrapnel_damage": {
-    "dname": "+{s:bonus_shrapnel_damage}% Shrapnel Damage"
   },
   "necrolyte_death_seeker": {
     "dname": "Death Seeker",
@@ -26018,7 +25978,7 @@
       {
         "key": "base_damage",
         "header": "DRUM HIT DAMAGE:",
-        "value": "85"
+        "value": "80"
       },
       {
         "key": "heal_pct",
@@ -26070,7 +26030,7 @@
     "dname": "+30 Damage to Beastmaster and his units"
   },
   "special_bonus_unique_beastmaster_3": {
-    "dname": "10% Inner Beast Magic Resist"
+    "dname": "8% Inner Beast Magic Resist"
   },
   "special_bonus_unique_beastmaster_4": {
     "dname": "+10 Inner Beast Attack Speed"
@@ -26402,7 +26362,7 @@
       {
         "key": "spell_amplification",
         "header": "SPELL AMPLIFICATION:",
-        "value": "15%"
+        "value": "14%"
       },
       {
         "key": "spell_amplification_per_level",
@@ -26413,7 +26373,7 @@
       {
         "key": "damage_reflected_to_self",
         "header": "OUTGOING SPELL DAMAGE REFLECTED:",
-        "value": "20%"
+        "value": "21%"
       }
     ],
     "img": "/apps/dota2/images/dota_react/abilities/queenofpain_masochist.png"
@@ -26744,10 +26704,10 @@
         "key": "threshold_max_hp_pct",
         "header": "WARD HP FROM CARRIER:",
         "value": [
-          "1%",
           "1.5%",
           "2%",
-          "2.5%"
+          "2.5%",
+          "3%"
         ]
       },
       {
@@ -27729,10 +27689,10 @@
         "key": "crit_mult",
         "header": "CRITICAL DAMAGE:",
         "value": [
-          "150%",
+          "160%",
           "200%",
-          "250%",
-          "300%"
+          "240%",
+          "280%"
         ]
       },
       {
@@ -27823,10 +27783,10 @@
         "key": "vampiric_aura",
         "header": "LIFESTEAL:",
         "value": [
-          "26%",
-          "34%",
-          "42%",
-          "50%"
+          "16%",
+          "24%",
+          "32%",
+          "40%"
         ]
       },
       {
@@ -30190,7 +30150,7 @@
     ],
     "bkbpierce": "Yes",
     "target_team": "Friendly",
-    "desc": "Grants 1 attack damage per level to Luna and nearby allied heroes, with Luna receiving double the attack damage bonuses. At night, Lunar Blessing is global, and Luna is blessed with 400 bonus night vision + 20 per level.",
+    "desc": "Grants 1 attack damage per level to Luna and nearby allied heroes, with Luna receiving double the attack damage bonuses. At night, Lunar Blessing is global, and Luna is blessed with 250 bonus night vision + 25 per level.",
     "attrib": [
       {
         "key": "radius",
@@ -30200,13 +30160,13 @@
       {
         "key": "bonus_night_vision_self",
         "header": "BONUS NIGHT VISION SELF:",
-        "value": "400",
+        "value": "250",
         "generated": true
       },
       {
         "key": "bonus_night_vision_per_level",
         "header": "BONUS NIGHT VISION PER LEVEL:",
-        "value": "20",
+        "value": "25",
         "generated": true
       },
       {
@@ -30345,7 +30305,7 @@
     "img": "/apps/dota2/images/dota_react/abilities/luna_eclipse.png"
   },
   "special_bonus_unique_luna_1": {
-    "dname": "+80 Lucent Beam Damage"
+    "dname": "+110 Lucent Beam Damage"
   },
   "special_bonus_unique_luna_2": {
     "dname": "-2.0s Lucent Beam Cooldown"
@@ -30363,10 +30323,13 @@
     "dname": "-40.0s Eclipse Cooldown"
   },
   "special_bonus_unique_luna_7": {
-    "dname": "-8% Moon Glaives Damage Reduction"
+    "dname": "-5% Moon Glaives Damage Reduction"
   },
   "special_bonus_unique_luna_8": {
     "dname": "2 Moon Glaives fired on Lucent Beam"
+  },
+  "special_bonus_unique_luna_lunar_orbit_glaive_count": {
+    "dname": "+1 Lunar Orbit Glaives"
   },
   "dragon_knight_fireball": {
     "dname": "Fireball",
@@ -30842,24 +30805,6 @@
     "mc": "50",
     "cd": "100",
     "img": "/apps/dota2/images/dota_react/abilities/dragon_knight_elder_dragon_form.png"
-  },
-  "special_bonus_unique_dragon_knight": {
-    "dname": "+12 Dragon Blood HP Regen/Armor"
-  },
-  "special_bonus_unique_dragon_knight_2": {
-    "dname": "+0.4s Dragon Tail Stun"
-  },
-  "special_bonus_unique_dragon_knight_3": {
-    "dname": "-30% Breathe Fire Damage Reduction"
-  },
-  "special_bonus_unique_dragon_knight_7": {
-    "dname": "+150 Elder Dragon Form Attack Range"
-  },
-  "special_bonus_unique_dragon_knight_8": {
-    "dname": "+400 AoE Dragon Tail During Elder Dragon Form"
-  },
-  "special_bonus_unique_dragon_knight_9": {
-    "dname": "+85% Breathe Fire Damage/Cast Range in Dragon Form"
   },
   "dazzle_rain_of_vermin": {
     "dname": "",
@@ -31400,7 +31345,7 @@
       {
         "key": "duration",
         "header": "DURATION:",
-        "value": "8"
+        "value": "10"
       },
       {
         "key": "affects_allies",
@@ -31596,7 +31541,7 @@
     "dmg_type": "Magical",
     "bkbpierce": "No",
     "dispellable": "No",
-    "desc": "Discharges high-powered shrapnel at random nearby enemy units, dealing minor magical damage and ministun. Deals double damage to creeps.",
+    "desc": "Discharges high-powered shrapnel at random nearby enemy units, dealing minor magical damage and ministun. Deals 1.5x damage to creeps.",
     "attrib": [
       {
         "key": "radius",
@@ -31626,7 +31571,7 @@
       {
         "key": "creep_damage_multiplier",
         "header": "CREEP DAMAGE MULTIPLIER:",
-        "value": "2",
+        "value": "1.5",
         "generated": true
       }
     ],
@@ -31988,6 +31933,9 @@
   },
   "special_bonus_unique_clockwerk_flare_damage": {
     "dname": "+75 Rocket Flare Damage"
+  },
+  "special_bonus_unique_clockwerk_hookshot_damage": {
+    "dname": "+75 Hookshot Damage"
   },
   "leshrac_split_earth": {
     "dname": "Split Earth",
@@ -32701,6 +32649,24 @@
         "key": "treewalking",
         "header": "TREEWALKING:",
         "value": "0",
+        "generated": true
+      },
+      {
+        "key": "treant_gold_bounty_min",
+        "header": "TREANT GOLD BOUNTY MIN:",
+        "value": "18",
+        "generated": true
+      },
+      {
+        "key": "treant_gold_bounty_max",
+        "header": "TREANT GOLD BOUNTY MAX:",
+        "value": "24",
+        "generated": true
+      },
+      {
+        "key": "treant_xp_bounty",
+        "header": "TREANT XP BOUNTY:",
+        "value": "30",
         "generated": true
       },
       {
@@ -35584,12 +35550,7 @@
       }
     ],
     "lore": "A true steward of the forest, Aiushtha befriends all within it - from lowly trolls to powerful centaurs.",
-    "mc": [
-      "40",
-      "50",
-      "60",
-      "70"
-    ],
+    "mc": "70",
     "cd": [
       "30",
       "24",
@@ -35609,9 +35570,9 @@
         "key": "heal_duration",
         "header": "DURATION:",
         "value": [
-          "10",
+          "7",
+          "9",
           "11",
-          "12",
           "13"
         ]
       },
@@ -37315,10 +37276,10 @@
     ],
     "lore": "While the shuriken may be small, Gondar's precise aim can cause critical damage.",
     "mc": [
-      "65",
-      "70",
       "75",
-      "80"
+      "80",
+      "85",
+      "90"
     ],
     "cd": "5",
     "img": "/apps/dota2/images/dota_react/abilities/bounty_hunter_shuriken_toss.png"
@@ -38495,7 +38456,10 @@
     "dname": "+20 Macropyre Damage"
   },
   "special_bonus_unique_jakiro_dualbreath_slow": {
-    "dname": "-10%/10 Dual Breath Movement/Attack Speed Slow"
+    "dname": "-{s:bonus_slow_movement_speed_pct}%/{s:bonus_slow_attack_speed_pct} Dual Breath Movement/Attack Speed Slow"
+  },
+  "special_bonus_unique_jakiro_dualbreath_cooldown": {
+    "dname": "-2s Dual Breath Cooldown"
   },
   "jakiro_double_trouble": {
     "dname": "Double Trouble",
@@ -38652,7 +38616,7 @@
   "batrider_smoldering_resin": {
     "dname": "Smoldering Resin",
     "behavior": "Passive",
-    "desc": "Batrider's attacks apply a debuff that deals 15% of the attack damage every 1s for 2s.",
+    "desc": "Batrider's attacks apply a debuff that deals 20% of the attack damage every 1s for 2s.",
     "attrib": [
       {
         "key": "total_ticks",
@@ -38669,7 +38633,7 @@
       {
         "key": "tick_attack_damage_pct",
         "header": "TICK ATTACK DAMAGE PCT:",
-        "value": "15",
+        "value": "20",
         "generated": true
       }
     ],
@@ -40314,30 +40278,6 @@
     ],
     "img": "/apps/dota2/images/dota_react/abilities/doom_bringer_devils_bargain.png"
   },
-  "special_bonus_unique_doom_1": {
-    "dname": "+2.5% Infernal Blade Max HP As Damage"
-  },
-  "special_bonus_unique_doom_2": {
-    "dname": "Devour Can Target Ancients"
-  },
-  "special_bonus_unique_doom_3": {
-    "dname": "Devour grants 15% Magic Resistance"
-  },
-  "special_bonus_unique_doom_4": {
-    "dname": "+10 Scorched Earth Damage"
-  },
-  "special_bonus_unique_doom_6": {
-    "dname": "+5% Scorched Earth Movement Speed"
-  },
-  "special_bonus_unique_doom_9": {
-    "dname": "-10s Scorched Earth Cooldown"
-  },
-  "special_bonus_unique_doom_10": {
-    "dname": "Doom applies Mute"
-  },
-  "special_bonus_unique_doom_11": {
-    "dname": "Doom applies Break"
-  },
   "ancient_apparition_cold_feet": {
     "dname": "Cold Feet",
     "behavior": "Unit Target",
@@ -41730,12 +41670,7 @@
       }
     ],
     "lore": "Aurel's new craft has an increased payload for rockets, enhancing their rapid-fire capabilities.",
-    "mc": [
-      "75",
-      "80",
-      "85",
-      "90"
-    ],
+    "mc": "85",
     "cd": [
       "7",
       "6.5",
@@ -42238,7 +42173,12 @@
       }
     ],
     "lore": "Using traditional Alchemy from the Darkbrew family, Razzil concocts an acid that dissolves even the toughest metals.",
-    "mc": "110",
+    "mc": [
+      "105",
+      "110",
+      "115",
+      "120"
+    ],
     "cd": [
       "22",
       "21",
@@ -42338,7 +42278,7 @@
     ],
     "lore": "A silver lining to the failure of turning a mountain into gold, this volatile solution has destructive potential.",
     "mc": "100",
-    "cd": "15",
+    "cd": "17",
     "img": "/apps/dota2/images/dota_react/abilities/alchemist_unstable_concoction.png"
   },
   "alchemist_unstable_concoction_throw": {
@@ -42618,30 +42558,6 @@
     ],
     "img": "/apps/dota2/images/dota_react/abilities/alchemist_corrosive_weaponry.png"
   },
-  "special_bonus_unique_alchemist": {
-    "dname": "+125 Unstable Concoction Radius"
-  },
-  "special_bonus_unique_alchemist_2": {
-    "dname": "+400 Unstable Concoction Max Damage"
-  },
-  "special_bonus_unique_alchemist_3": {
-    "dname": "Acid Spray grants armor to allies"
-  },
-  "special_bonus_unique_alchemist_4": {
-    "dname": "+50 Chemical Rage Regeneration"
-  },
-  "special_bonus_unique_alchemist_5": {
-    "dname": "+1 Acid Spray Armor Reduction"
-  },
-  "special_bonus_unique_alchemist_6": {
-    "dname": "+50 Chemical Rage Movement Speed"
-  },
-  "special_bonus_unique_alchemist_7": {
-    "dname": "+2 Damage per Greevil's Greed stack"
-  },
-  "special_bonus_unique_alchemist_8": {
-    "dname": "-0.1s Chemical Rage Base Attack Time"
-  },
   "invoker_quas": {
     "dname": "Quas",
     "behavior": [
@@ -42906,7 +42822,7 @@
       }
     ],
     "lore": "Sadron's Protracted Frisson.",
-    "mc": "90",
+    "mc": "100",
     "cd": "18",
     "img": "/apps/dota2/images/dota_react/abilities/invoker_cold_snap.png"
   },
@@ -43159,7 +43075,7 @@
       {
         "key": "shard_drag_speed",
         "header": "SHARD DRAG SPEED:",
-        "value": "175",
+        "value": "150",
         "generated": true
       },
       {
@@ -45047,12 +44963,12 @@
   "obsidian_destroyer_ominous_discernment": {
     "dname": "Ominous Discernment",
     "behavior": "Passive",
-    "desc": "Outworld Destroyer gains an additional 2 mana per point of Intelligence.",
+    "desc": "Outworld Destroyer gains an additional 2.5 mana per point of Intelligence.",
     "attrib": [
       {
         "key": "bonus_max_mana_per_int",
         "header": "BONUS MAX MANA PER INT:",
-        "value": "2",
+        "value": "2.5",
         "generated": true
       }
     ],
@@ -45952,7 +45868,7 @@
   "lycan_apex_predator": {
     "dname": "Apex Predator",
     "behavior": "Passive",
-    "desc": "Deal 2% extra damage to neutral creeps per hero level.",
+    "desc": "Lycan and units he controls deal 2% extra damage to neutral creeps per hero level.",
     "attrib": [
       {
         "key": "damage_amp_per_level",
@@ -46206,7 +46122,7 @@
       "Instant Cast"
     ],
     "dispellable": "No",
-    "desc": "Brewmaster can switch stances based on the elements he controls, gaining passive bonuses that improve against enemies when Brewed Up.\nEarth Brawler - Grants 1 armor and 5% Magic Resistance. Bonuses are 2.5x when Brewed Up.\nStorm Brawler - Grants 15% evasion and 5% Bonus Move Speed. Bonuses are 2.5x when Brewed Up.\nFire Brawler - Grants 20% chance to critical strike for 120% of your attack damage and 10 Attack Speed. Crit Chance and Attack Speed is 2.5x when Brewed Up.\n Void Brawler - Grants 5% bonus Status Resistance to Brewmaster and applies a 10% Slow for 2s on attack. Slow and Status Resistance are 2.5x when affected by Cinder Brew.",
+    "desc": "Brewmaster can switch stances based on the elements he controls, gaining passive bonuses that improve against enemies when Brewed Up.\nEarth Brawler - Grants 2 armor and 5% Magic Resistance. Bonuses are 2.5x when Brewed Up.\nStorm Brawler - Grants 15% evasion and 5% Bonus Move Speed. Bonuses are 2.5x when Brewed Up.\nFire Brawler - Grants 20% chance to critical strike for 120% of your attack damage and 10 Attack Speed. Crit Chance and Attack Speed is 2.5x when Brewed Up.\n Void Brawler - Grants 5% bonus Status Resistance to Brewmaster and applies a 10% Slow for 2s on attack. Slow and Status Resistance are 2.5x when affected by Cinder Brew.",
     "attrib": [
       {
         "key": "dodge_chance",
@@ -46268,10 +46184,10 @@
         "key": "armor",
         "header": "ARMOR:",
         "value": [
-          "1",
-          "3",
-          "5",
-          "7"
+          "2",
+          "4",
+          "6",
+          "8"
         ],
         "generated": true
       },
@@ -46904,10 +46820,10 @@
         "key": "illusion_flat_damage",
         "header": "BONUS BASE DAMAGE:",
         "value": [
-          "30",
+          "25",
           "40",
-          "50",
-          "60"
+          "55",
+          "70"
         ]
       },
       {
@@ -47263,13 +47179,21 @@
       {
         "key": "charge_restore_time",
         "header": "CHARGE RESTORE TIME:",
-        "value": "60",
+        "value": [
+          "70",
+          "65",
+          "60"
+        ],
         "generated": true
       },
       {
         "key": "charge_restore_time_tooltip_scepter",
         "header": "BASE CHARGE RESTORE TIME:",
-        "value": "60"
+        "value": [
+          "70",
+          "65",
+          "60"
+        ]
       },
       {
         "key": "max_slow",
@@ -47307,7 +47231,11 @@
       "175",
       "200"
     ],
-    "cd": "60",
+    "cd": [
+      "70",
+      "65",
+      "60"
+    ],
     "img": "/apps/dota2/images/dota_react/abilities/shadow_demon_demonic_purge.png"
   },
   "shadow_demon_demonic_cleanse": {
@@ -47339,13 +47267,21 @@
       {
         "key": "charge_restore_time",
         "header": "CHARGE RESTORE TIME:",
-        "value": "60",
+        "value": [
+          "70",
+          "65",
+          "60"
+        ],
         "generated": true
       },
       {
         "key": "charge_restore_time_tooltip_scepter",
         "header": "BASE CHARGE RESTORE TIME:",
-        "value": "60"
+        "value": [
+          "70",
+          "65",
+          "60"
+        ]
       },
       {
         "key": "abilitycastrange",
@@ -47370,7 +47306,11 @@
       "175",
       "200"
     ],
-    "cd": "60",
+    "cd": [
+      "70",
+      "65",
+      "60"
+    ],
     "img": "/apps/dota2/images/dota_react/abilities/shadow_demon_demonic_cleanse.png"
   },
   "shadow_demon_disseminate": {
@@ -48624,27 +48564,6 @@
       }
     ],
     "img": "/apps/dota2/images/dota_react/abilities/chaos_knight_reins_of_chaos.png"
-  },
-  "special_bonus_unique_chaos_knight": {
-    "dname": "Reality Rift Pierces Spell Immunity"
-  },
-  "special_bonus_unique_chaos_knight_2": {
-    "dname": "+225 Reality Rift Pull Distance"
-  },
-  "special_bonus_unique_chaos_knight_3": {
-    "dname": "+0.6 Min/Max Chaos Bolt Duration"
-  },
-  "special_bonus_unique_chaos_knight_4": {
-    "dname": "+10s Phantasm Duration"
-  },
-  "special_bonus_unique_chaos_knight_5": {
-    "dname": "+10% Chaos Strike Chance"
-  },
-  "special_bonus_unique_chaos_knight_6": {
-    "dname": "+30% Chaos Strike Lifesteal"
-  },
-  "special_bonus_unique_chaos_knight_8": {
-    "dname": "-3s Chaos Bolt Cooldown"
   },
   "meepo_petrify": {
     "dname": "Dig",
@@ -50179,10 +50098,10 @@
         "key": "decay_damage",
         "header": "BASE DAMAGE:",
         "value": [
-          "0",
-          "40",
-          "80",
-          "120"
+          "10",
+          "50",
+          "90",
+          "130"
         ]
       },
       {
@@ -51666,7 +51585,7 @@
     "dname": "+150 Static Storm Radius"
   },
   "special_bonus_unique_disruptor_9": {
-    "dname": "+10%/280 Glimpse Distance To Damage/Max"
+    "dname": "+10%/300 Glimpse Distance To Damage/Max"
   },
   "special_bonus_unique_disruptor_consecutive_strike_damage": {
     "dname": "+10 Thunder Strike Damage per Strike"
@@ -52366,7 +52285,7 @@
       {
         "key": "duration",
         "header": "DURATION:",
-        "value": "4"
+        "value": "3.5"
       },
       {
         "key": "status_resistance",
@@ -52385,12 +52304,7 @@
         "generated": true
       }
     ],
-    "mc": [
-      "50",
-      "60",
-      "70",
-      "80"
-    ],
+    "mc": "80",
     "cd": [
       "10",
       "9",
@@ -53277,7 +53191,7 @@
     "dname": "+200 Chakra Magic Mana"
   },
   "special_bonus_unique_keeper_of_the_light_5": {
-    "dname": "-8s Blinding Light Cooldown"
+    "dname": "-5s Blinding Light Cooldown"
   },
   "special_bonus_unique_keeper_of_the_light_7": {
     "dname": "-3s Chakra Magic Cooldown"
@@ -54778,10 +54692,10 @@
         "key": "damage_modifier",
         "header": "DAMAGE MODIFIER:",
         "value": [
-          "-60",
-          "-45",
+          "-50",
+          "-40",
           "-30",
-          "-15"
+          "-20"
         ],
         "generated": true
       },
@@ -54789,10 +54703,10 @@
         "key": "damage_modifier_tooltip",
         "header": "OUTGOING DAMAGE:",
         "value": [
-          "40%",
-          "55%",
+          "50%",
+          "60%",
           "70%",
-          "85%"
+          "80%"
         ]
       },
       {
@@ -54978,7 +54892,7 @@
       {
         "key": "damage_per_mana",
         "header": "BASE DAMAGE PER MANA:",
-        "value": "2.4"
+        "value": "2.2"
       },
       {
         "key": "damage_per_mana_per_level",
@@ -55247,12 +55161,24 @@
       {
         "key": "move_slow",
         "header": "MOVE SLOW:",
-        "value": "35%"
+        "value": [
+          "15%",
+          "20%",
+          "25%",
+          "30%",
+          "35%"
+        ]
       },
       {
         "key": "attack_slow",
         "header": "ATTACK SLOW:",
-        "value": "80"
+        "value": [
+          "20",
+          "35",
+          "50",
+          "65",
+          "80"
+        ]
       },
       {
         "key": "cast_slow",
@@ -56306,21 +56232,6 @@
       }
     ],
     "img": "/apps/dota2/images/dota_react/abilities/centaur_rawhide.png"
-  },
-  "special_bonus_unique_centaur_1": {
-    "dname": "Gains Retaliate Aura"
-  },
-  "special_bonus_unique_centaur_2": {
-    "dname": "+0.8s Hoof Stomp Duration"
-  },
-  "special_bonus_unique_centaur_3": {
-    "dname": "+45 Retaliate Damage"
-  },
-  "special_bonus_unique_centaur_4": {
-    "dname": "+30% Double Edge Strength Damage"
-  },
-  "special_bonus_unique_centaur_5": {
-    "dname": "-25s Stampede Cooldown"
   },
   "magnataur_horn_toss": {
     "dname": "Horn Toss",
@@ -57710,7 +57621,7 @@
       {
         "key": "abilitycastrange",
         "header": "CAST RANGE:",
-        "value": "1000",
+        "value": "750",
         "generated": true
       },
       {
@@ -58122,18 +58033,6 @@
     ],
     "cd": "45",
     "img": "/apps/dota2/images/dota_react/abilities/bristleback_warpath.png"
-  },
-  "special_bonus_unique_bristleback_2": {
-    "dname": "+20 Quill Stack Damage"
-  },
-  "special_bonus_unique_bristleback_3": {
-    "dname": "+{s:bonus_damage_per_stack} Warpath Damage Per Stack"
-  },
-  "special_bonus_unique_bristleback_5": {
-    "dname": "+250 Goo Cast Range"
-  },
-  "special_bonus_unique_bristleback_6": {
-    "dname": "+8%/4% Bristleback Back/Side Damage Reduction"
   },
   "tusk_ice_shards": {
     "dname": "Ice Shards",
@@ -58585,11 +58484,10 @@
         "key": "attack_speed_slow",
         "header": "ATTACK SPEED SLOW:",
         "value": [
-          "20",
-          "30",
-          "40",
-          "50",
-          "60"
+          "15",
+          "35",
+          "55",
+          "75"
         ]
       }
     ],
@@ -59572,10 +59470,10 @@
         "key": "stomp_damage",
         "header": "STOMP DAMAGE:",
         "value": [
-          "70",
+          "60",
           "100",
-          "130",
-          "160"
+          "140",
+          "180"
         ]
       },
       {
@@ -59665,20 +59563,20 @@
         "key": "stomp_damage",
         "header": "STOMP DAMAGE:",
         "value": [
-          "75",
+          "60",
           "100",
-          "125",
-          "150"
+          "140",
+          "180"
         ]
       },
       {
         "key": "wake_damage_limit",
         "header": "WAKE THRESHOLD:",
         "value": [
-          "50",
           "100",
           "150",
-          "200"
+          "200",
+          "250"
         ]
       },
       {
@@ -60473,7 +60371,7 @@
     "dname": "-2s Overwhelming Odds Cooldown"
   },
   "special_bonus_unique_legion_commander_pta_movespeed": {
-    "dname": "+10% Press The Attack Movement Speed"
+    "dname": "+12% Press The Attack Movement Speed"
   },
   "ember_spirit_searing_chains": {
     "dname": "Searing Chains",
@@ -60966,7 +60864,7 @@
     "dispellable": "Yes",
     "target_team": "Both",
     "target_type": "Hero",
-    "desc": "Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest unit in a 200 radius, prioritizing Stone Remnants. The travelling unit or Remnant damages all enemy units it hits. If an enemy is hit by a Stone Remnant, they are also slowed. Stone Remnants travel further than other units. Deals 1.4x damage to creeps.",
+    "desc": "Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest unit in a 200 radius, prioritizing Stone Remnants. The travelling unit or Remnant damages all enemy units it hits. If an enemy is hit by a Stone Remnant, they are also slowed. Stone Remnants travel further than other units. Deals 1.25x damage to creeps.",
     "attrib": [
       {
         "key": "radius",
@@ -61033,7 +60931,7 @@
       {
         "key": "creep_multiplier",
         "header": "CREEP MULTIPLIER:",
-        "value": "1.4",
+        "value": "1.25",
         "generated": true
       },
       {
@@ -61515,16 +61413,16 @@
     "dname": "+0.5s Rolling Boulder Stun Duration"
   },
   "special_bonus_unique_earth_spirit_4": {
-    "dname": "+200 Rolling Boulder Distance"
+    "dname": "+250 Rolling Boulder Distance"
   },
   "special_bonus_unique_earth_spirit_5": {
-    "dname": "-3s Geomagnetic Grip Cooldown"
+    "dname": "-2s Geomagnetic Grip Cooldown"
   },
   "special_bonus_unique_earth_spirit_6": {
     "dname": "+100 Boulder Smash Damage"
   },
   "special_bonus_unique_earth_spirit_8": {
-    "dname": "+30% Magnetize Damage & Duration"
+    "dname": "+25% Magnetize Damage & Duration"
   },
   "terrorblade_reflection": {
     "dname": "Reflection",
@@ -61614,10 +61512,10 @@
     ],
     "lore": "In the fractal prison of Foulfell, Terrorblade learned the truth of this old tale: you are your own worst enemy.  Now it is a lesson he teaches others.",
     "mc": [
-      "35",
-      "40",
       "45",
-      "50"
+      "50",
+      "55",
+      "60"
     ],
     "cd": [
       "23",
@@ -61998,7 +61896,7 @@
     "dname": "-30s Sunder Cooldown"
   },
   "special_bonus_unique_terrorblade_2": {
-    "dname": "-5s Reflection Cooldown"
+    "dname": "-4s Reflection Cooldown"
   },
   "special_bonus_unique_terrorblade_3": {
     "dname": "+30s Metamorphosis Duration"
@@ -65551,7 +65449,7 @@
   "monkey_king_mischief": {
     "dname": "Mischief",
     "behavior": "No Target",
-    "desc": "Changes Monkey King's shape to deceive opponents, using the environment nearby as inspiration for the disguise. Taking damage, attacking, or using any item or ability breaks Monkey King's disguise. Grants damage immunity for 0.2 seconds upon transforming.",
+    "desc": "Changes Monkey King's shape to deceive opponents, using the environment nearby as inspiration for the disguise. Taking damage, attacking, or using any item or ability breaks Monkey King's disguise. Grants damage immunity for 0.1 seconds upon transforming.",
     "attrib": [
       {
         "key": "movespeed",
@@ -65567,7 +65465,7 @@
       {
         "key": "invul_duration",
         "header": "INVUL DURATION:",
-        "value": "0.2",
+        "value": "0.1",
         "generated": true
       },
       {
@@ -69592,7 +69490,7 @@
       "Hero",
       "Basic"
     ],
-    "desc": "Tosses a boomerang in an arc. Upon contact, it returns to Hoodwink. The boomerang will deal damage as it passes through or hits enemies, and apply a Hunter's Mark that causes affected enemies to be slowed and be more vulnerable to spell damage.",
+    "desc": "Tosses a boomerang in an arc. Upon contact, it returns to Hoodwink. The boomerang will deal damage as it passes through or hits enemies, and apply a debuff that causes affected enemies to be slowed and be more vulnerable to spell damage.",
     "attrib": [
       {
         "key": "speed",
@@ -69612,7 +69510,7 @@
       },
       {
         "key": "mark_duration",
-        "header": "MARK DURATION:",
+        "header": "DEBUFF DURATION:",
         "value": "7"
       },
       {
@@ -70781,30 +70679,6 @@
     "attrib": [],
     "img": "/apps/dota2/images/dota_react/abilities/dawnbreaker_unbreakable.png"
   },
-  "special_bonus_unique_dawnbreaker_solar_guardian_radius": {
-    "dname": "+150 Solar Guardian Radius"
-  },
-  "special_bonus_unique_dawnbreaker_fire_wreath_cooldown": {
-    "dname": "-5s Starbreaker Cooldown"
-  },
-  "special_bonus_unique_dawnbreaker_celestial_hammer_cast_range": {
-    "dname": "+80% Celestial Hammer Cast Range/Speed"
-  },
-  "special_bonus_unique_dawnbreaker_luminosity_crit": {
-    "dname": "+50% Luminosity Critical Strike Damage"
-  },
-  "special_bonus_unique_dawnbreaker_solar_guardian_cooldown": {
-    "dname": "-20s Solar Guardian Cooldown"
-  },
-  "special_bonus_unique_dawnbreaker_luminosity_attack_count": {
-    "dname": "-1 Luminosity Attacks Required"
-  },
-  "special_bonus_unique_dawnbreaker_fire_wreath_swipe": {
-    "dname": "+20 Starbreaker Swipe/Smash Damage"
-  },
-  "special_bonus_unique_dawnbreaker_celestial_hammer_slow": {
-    "dname": "+15% Celestial Hammer Slow"
-  },
   "marci_grapple": {
     "dname": "Dispose",
     "behavior": "Unit Target",
@@ -71616,7 +71490,7 @@
       }
     ],
     "lore": "As the only member of his species to arrive on this world, locals can only speculate on the Beast's size relative to his kin. Such observation would prove easier of course if the subject didn't eat everything it sees and destroy most of what it doesn't.",
-    "mc": "90",
+    "mc": "100",
     "cd": [
       "30",
       "27",
@@ -71840,9 +71714,9 @@
         "key": "damage",
         "header": "HIT DAMAGE:",
         "value": [
-          "125",
+          "100",
           "175",
-          "225"
+          "250"
         ]
       },
       {
@@ -72033,7 +71907,7 @@
     "dname": "Beast dispels himself when activating Uproar"
   },
   "special_bonus_unique_primal_beast_onslaught_damage": {
-    "dname": "+90 Onslaught Damage"
+    "dname": "+80 Onslaught Damage"
   },
   "special_bonus_unique_primal_beast_trample_attack_damage": {
     "dname": "+20% Trample Attack Multiplier"
@@ -72234,12 +72108,7 @@
       {
         "key": "aura_movespeed_slow",
         "header": "AURA MOVESPEED SLOW:",
-        "value": [
-          "-15",
-          "-20",
-          "-25",
-          "-30"
-        ],
+        "value": "-20",
         "generated": true
       },
       {
@@ -72607,7 +72476,7 @@
       {
         "key": "radius",
         "header": "RADIUS:",
-        "value": "550"
+        "value": "275"
       },
       {
         "key": "illusion_percent_damage",
@@ -72653,6 +72522,18 @@
         "key": "linger_duration",
         "header": "LINGER DURATION:",
         "value": "0.3",
+        "generated": true
+      },
+      {
+        "key": "spotlight_count",
+        "header": "SPOTLIGHT COUNT:",
+        "value": "3",
+        "generated": true
+      },
+      {
+        "key": "start_offset",
+        "header": "START OFFSET:",
+        "value": "0",
         "generated": true
       },
       {
@@ -72902,12 +72783,6 @@
         "generated": true
       },
       {
-        "key": "launch_daggers",
-        "header": "LAUNCH DAGGERS:",
-        "value": "0",
-        "generated": true
-      },
-      {
         "key": "leap_distance",
         "header": "LEAP DISTANCE:",
         "value": "250",
@@ -72940,6 +72815,42 @@
       {
         "key": "grant_flying",
         "header": "GRANT FLYING:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "max_charges",
+        "header": "MAX CHARGES:",
+        "value": "2",
+        "generated": true
+      },
+      {
+        "key": "abilitychargerestoretime",
+        "header": "CHARGE RESTORE TIME:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "launch_daggers_count",
+        "header": "LAUNCH DAGGERS COUNT:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "launch_daggers_range",
+        "header": "LAUNCH DAGGERS RANGE:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "explosion_radius",
+        "header": "EXPLOSION RADIUS:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "explosion_damage",
+        "header": "EXPLOSION DAMAGE:",
         "value": "0",
         "generated": true
       },
@@ -73237,6 +73148,12 @@
         "key": "souvenir_collection_range",
         "header": "SOUVENIR COLLECTION RANGE:",
         "value": "925",
+        "generated": true
+      },
+      {
+        "key": "souvenir_set",
+        "header": "SOUVENIR SET:",
+        "value": "1",
         "generated": true
       }
     ],
@@ -73556,5 +73473,836 @@
   },
   "special_bonus_unique_ringmaster_dagger_bleed_and_slow_duration": {
     "dname": "+1s Impalement Arts Bleed and Slow Duration"
+  },
+  "kez_switch_weapons": {
+    "dname": "Switch Discipline",
+    "behavior": [
+      "No Target",
+      "Instant Cast"
+    ],
+    "desc": "Kez switches between his Kazurai Katana and Shodo Sai.\n\nHe gains different attack capabilities and abilities based on the weapon equipped. The abilities level up together, and when an ability is used, the associated alternate weapon ability also goes on cooldown.\n\nSwitch Discipline cooldown decreases by 0.2s per Hero level.",
+    "attrib": [
+      {
+        "key": "katana_attack_range",
+        "header": "KATANA ATTACK RANGE:",
+        "value": "225"
+      },
+      {
+        "key": "katana_base_attack_time",
+        "header": "KATANA BASE ATTACK TIME:",
+        "value": "2"
+      },
+      {
+        "key": "katana_bonus_damage",
+        "header": "KATANA BONUS DAMAGE:",
+        "value": "20%"
+      },
+      {
+        "key": "sai_attack_range",
+        "header": "SAI ATTACK RANGE:",
+        "value": "150"
+      },
+      {
+        "key": "sai_base_attack_time",
+        "header": "SAI BASE ATTACK TIME:",
+        "value": "1.5"
+      },
+      {
+        "key": "cooldown_reduction_per_level",
+        "header": "COOLDOWN REDUCTION PER LEVEL:",
+        "value": "0.2",
+        "generated": true
+      },
+      {
+        "key": "scepter_cooldown_timer",
+        "header": "SCEPTER COOLDOWN TIMER:",
+        "value": "3",
+        "generated": true
+      },
+      {
+        "key": "abilitycastpoint",
+        "header": "CAST TIME:",
+        "value": "0",
+        "generated": true
+      }
+    ],
+    "lore": "As former followers of the Shodo, the leaders of the Kazurai Order can switch effortlessly between twin disciplines of martial mastery over sai and blade.",
+    "cd": "8",
+    "img": "/apps/dota2/images/dota_react/abilities/kez_switch_weapons.png"
+  },
+  "kez_echo_slash": {
+    "dname": "Echo Slash",
+    "behavior": "No Target",
+    "dmg_type": "Physical",
+    "target_team": "Enemy",
+    "target_type": [
+      "Hero",
+      "Basic"
+    ],
+    "desc": "Kez slashes forward in a line with his Katana, dealing a percentage of his attack damage and a brief slow to targets in the area. After a short delay, the area is attacked again. Heroes take bonus damage.",
+    "attrib": [
+      {
+        "key": "katana_echo_damage",
+        "header": "ATTACK DAMAGE:",
+        "value": [
+          "70%",
+          "80%",
+          "90%",
+          "100%"
+        ]
+      },
+      {
+        "key": "echo_hero_damage",
+        "header": "BONUS HERO DAMAGE:",
+        "value": [
+          "25",
+          "45",
+          "65",
+          "85"
+        ]
+      },
+      {
+        "key": "katana_strikes",
+        "header": "ATTACKS:",
+        "value": "2"
+      },
+      {
+        "key": "strike_interval",
+        "header": "ECHO DELAY:",
+        "value": "1.2"
+      },
+      {
+        "key": "katana_radius",
+        "header": "SLASH RADIUS:",
+        "value": "200"
+      },
+      {
+        "key": "katana_distance",
+        "header": "DISTANCE:",
+        "value": "800"
+      },
+      {
+        "key": "travel_distance",
+        "header": "TRAVEL DISTANCE:",
+        "value": "250",
+        "generated": true
+      },
+      {
+        "key": "tag_slow",
+        "header": "MOVE SLOW:",
+        "value": "100%"
+      },
+      {
+        "key": "tag_slow_duration",
+        "header": "SLOW DURATION:",
+        "value": "0.25"
+      },
+      {
+        "key": "abilitycastpoint",
+        "header": "CAST TIME:",
+        "value": "0.2",
+        "generated": true
+      }
+    ],
+    "lore": "Kez and his master Kraw have worked tirelessly to train the Kazurai new ways to keep the flyers off balance by improving upon ancient techniques.",
+    "mc": [
+      "85",
+      "100",
+      "115",
+      "130"
+    ],
+    "cd": [
+      "20",
+      "18",
+      "16",
+      "14"
+    ],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_echo_slash.png"
+  },
+  "kez_grappling_claw": {
+    "dname": "Grappling Claw",
+    "behavior": "Unit Target",
+    "bkbpierce": "No",
+    "target_team": "Enemy",
+    "target_type": [
+      "Hero",
+      "Basic",
+      "Tree"
+    ],
+    "desc": "Kez swings on a grappling hook towards the target unit or tree. When the grappling hook collides with the target, that unit has slowed movement speed until Kez arrives. Upon landing, he attacks with 100% lifesteal, and heals a flat bonus amount if the target is a Hero.",
+    "attrib": [
+      {
+        "key": "abilitycastrange",
+        "header": "CAST RANGE:",
+        "value": [
+          "700",
+          "800",
+          "900",
+          "1000"
+        ],
+        "generated": true
+      },
+      {
+        "key": "land_distance",
+        "header": "LAND DISTANCE:",
+        "value": "75",
+        "generated": true
+      },
+      {
+        "key": "projectile_speed",
+        "header": "PROJECTILE SPEED:",
+        "value": "3000",
+        "generated": true
+      },
+      {
+        "key": "grapple_speed",
+        "header": "GRAPPLE SPEED:",
+        "value": "1800",
+        "generated": true
+      },
+      {
+        "key": "max_distance_break",
+        "header": "MAX DISTANCE BREAK:",
+        "value": "2000",
+        "generated": true
+      },
+      {
+        "key": "bonus_flat_lifesteal",
+        "header": "HERO BONUS HEAL:",
+        "value": [
+          "30",
+          "60",
+          "90",
+          "120"
+        ]
+      },
+      {
+        "key": "lifesteal_pct",
+        "header": "LIFESTEAL PCT:",
+        "value": "100",
+        "generated": true
+      },
+      {
+        "key": "creep_lifesteal_reduction_pct",
+        "header": "CREEP LIFESTEAL REDUCTION PCT:",
+        "value": "40",
+        "generated": true
+      },
+      {
+        "key": "katana_ms_slow_pct",
+        "header": "MOVE SLOW:",
+        "value": "80%"
+      },
+      {
+        "key": "abilitycastpoint",
+        "header": "CAST TIME:",
+        "value": "0",
+        "generated": true
+      }
+    ],
+    "lore": "The Kazurai have the speed and reach to drag even the highest flyers from the skies.",
+    "mc": "50",
+    "cd": [
+      "16",
+      "13",
+      "10",
+      "7"
+    ],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_grappling_claw.png"
+  },
+  "kez_kazurai_katana": {
+    "dname": "Kazurai Katana",
+    "behavior": "Passive",
+    "dmg_type": "Physical",
+    "bkbpierce": "Yes",
+    "dispellable": "Yes",
+    "target_team": "Enemy",
+    "target_type": [
+      "Hero",
+      "Basic"
+    ],
+    "desc": "Katana attacks and abilities apply a stacking damage over time to enemies that deals a percentage of the original attack's damage as additional damage over time. Affected enemies have non-stacking reduced health regeneration.",
+    "attrib": [
+      {
+        "key": "katana_attack_range",
+        "header": "KATANA ATTACK RANGE:",
+        "value": "225",
+        "generated": true
+      },
+      {
+        "key": "katana_base_attack_time",
+        "header": "KATANA BASE ATTACK TIME:",
+        "value": "2",
+        "generated": true
+      },
+      {
+        "key": "katana_bonus_damage",
+        "header": "KATANA BONUS DAMAGE:",
+        "value": "20",
+        "generated": true
+      },
+      {
+        "key": "katana_bleed_duration",
+        "header": "DURATION:",
+        "value": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      {
+        "key": "katana_bleed_attack_damage_pct",
+        "header": "DAMAGE PER SECOND:",
+        "value": [
+          "6%",
+          "7%",
+          "8%",
+          "9%"
+        ]
+      },
+      {
+        "key": "heal_reduction_pct",
+        "header": "REGEN REDUCTION:",
+        "value": [
+          "20%",
+          "25%",
+          "30%",
+          "35%"
+        ]
+      },
+      {
+        "key": "stun_duration",
+        "header": "IMPALE DURATION:",
+        "value": "0"
+      },
+      {
+        "key": "bleed_as_rupture_pct",
+        "header": "STACKS AS BURST DAMAGE:",
+        "value": "0%"
+      },
+      {
+        "key": "abilitycastrange",
+        "header": "CAST RANGE:",
+        "value": "150",
+        "generated": true
+      },
+      {
+        "key": "abilitycastpoint",
+        "header": "CAST TIME:",
+        "value": "0",
+        "generated": true
+      }
+    ],
+    "lore": "To fight back against the reach of Imperia and her Queensguard, the Kazurai had to become skilled in the ways of attrition.",
+    "mc": "0",
+    "cd": "0",
+    "img": "/apps/dota2/images/dota_react/abilities/kez_kazurai_katana.png"
+  },
+  "kez_raptor_dance": {
+    "dname": "Raptor Dance",
+    "behavior": [
+      "Channeled",
+      "No Target",
+      "AOE"
+    ],
+    "dmg_type": "Pure",
+    "bkbpierce": "Yes",
+    "target_team": "Enemy",
+    "target_type": [
+      "Hero",
+      "Basic"
+    ],
+    "desc": "Kez enters into an uncontrollable channel for 1 second, gaining debuff immunity and 100% magic resistance. If the channel completes successfully, Kez performs a series of deadly radial slashes around him that deal damage based on the max health of the target and heal Kez for a percentage of all damage dealt. Kez receives a strong dispel upon completion.",
+    "attrib": [
+      {
+        "key": "strike_interval",
+        "header": "STRIKE INTERVAL:",
+        "value": "0.25",
+        "generated": true
+      },
+      {
+        "key": "strikes",
+        "header": "STRIKES:",
+        "value": [
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "key": "radius",
+        "header": "RADIUS:",
+        "value": "450"
+      },
+      {
+        "key": "base_damage",
+        "header": "BASE DAMAGE:",
+        "value": "75"
+      },
+      {
+        "key": "max_health_damage_pct",
+        "header": "MAX HEALTH AS DAMAGE:",
+        "value": "4%"
+      },
+      {
+        "key": "lifesteal_pct",
+        "header": "LIFESTEAL PCT:",
+        "value": "100",
+        "generated": true
+      },
+      {
+        "key": "magic_resist",
+        "header": "MAGIC RESIST:",
+        "value": "100",
+        "generated": true
+      },
+      {
+        "key": "hard_dispel",
+        "header": "HARD DISPEL:",
+        "value": "1",
+        "generated": true
+      },
+      {
+        "key": "abilitychanneltime",
+        "header": "CHANNEL TIME:",
+        "value": "1",
+        "generated": true
+      },
+      {
+        "key": "abilitycastpoint",
+        "header": "CAST TIME:",
+        "value": "0",
+        "generated": true
+      }
+    ],
+    "lore": "Unleash the inner fury of the Flightless to feast on the essence of your foes.",
+    "mc": [
+      "100",
+      "125",
+      "150"
+    ],
+    "cd": [
+      "40",
+      "35",
+      "30"
+    ],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_raptor_dance.png"
+  },
+  "kez_falcon_rush": {
+    "dname": "Falcon Rush",
+    "behavior": [
+      "Hidden",
+      "No Target",
+      "Instant Cast"
+    ],
+    "dispellable": "Yes",
+    "target_team": "Enemy",
+    "target_type": [
+      "Hero",
+      "Basic"
+    ],
+    "desc": "Kez gains the ability to rush towards enemy targets to deliver echoing secondary attacks. While in this state, Kez has phased collision and an attack rate that is less affected by attack speed.",
+    "attrib": [
+      {
+        "key": "duration",
+        "header": "DURATION:",
+        "value": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      {
+        "key": "rush_range",
+        "header": "RUSH RANGE:",
+        "value": "575"
+      },
+      {
+        "key": "buff_evasion_pct",
+        "header": "EVASION:",
+        "value": "0%"
+      },
+      {
+        "key": "rush_speed",
+        "header": "RUSH SPEED:",
+        "value": "1000"
+      },
+      {
+        "key": "base_attack_rate_katana",
+        "header": "KATANA BASE ATTACK RATE:",
+        "value": [
+          "1.4",
+          "1.3",
+          "1.2",
+          "1.1"
+        ]
+      },
+      {
+        "key": "base_attack_rate_sai",
+        "header": "SAI BASE ATTACK RATE:",
+        "value": [
+          "1.2",
+          "1.1",
+          "1",
+          "0.9"
+        ]
+      },
+      {
+        "key": "attack_speed_factor",
+        "header": "ATTACK SPEED FACTOR:",
+        "value": [
+          "6%",
+          "7%",
+          "8%",
+          "9%"
+        ]
+      },
+      {
+        "key": "echo_damage",
+        "header": "ECHO DAMAGE:",
+        "value": "100",
+        "generated": true
+      },
+      {
+        "key": "abilitycastpoint",
+        "header": "CAST TIME:",
+        "value": "0",
+        "generated": true
+      }
+    ],
+    "lore": "An ancient Shodo technique used to hunt faster aerial foes, stealing the advantage and delivering multiple attacks within a single flap of their prey's panicking wings.",
+    "mc": [
+      "85",
+      "90",
+      "95",
+      "100"
+    ],
+    "cd": [
+      "20",
+      "18",
+      "16",
+      "14"
+    ],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_falcon_rush.png"
+  },
+  "kez_falcon_rush_ad": {
+    "behavior": [
+      "No Target",
+      "Instant Cast"
+    ],
+    "attrib": [],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_falcon_rush_ad.png"
+  },
+  "kez_talon_toss": {
+    "dname": "Talon Toss",
+    "behavior": [
+      "Hidden",
+      "Unit Target",
+      "AOE"
+    ],
+    "dmg_type": "Magical",
+    "bkbpierce": "No",
+    "target_team": "Enemy",
+    "target_type": [
+      "Hero",
+      "Basic"
+    ],
+    "desc": "Kez throws a Sai at the target unit. The Sai detonates when it hits, dealing damage and applying silence to all enemies in the area.",
+    "attrib": [
+      {
+        "key": "radius",
+        "header": "RADIUS:",
+        "value": "275"
+      },
+      {
+        "key": "damage",
+        "header": "DAMAGE:",
+        "value": [
+          "75",
+          "125",
+          "175",
+          "225"
+        ]
+      },
+      {
+        "key": "speed",
+        "header": "SPEED:",
+        "value": "2000",
+        "generated": true
+      },
+      {
+        "key": "silence_duration",
+        "header": "SILENCE DURATION:",
+        "value": [
+          "1.75",
+          "2",
+          "2.25",
+          "2.5"
+        ]
+      },
+      {
+        "key": "abilitycastrange",
+        "header": "CAST RANGE:",
+        "value": "1200",
+        "generated": true
+      },
+      {
+        "key": "abilitycastpoint",
+        "header": "CAST TIME:",
+        "value": "0.2",
+        "generated": true
+      }
+    ],
+    "lore": "The Shodo learned to rely upon distance and disorientation to survive against much stronger opposition.",
+    "mc": "75",
+    "cd": [
+      "16",
+      "13",
+      "10",
+      "7"
+    ],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_talon_toss.png"
+  },
+  "kez_talon_toss_ad": {
+    "behavior": [
+      "Unit Target",
+      "AOE"
+    ],
+    "attrib": [],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_talon_toss_ad.png"
+  },
+  "kez_shodo_sai": {
+    "dname": "Shodo Sai",
+    "behavior": [
+      "Hidden",
+      "Point Target",
+      "Instant Cast"
+    ],
+    "bkbpierce": "Yes",
+    "dispellable": "Strong Dispels Only",
+    "desc": "Kez's attacks and abilities with the Sai have a chance to Mark enemies. Marked enemies are slowed, and the next attack or ability damage from Kez gains True Strike and will stun the enemy and deal a critical strike, consuming the buff.\n\nKez may activate the ability to disarm himself, lock his facing, and parry attacks and attack effects from the targeted direction for 2 seconds. If an attack is parried from an enemy Hero in this way, that Hero is stunned and Marked, taking additional critical strike and stun when the debuff is triggered.\n\nThe sub-ability may be used to cancel the blocking early.",
+    "attrib": [
+      {
+        "key": "sai_attack_range",
+        "header": "SAI ATTACK RANGE:",
+        "value": "150",
+        "generated": true
+      },
+      {
+        "key": "sai_base_attack_time",
+        "header": "SAI BASE ATTACK TIME:",
+        "value": "1.5",
+        "generated": true
+      },
+      {
+        "key": "sai_proc_vuln_chance",
+        "header": "CHANCE TO MARK:",
+        "value": "17%"
+      },
+      {
+        "key": "vuln_slow",
+        "header": "MARKED MOVE SLOW:",
+        "value": "10%"
+      },
+      {
+        "key": "vuln_duration",
+        "header": "MARKED DURATION:",
+        "value": "8"
+      },
+      {
+        "key": "base_crit_pct",
+        "header": "MARKED CRITICAL STRIKE:",
+        "value": [
+          "140%",
+          "160%",
+          "180%",
+          "200%"
+        ]
+      },
+      {
+        "key": "stun_duration",
+        "header": "MARKED STUN DURATION:",
+        "value": "0.5"
+      },
+      {
+        "key": "shard_base_movement_speed",
+        "header": "SHARD BASE MOVEMENT SPEED:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "shard_vuln_movement_speed",
+        "header": "SHARD VULN MOVEMENT SPEED:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "forward_angle",
+        "header": "FORWARD ANGLE:",
+        "value": "180",
+        "generated": true
+      },
+      {
+        "key": "speed_penalty",
+        "header": "SPEED PENALTY:",
+        "value": "25",
+        "generated": true
+      },
+      {
+        "key": "parry_duration",
+        "header": "PARRY DURATION:",
+        "value": "2",
+        "generated": true
+      },
+      {
+        "key": "parry_bonus_crit",
+        "header": "PARRY BONUS CRITICAL STRIKE:",
+        "value": [
+          "25%",
+          "50%",
+          "75%",
+          "100%"
+        ]
+      },
+      {
+        "key": "parry_stun_duration",
+        "header": "PARRY BONUS STUN DURATION:",
+        "value": "0.5"
+      },
+      {
+        "key": "abilitycastpoint",
+        "header": "CAST TIME:",
+        "value": "0",
+        "generated": true
+      }
+    ],
+    "lore": "The Shodo may have lost their way, but Kez and the Kazurai can still use Shodo knowledge for the good of the people.",
+    "mc": [
+      "30",
+      "20",
+      "10",
+      "0"
+    ],
+    "cd": [
+      "20",
+      "15",
+      "10",
+      "5"
+    ],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_shodo_sai.png"
+  },
+  "kez_shodo_sai_ad": {
+    "behavior": [
+      "Point Target",
+      "Instant Cast"
+    ],
+    "attrib": [],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_shodo_sai_ad.png"
+  },
+  "kez_shodo_sai_parry_cancel": {
+    "behavior": [
+      "No Target",
+      "Instant Cast",
+      "Hidden"
+    ],
+    "attrib": [],
+    "cd": "0",
+    "img": "/apps/dota2/images/dota_react/abilities/kez_shodo_sai_parry_cancel.png"
+  },
+  "kez_ravens_veil": {
+    "dname": "Raven's Veil",
+    "behavior": [
+      "Hidden",
+      "No Target"
+    ],
+    "bkbpierce": "Yes",
+    "dispellable": "Strong Dispels Only",
+    "target_team": "Enemy",
+    "target_type": "Hero",
+    "desc": "Kez releases a wave of smoke that applies his Mark to nearby enemies, briefly reducing their vision. Kez receives a basic dispel and gains bonus movement speed and invisibility until he attacks or casts a spell.",
+    "attrib": [
+      {
+        "key": "blast_radius",
+        "header": "WAVE RADIUS:",
+        "value": "1500"
+      },
+      {
+        "key": "blast_speed",
+        "header": "WAVE SPEED:",
+        "value": "1500"
+      },
+      {
+        "key": "buff_duration",
+        "header": "DURATION:",
+        "value": [
+          "7",
+          "8",
+          "9"
+        ]
+      },
+      {
+        "key": "blind_duration",
+        "header": "BLIND DURATION:",
+        "value": "4"
+      },
+      {
+        "key": "bonus_ms",
+        "header": "BONUS MOVEMENT SPEED:",
+        "value": [
+          "15%",
+          "25%",
+          "35%"
+        ]
+      },
+      {
+        "key": "basic_dispel",
+        "header": "BASIC DISPEL:",
+        "value": "1",
+        "generated": true
+      },
+      {
+        "key": "fade_delay",
+        "header": "FADE DELAY:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "apply_parry_bonus",
+        "header": "APPLY PARRY BONUS:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "abilitycastrange",
+        "header": "CAST RANGE:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "abilitycastpoint",
+        "header": "CAST TIME:",
+        "value": "0.3",
+        "generated": true
+      }
+    ],
+    "lore": "Eying either threat or opportunity, Shodo masters slip instantly into shadow to reset the terms of any engagement in their own favor.",
+    "mc": [
+      "100",
+      "125",
+      "150"
+    ],
+    "cd": [
+      "40",
+      "35",
+      "30"
+    ],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_ravens_veil.png"
+  },
+  "kez_ravens_veil_ad": {
+    "behavior": "No Target",
+    "attrib": [],
+    "img": "/apps/dota2/images/dota_react/abilities/kez_ravens_veil_ad.png"
   }
 }

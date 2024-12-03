@@ -650,7 +650,7 @@
         "color": "Gray",
         "gradient_id": 0,
         "title": "Lasting Presence",
-        "description": "Дебафф от Presence of the Dark Lord временно повышается при смерти врага рядом. Максимум душ увеличивается на 1 за убитого героя, пока SF не умрёт."
+        "description": "Снижение брони от Presence of the Dark Lord временно повышается, когда рядом погибает вражеский герой. Максимум душ увеличивается на 1 за каждого убитого героя, пока владелец аспекта не умрёт."
       },
       {
         "id": 1,
@@ -2182,7 +2182,7 @@
         "color": "Blue",
         "gradient_id": 2,
         "title": "Repair Bots",
-        "description": "March of the Machines накладывают эффект постепенного лечения на союзников, сквозь которых проезжают. Лечение от нескольких роботов не складывается."
+        "description": "Роботы от March of the Machines накладывают эффект постепенного лечения на союзников, сквозь которых проезжают. Лечение от нескольких роботов не складывается."
       },
       {
         "id": 1,
@@ -2191,7 +2191,7 @@
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Translocator",
-        "description": "Когда барьер от Self-Defense Matrix полностью расходуется, герой мгновенно перемещается в случайном направлении впереди себя. Тип развеивания: обычное"
+        "description": "Когда барьер от способности Self-Defense Matrix полностью расходуется на её владельце, он мгновенно перемещается в случайном направлении впереди себя.<br><br>ТИП РАЗВЕИВАНИЯ: обычное"
       }
     ]
   },
@@ -2383,7 +2383,7 @@
         "color": "Gray",
         "gradient_id": 3,
         "title": "Black Grimoire",
-        "description": "Герой начинает игру с расходуемым предметом Black Grimoire, применение которого даёт доп. опыт за каждое участие в убийстве. Изначально имеет 1 заряд.",
+        "description": "Герой начинает игру с расходуемым предметом Black Grimoire, применение которого даёт дополнительный опыт за каждое участие в убийстве. Изначально имеет 1 заряд.",
         "abilities": [
           "warlock_black_grimoire"
         ]
@@ -2470,7 +2470,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_strength_8",
+        "name": "special_bonus_strength_7",
         "level": 1
       },
       {
@@ -2696,11 +2696,11 @@
         "level": 2
       },
       {
-        "name": "special_bonus_cleave_35",
+        "name": "special_bonus_cleave_40",
         "level": 3
       },
       {
-        "name": "special_bonus_attack_speed_70",
+        "name": "special_bonus_attack_speed_60",
         "level": 3
       },
       {
@@ -3095,7 +3095,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_luna_1",
+        "name": "special_bonus_unique_luna_lunar_orbit_glaive_count",
         "level": 2
       },
       {
@@ -3103,7 +3103,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_luna_8",
+        "name": "special_bonus_unique_luna_1",
         "level": 3
       },
       {
@@ -3307,7 +3307,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_clockwerk_9",
+        "name": "special_bonus_unique_clockwerk_hookshot_damage",
         "level": 1
       },
       {
@@ -3483,7 +3483,7 @@
         "color": "Blue",
         "gradient_id": 2,
         "title": "Ironwood Treant",
-        "description": "Способность Nature's Call создаёт только 1 энта, который является осадным существом и имеет больше здоровья, урона, обзора и скорости передвижения."
+        "description": "Способность Nature's Call создаёт только 1 =1 =1 =1 энта, который является осадным существом и имеет больше здоровья, урона, обзора и скорости передвижения."
       }
     ]
   },
@@ -3907,7 +3907,7 @@
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Incendiary",
-        "description": "Burning Spears наносят периодический урон в процентах от макс. HP и уменьшает длительность горения.  Спелл расходует максимальное HP вместо текущего."
+        "description": "Добавляет способности Burning Spears периодический урон в процентах от максимального здоровья и уменьшает длительность горения. Вместо текущего здоровья способность расходует максимальное."
       }
     ]
   },
@@ -4190,7 +4190,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_jakiro_dualbreath_slow",
+        "name": "special_bonus_unique_jakiro_dualbreath_cooldown",
         "level": 1
       },
       {
@@ -4529,7 +4529,7 @@
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Devil's Bargain",
-        "description": "Позволяет герою продавать предметы за 90% от их стоимости, но увеличивает стоимость выкупа на 20%.",
+        "description": "Позволяет герою продавать предметы за %bonus_item_sellback_percent% от их стоимости, но увеличивает стоимость выкупа на %bonus_buyback_penalty%%.",
         "abilities": [
           "doom_bringer_devils_bargain"
         ]
@@ -4937,7 +4937,7 @@
         "color": "Purple",
         "gradient_id": 0,
         "title": "Agnostic",
-        "description": "Каждый уровень сфер пассивно дарует герою периодический урон, скорость атаки и урон от атак."
+        "description": "Каждый уровень сфер пассивно дарует герою <font color='#7998b5'>периодический урон</font>, <font color='#d671a9'>скорость атаки</font> и <font color='#cabe68'>урон от атак</font>."
       },
       {
         "id": 1,
@@ -4946,7 +4946,7 @@
         "color": "Gray",
         "gradient_id": 0,
         "title": "Elitist",
-        "description": "Активные сферы даруют герою вампиризм, скорость передвижения и дополнительный урон от заклинаний."
+        "description": "Активные сферы даруют герою <font color='#7998b5'>вампиризм</font>, <font color='#d671a9'>скорость передвижения</font> и <font color='#cabe68'>доп. урон от заклинаний</font>."
       }
     ]
   },
@@ -5552,7 +5552,7 @@
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Primeval Power",
-        "description": "Базовый урон от атак этого героя увеличивается на 5 за каждый его уровень."
+        "description": "Базовый урон от атак этого героя увеличивается на 6 за каждый его уровень."
       },
       {
         "id": 1,
@@ -5626,7 +5626,7 @@
         "color": "Blue",
         "gradient_id": 1,
         "title": "Learning Curve",
-        "description": "Уровень, нужный для изучения всех способностей и талантов, снижается на 1. На первом уровне герой имеет 0 очков способностей, а на втором - 3 очка."
+        "description": "Уровень, требуемый для изучения всех способностей и талантов, снижается на 1. На первом уровне герой имеет 0 очков способностей, а на втором получает 3 очка."
       }
     ]
   },
@@ -6036,7 +6036,7 @@
         "color": "Gray",
         "gradient_id": 3,
         "title": "Recall",
-        "description": "Этот аспект дарует способность Recall",
+        "description": "После небольшой задержки телепортирует указанного союзного героя к себе. Если во время задержки цель способности получит урон от игрока, телепортация прервётся. Применение способности увеличивает скорость передвижения цели. При успешной телепортации применяет на цель и на владельца способности эффект Chakra Magic и также ускоряет их передвижение.\n\nАльтернативное применение телепортирует владельца способности к выбранному герою. \n\n Уровень этой способности повышается вместе со Spirit Form.",
         "abilities": [
           "keeper_of_the_light_recall"
         ]
@@ -6318,7 +6318,7 @@
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Venomous Volley",
-        "description": "Каждая пятая атака героя становится отравленной, отчего ненадолго замедляет передвижение, атаку и применение заклинаний жертвы.",
+        "description": "Каждая 5-я атака героя становится отравленной, отчего ненадолго замедляет передвижение, атаку и применение заклинаний жертвы.",
         "abilities": [
           "medusa_venomed_volley"
         ]
@@ -6594,7 +6594,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Twisted Chakram",
-        "description": "Этот аспект дарует способность Twisted Chakram.",
+        "description": "Выпускает в указанную точку пилу, идентичную пиле от способности Chakram. Она виляет из стороны в сторону и возвращается к владельцу, нанося урон задетым врагам и замедляя их передвижение. Замедление усиливается за каждые 5% отсутствующего у жертвы здоровья.",
         "abilities": [
           "shredder_twisted_chakram"
         ]
@@ -6739,7 +6739,7 @@
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Drinking Buddies",
-        "description": "Даёт способность Drinking Buddies, которая притягивает союзника и увеличивает как ему, так и владельцу скорость передвижения и урон.",
+        "description": "Даёт способность Drinking Buddies , которая притягивает союзника и увеличивает как ему, так и владельцу скорость передвижения и урон.",
         "abilities": [
           "tusk_drinking_buddies"
         ]
@@ -7091,11 +7091,11 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_unique_earth_spirit_4",
+        "name": "special_bonus_unique_earth_spirit_5",
         "level": 1
       },
       {
-        "name": "special_bonus_spell_amplify_10",
+        "name": "special_bonus_spell_amplify_8",
         "level": 1
       },
       {
@@ -7111,7 +7111,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_earth_spirit_5",
+        "name": "special_bonus_unique_earth_spirit_4",
         "level": 3
       },
       {
@@ -7140,7 +7140,7 @@
         "color": "Gray",
         "gradient_id": 2,
         "title": "Stepping Stone",
-        "description": "Вместо зарядов Stone Remnant имеет перезарядку в 4 сек. Способность Rolling Boulder не разрушает каменные копии."
+        "description": "Вместо зарядов Stone Remnant имеет перезарядку в {s:bonus_AbilityCooldown} сек. Способность Rolling Boulder не разрушает каменные копии."
       },
       {
         "id": 2,
@@ -7691,7 +7691,7 @@
         "color": "Red",
         "gradient_id": 2,
         "title": "Wukong's Faithful",
-        "description": "Солдаты от Wukong's Command существуют дольше и исчезают только через 4 сек. после выхода героя из круга."
+        "description": "Солдаты от Wukong's Command существуют дольше и исчезают только через 4.0 сек. после выхода героя из круга."
       },
       {
         "id": 1,
@@ -8510,6 +8510,66 @@
         "gradient_id": 3,
         "title": "Center Stage",
         "description": "Этот герой только познаёт азы новой для него сцены, так что этот аспект ничего не делает... пока что."
+      }
+    ]
+  },
+  "npc_dota_hero_kez": {
+    "abilities": [
+      "kez_echo_slash",
+      "kez_grappling_claw",
+      "kez_kazurai_katana",
+      "kez_switch_weapons",
+      "generic_hidden",
+      "kez_raptor_dance",
+      "kez_falcon_rush",
+      "kez_talon_toss",
+      "kez_shodo_sai",
+      "kez_ravens_veil",
+      "kez_shodo_sai_parry_cancel"
+    ],
+    "talents": [
+      {
+        "name": "special_bonus_magic_resistance_12",
+        "level": 1
+      },
+      {
+        "name": "special_bonus_mp_regen_150",
+        "level": 1
+      },
+      {
+        "name": "special_bonus_unique_kez_falcon_rush_duration",
+        "level": 2
+      },
+      {
+        "name": "special_bonus_unique_kez_ravens_veil_mark_parry_bonus",
+        "level": 2
+      },
+      {
+        "name": "special_bonus_unique_kez_kazura_katana_bleed_damage",
+        "level": 3
+      },
+      {
+        "name": "special_bonus_unique_kez_falcon_rush_evasion",
+        "level": 3
+      },
+      {
+        "name": "special_bonus_unique_kez_mark_damage",
+        "level": 4
+      },
+      {
+        "name": "special_bonus_unique_kez_echo_slash_strike_count",
+        "level": 4
+      }
+    ],
+    "facets": [
+      {
+        "id": 0,
+        "name": "kez_default",
+        "icon": "kez",
+        "color": "Blue",
+        "gradient_id": 3,
+        "title": "Hero of the Flightless",
+        "description": "Этот герой ещё успеет вас удивить парочкой припрятанных приёмов, но сейчас ему важнее выиграть войну, так что этот аспект ничего не делает... пока что."
       }
     ]
   }
