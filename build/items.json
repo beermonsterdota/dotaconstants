@@ -3420,7 +3420,7 @@
       {
         "type": "passive",
         "title": "Empower Spell",
-        "description": "The next Unit Target spell you cast on an enemy deals a separate 250 additional damage and applies a debuff that slows the target by 30% and disables their passives for 3s."
+        "description": "The next Unit Target spell you cast on an enemy deals a separate 250 additional damage and applies a debuff that slows the target by 30% and disables their passives for 4s."
       }
     ],
     "hint": [],
@@ -3457,7 +3457,7 @@
       },
       {
         "key": "slow_duration",
-        "value": "3"
+        "value": "4"
       },
       {
         "key": "bonus_spell_damage",
@@ -3466,7 +3466,7 @@
     ],
     "mc": false,
     "hc": false,
-    "cd": 12,
+    "cd": 10,
     "lore": "",
     "components": [
       "phylactery",
@@ -4768,7 +4768,7 @@
       {
         "type": "active",
         "title": "Soul Release",
-        "description": "Provides 30 health regeneration when cast on allies, and deals 25 damage per second when cast on enemies. \n\nLasts 8 seconds. \n\nGains charges every time an enemy hero dies within 1400 units. Only the closest Urn to the dying hero will gain a charge."
+        "description": "Provides 30 health regeneration when cast on allies, and deals 25 damage per second when cast on enemies. \n\nLasts 8 seconds.\n\nIf the unit is attacked by an enemy hero or Roshan, the effect is lost.\n\nGains charges every time an enemy hero dies within 1400 units. Only the closest Urn to the dying hero will gain a charge."
       }
     ],
     "hint": [],
@@ -5050,7 +5050,7 @@
       {
         "key": "bonus_attack_speed",
         "display": "+ {value} Attack Speed",
-        "value": "40"
+        "value": "35"
       },
       {
         "key": "bonus_damage",
@@ -5060,7 +5060,7 @@
       {
         "key": "bonus_mana_regen",
         "display": "+ {value} Mana Regeneration",
-        "value": "3.25"
+        "value": "3"
       },
       {
         "key": "bonus_health_regen",
@@ -5145,12 +5145,12 @@
       {
         "key": "bonus_attack_speed",
         "display": "+ {value} Attack Speed",
-        "value": "100"
+        "value": "95"
       },
       {
         "key": "bonus_mana_regen",
         "display": "+ {value} Mana Regeneration",
-        "value": "3.5"
+        "value": "3.25"
       },
       {
         "key": "bonus_health_regen",
@@ -7593,7 +7593,7 @@
       {
         "type": "active",
         "title": "Soul Release",
-        "description": "When used against enemies, it reduces health by 4% of current health per second, and reduces HP regeneration, healing, lifesteal and Spell lifesteal by 60%. Deals 25 damage per second. \n\nWhen used on allies, it provides 40 health regeneration per second. \n\nLasts 8 seconds. \n\nGains charges every time an enemy hero dies within 1400 units or the user dies. Only the closest Spirit Vessel to the dying hero will gain a charge."
+        "description": "When used against enemies, it reduces health by 4% of current health per second, and reduces HP regeneration, healing, lifesteal and Spell lifesteal by 60%. Deals 25 damage per second. \n\nWhen used on allies, it provides 40 health regeneration per second. \n\nLasts 8 seconds.\n\nIf the unit is attacked by an enemy hero or Roshan, the effect is lost.\n\nGains charges every time an enemy hero dies within 1400 units or the user dies. Only the closest Spirit Vessel to the dying hero will gain a charge."
       }
     ],
     "hint": [],
@@ -9402,7 +9402,7 @@
       {
         "type": "passive",
         "title": "Cold Attack",
-        "description": "Attacks lower enemy movement by -20% if they are melee and -50% if they are ranged, as well as their attack speed by -10% if they are melee and -20% if they are ranged. Additionally it reduces all healing, lifesteal and regen by 40% Lasts for 3 seconds."
+        "description": "Attacks lower enemy movement by -25% if they are melee and -50% if they are ranged. Attacks also lower enemy attack speed by -20%. Additionally it reduces all healing, lifesteal and regen by 40% Lasts for 3 seconds."
       }
     ],
     "hint": [],
@@ -9430,11 +9430,11 @@
       },
       {
         "key": "cold_slow_melee",
-        "value": "-20"
+        "value": "-25"
       },
       {
         "key": "cold_attack_slow_melee",
-        "value": "-10"
+        "value": "-20"
       },
       {
         "key": "cold_slow_ranged",
@@ -10649,7 +10649,7 @@
       {
         "type": "passive",
         "title": "Corrosion",
-        "description": "Your attacks reduce the target's armor by -3, slows their movement by -16% (-6% against melee targets), and reduces heals, health regeneration, lifesteal and Spell lifesteal by 16% for 3 seconds."
+        "description": "Your attacks reduce the target's armor by -3, slows their movement by -16% (-8% against melee targets), and reduces heals, health regeneration, lifesteal and Spell lifesteal by 16% for 3 seconds."
       }
     ],
     "hint": [],
@@ -10667,7 +10667,7 @@
       },
       {
         "key": "slow_melee",
-        "value": "-6"
+        "value": "-8"
       },
       {
         "key": "slow_ranged",
@@ -10684,7 +10684,7 @@
       {
         "key": "bonus_agility",
         "display": "+ {value} Agility",
-        "value": "8"
+        "value": "7"
       }
     ],
     "mc": false,
@@ -10704,7 +10704,7 @@
       {
         "type": "passive",
         "title": "Frost",
-        "description": "Your attacks slow the target's movement by -13% (-5% against melee targets) and reduces heals, health regeneration, lifesteal and Spell lifesteal by 13%. Lasts for 3 seconds."
+        "description": "Your attacks slow the target's movement by -13% (-6% against melee targets) and reduces heals, health regeneration, lifesteal and Spell lifesteal by 13%. Lasts for 3 seconds."
       }
     ],
     "hint": [],
@@ -10717,7 +10717,7 @@
     "attrib": [
       {
         "key": "slow_melee",
-        "value": "-5"
+        "value": "-6"
       },
       {
         "key": "slow_ranged",
@@ -11852,7 +11852,7 @@
     ],
     "mc": false,
     "hc": false,
-    "cd": 20,
+    "cd": 15,
     "lore": "A simple but effective weapon devised to quell a great Hellbear uprising.",
     "components": [
       "quelling_blade",
@@ -11965,7 +11965,7 @@
     "id": 209,
     "img": "/apps/dota2/images/dota_react/items/recipe.png?t=1593393829403",
     "dname": "Heaven's Halberd Recipe",
-    "cost": 275,
+    "cost": 450,
     "behavior": false,
     "notes": "",
     "attrib": [],
@@ -12046,8 +12046,7 @@
     "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
     "components": [
       "vanguard",
-      "crown",
-      "ring_of_regen"
+      "crown"
     ],
     "created": true,
     "charges": false
@@ -12255,7 +12254,7 @@
       {
         "type": "active",
         "title": "Glimmer",
-        "description": "After a 0.5 second delay, grants invisibility, 40 movement speed and a magic damage barrier that absorbs up to 300 damage to you or a target allied unit for 5 seconds.\n\nCan be cast while channeling."
+        "description": "After a 0.5 second delay, grants invisibility, 20 movement speed and a magic damage barrier that absorbs up to 300 damage to you or a target allied unit for 5 seconds.\n\nCan be cast while channeling."
       }
     ],
     "hint": [],
@@ -12286,7 +12285,7 @@
       },
       {
         "key": "active_movement_speed",
-        "value": "40"
+        "value": "20"
       },
       {
         "key": "duration",
@@ -12302,7 +12301,7 @@
         "value": "300"
       }
     ],
-    "mc": 90,
+    "mc": 125,
     "hc": false,
     "cd": 14,
     "lore": "The stolen cape of a master illusionist.",
@@ -13514,7 +13513,7 @@
       {
         "type": "passive",
         "title": "Silence Strike",
-        "description": "The next attack silences the hit enemy for 2 seconds."
+        "description": "The next attack silences the hit enemy for 1.5 seconds."
       }
     ],
     "hint": [],
@@ -13534,7 +13533,7 @@
       },
       {
         "key": "duration",
-        "value": "2.0"
+        "value": "1.5"
       }
     ],
     "mc": false,
@@ -14145,7 +14144,7 @@
     ],
     "mc": false,
     "hc": false,
-    "cd": 60,
+    "cd": 70,
     "lore": "Former plaything of a young deity, received as a gift from his uncle.",
     "components": null,
     "created": false,
@@ -14219,7 +14218,7 @@
       {
         "type": "active",
         "title": "Life Essence",
-        "description": "Increases your current and max health by 240 for 15 seconds."
+        "description": "Increases your current and max health by 240 for 10 seconds."
       }
     ],
     "hint": [],
@@ -14247,10 +14246,10 @@
       },
       {
         "key": "health_gain_duration",
-        "value": "15"
+        "value": "10"
       }
     ],
-    "mc": 150,
+    "mc": 160,
     "hc": false,
     "cd": 25,
     "lore": "An ancient bauble blessed by the breath of Verodicia.",
@@ -14381,7 +14380,7 @@
         "value": "0"
       }
     ],
-    "mc": false,
+    "mc": 100,
     "hc": false,
     "cd": 60,
     "lore": "Valuable equipment recovered by a young explorer sifting through the flotsam and detritus drifting in the void.",
@@ -14745,7 +14744,7 @@
       {
         "type": "active",
         "title": "Fallen Sky",
-        "description": "Transform into a meteor that strikes down at the target area after 1 seconds in a 315 AoE, stunning enemies for 1.6 seconds and dealing impact damage. Continues to deal damage every 1 seconds to enemy units and buildings for 6 seconds.\n\nBuilding Impact Damage: 75 \nBuilding Over Time Damage: 60 \n\nNon-Building Impact Damage: 150 \nNon-Building Over Time Damage: 60"
+        "description": "Transform into a meteor that strikes down at the target area after 1 seconds in a 315 AoE, stunning enemies for 1.6 seconds and dealing impact damage. Continues to deal damage every 1 seconds to enemy units and buildings for 6 seconds.\n\nBuilding Impact Damage: 75 \nBuilding Over Time Damage: 60 \n\nNon-Building Impact Damage: 150 \nNon-Building Over Time Damage: 60\n\nFallen Sky cannot be used for 3 seconds after taking damage from an enemy hero or Roshan."
       }
     ],
     "hint": [],
@@ -14819,7 +14818,7 @@
     ],
     "mc": false,
     "hc": false,
-    "cd": 15,
+    "cd": 25,
     "lore": "One of the few surviving creations of the acolytes of the Wyrmforge.",
     "components": null,
     "created": false,
@@ -14830,7 +14829,7 @@
       {
         "type": "passive",
         "title": "Plunder",
-        "description": "Steals 150 gold from enemy heroes that die within 1200 units. If the wearer is the killer, there is no range limit and an additional 150 gold is stolen."
+        "description": "Steals 150 gold from enemy heroes that die within 1200 units. If the wearer is the killer, there is no range limit and an additional 400 gold is stolen."
       },
       {
         "type": "passive",
@@ -14851,7 +14850,7 @@
       },
       {
         "key": "gold_steal_kill",
-        "value": "150"
+        "value": "400"
       },
       {
         "key": "gold_steal_range",
@@ -15060,7 +15059,7 @@
       {
         "key": "duration",
         "display": "DURATION: {value}",
-        "value": "5"
+        "value": "3"
       }
     ],
     "mc": false,
@@ -16329,7 +16328,7 @@
       {
         "type": "passive",
         "title": "Dark Mercy",
-        "description": "Your attacks deal 3 more damage to enemies for each 5% HP they are missing."
+        "description": "Your attacks deal 3 more damage to enemies for each 7% HP they are missing."
       }
     ],
     "hint": [],
@@ -16345,7 +16344,7 @@
       },
       {
         "key": "missing_hp",
-        "value": "5"
+        "value": "7"
       },
       {
         "key": "damage",
@@ -16442,7 +16441,7 @@
       {
         "type": "active",
         "title": "Pig, Out!",
-        "description": "Turns your hero into a critter for 4 seconds and gives them +15% Movement Speed."
+        "description": "Turns your hero into a critter for 3 seconds and gives them +20% Movement Speed."
       }
     ],
     "hint": [],
@@ -16455,7 +16454,7 @@
     "attrib": [
       {
         "key": "duration",
-        "value": "4"
+        "value": "3"
       },
       {
         "key": "all_stats",
@@ -16463,12 +16462,12 @@
       },
       {
         "key": "active_movespeed_pct",
-        "value": "15"
+        "value": "20"
       }
     ],
     "mc": false,
     "hc": false,
-    "cd": 25,
+    "cd": 20,
     "lore": "A makeshift charm misplaced by a peace-loving, addlebrained enchanter.",
     "components": null,
     "created": false,
@@ -18724,7 +18723,7 @@
       {
         "key": "magic_res",
         "display": "+ {value}% Magic Resistance",
-        "value": "0 / 10 / 16 / 22"
+        "value": "0 / 10 / 14 / 18"
       }
     ],
     "mc": false,
@@ -18771,7 +18770,7 @@
       {
         "key": "health_bonus",
         "display": "+ {value} Health",
-        "value": "125 / 175 / 225 / 275"
+        "value": "125 / 165 / 205 / 245"
       },
       {
         "key": "health_regen",
@@ -19004,12 +19003,12 @@
       {
         "key": "attack_lifesteal",
         "display": "+ {value}% Lifesteal",
-        "value": "12 / 16 / 20"
+        "value": "12 / 14 / 16"
       },
       {
         "key": "spell_lifesteal",
         "display": "+ {value}% Spell Lifesteal",
-        "value": "8 / 12 / 16"
+        "value": "8 / 10 / 12"
       },
       {
         "key": "attack_damage",
@@ -19115,7 +19114,7 @@
       {
         "type": "passive",
         "title": "Relentless",
-        "description": "Increases slow resistance by 100%. This bonus is reduced by 20% for every enemy hero within 300 units."
+        "description": "Increases slow resistance by 100%. This bonus is reduced by 20% for every enemy hero within 300 units.\n\nIncreases status resistance by 10% for every enemy hero within 300 units."
       }
     ],
     "hint": [],
@@ -19132,6 +19131,10 @@
       {
         "key": "hero_reduction",
         "value": "20"
+      },
+      {
+        "key": "status_res_pct_increase_per_hero",
+        "value": "10"
       },
       {
         "key": "hero_check_radius",
@@ -19151,7 +19154,7 @@
       {
         "type": "active",
         "title": "Bottoms Up",
-        "description": "Restores 60 + 2% of the caster's maximum mana over 6 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.\n\nHold Control to use on an allied hero."
+        "description": "Restores 30 + 4% of the caster's maximum mana over 6 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.\n\nHold Control to use on an allied hero."
       },
       {
         "type": "passive",
@@ -19174,11 +19177,11 @@
     "attrib": [
       {
         "key": "mana_restore",
-        "value": "60"
+        "value": "30"
       },
       {
         "key": "mana_restore_pct",
-        "value": "2"
+        "value": "4"
       },
       {
         "key": "heal_duration",
@@ -19238,7 +19241,7 @@
     ],
     "mc": false,
     "hc": false,
-    "cd": 30,
+    "cd": 25,
     "lore": "",
     "components": null,
     "created": false,
@@ -19300,7 +19303,7 @@
       {
         "type": "active",
         "title": "Cyclonic Shield",
-        "description": "Envelops the caster in an all damage barrier that absorbs 75% of incoming damage up to a max of 400. Lasts for up to 10 seconds and while the barrier is active you have 50% Slow Resistance."
+        "description": "Envelops the caster in an all damage barrier that absorbs 75% of incoming damage up to a max of 250. Lasts for up to 10 seconds and while the barrier is active you have 50% Slow Resistance."
       }
     ],
     "hint": [],
@@ -19320,7 +19323,7 @@
       },
       {
         "key": "barrier_amount",
-        "value": "400"
+        "value": "250"
       },
       {
         "key": "barrier_pct",
@@ -19344,7 +19347,7 @@
       {
         "type": "passive",
         "title": "Beat the Crowd",
-        "description": "Your next attack deals an additional 120 magic damage and splashes to units within 250 units for 50% of the original attack's damage."
+        "description": "Your next attack deals an additional 120 magic damage and splashes to units within 250 units for 50% of the original attack's damage plus the additional magic damage."
       }
     ],
     "hint": [],
@@ -19380,7 +19383,7 @@
       {
         "type": "passive",
         "title": "Burn Through",
-        "description": "Instances of magic damage from spells over 40 ignites enemies, causing them to take 75 magic damage over 5 seconds."
+        "description": "Instances of magic damage from spells over 55 ignites enemies, causing them to take 75 magic damage over 5 seconds."
       }
     ],
     "hint": [],
@@ -19392,7 +19395,7 @@
     "attrib": [
       {
         "key": "damage_threshold",
-        "value": "40"
+        "value": "55"
       },
       {
         "key": "burn_damage",
@@ -19420,7 +19423,7 @@
       {
         "type": "passive",
         "title": "Gut 'Em",
-        "description": "Attacks have a 20% chance to have True Strike and deal 10% of the target's current health as bonus physical damage. Deals a flat bonus of 200 against Roshan."
+        "description": "Attacks have a 20% chance to have True Strike and deal 8% of the target's current health as bonus physical damage. Deals a flat bonus of 200 against Roshan."
       }
     ],
     "hint": [],
@@ -19436,7 +19439,7 @@
       },
       {
         "key": "hp_dmg",
-        "value": "10"
+        "value": "8"
       },
       {
         "key": "hp_dmg_rosh",
@@ -19456,7 +19459,7 @@
       {
         "type": "active",
         "title": "Ribbit",
-        "description": "Increases the health regeneration of a target ally by 8 for 10 seconds. While standing in water, the blessed unit also moves 10% faster."
+        "description": "Increases the health regeneration of a target ally by 8 for 14 seconds. While standing in water, the blessed unit also moves 10% faster."
       }
     ],
     "hint": [],
@@ -19485,7 +19488,7 @@
       },
       {
         "key": "duration",
-        "value": "10"
+        "value": "14"
       }
     ],
     "mc": 40,
@@ -19541,7 +19544,7 @@
       {
         "type": "active",
         "title": "Retribution",
-        "description": "For the next 6 seconds, 60% of damage taken by the caster is reflected to the target unit as physical damage."
+        "description": "For the next 6 seconds, 75% of damage taken by the caster is reflected to the target unit as physical damage."
       }
     ],
     "hint": [],
@@ -19560,7 +19563,7 @@
     "attrib": [
       {
         "key": "damage_pct",
-        "value": "60"
+        "value": "75"
       },
       {
         "key": "damage_time",

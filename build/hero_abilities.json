@@ -3403,7 +3403,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Nothl Boon",
-        "description": "Dazzle's overhealing is converted into a barrier. Weave is stronger on allies.",
+        "description": "Dazzle's overhealing is converted into a barrier. Weave is stronger on allies and amplifies incoming heals from Dazzle.",
         "abilities": [
           "dazzle_nothl_boon"
         ]
@@ -4657,7 +4657,7 @@
         "color": "Gray",
         "gradient_id": 0,
         "title": "Forsaken",
-        "description": "Spectre deals 1.75x damage with Desolate. Spectre's illusions no longer have Desolate."
+        "description": "Spectre deals 2x damage with Desolate. Spectre's illusions no longer have Desolate."
       },
       {
         "id": 1,
@@ -5174,7 +5174,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Scholar of Koryx",
-        "description": "<font color='#7998b5'>Quas</font> gains an additional max level. When Invoker reaches level 6, <font color='#7998b5'>Quas</font> gains an additional level.<br><br>When <b>Cold Snap</b> triggers, Invoker is healed.<br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Ghost Walk</b> and grants 2 current and max levels to <font color='#7998b5'>Quas</font>, increasing it to 10.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>Ice Wall</b>."
+        "description": "<font color='#7998b5'>Quas</font> gains an additional max level. When Invoker reaches level 6, <font color='#7998b5'>Quas</font> gains an additional level.<br><br>When <b>Cold Snap</b> triggers, Invoker is healed and restores some mana.<br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Ghost Walk</b> and grants 2 current and max levels to <font color='#7998b5'>Quas</font>, increasing it to 10.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>Ice Wall</b>."
       },
       {
         "id": 3,
@@ -6594,7 +6594,7 @@
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Venomous Volley",
-        "description": "Every 5 attacks, Medusa applies poison to her arrow that briefly reduces movement speed, attack speed, and cast speed.",
+        "description": "Every 6 attacks, Medusa applies poison to her arrow that briefly reduces movement speed, attack speed, and cast speed.",
         "abilities": [
           "medusa_venomed_volley"
         ]
@@ -7832,7 +7832,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Recursive",
-        "description": "Winter's Curse is recast on the lowest health enemy hero if the primary target dies. Cursed enemies take 125% physical, magical, and pure damage from Winter Wyvern."
+        "description": "Winter's Curse is recast on the lowest health enemy hero if the primary target dies."
       }
     ]
   },
@@ -7907,7 +7907,7 @@
         "color": "Blue",
         "gradient_id": 1,
         "title": "Runed Replica",
-        "description": "The Tempest Double is infused with the bonuses of Power Runes for 10s when created.<br><br>Level 1 - Invisibility Rune.<br><br>Level 2 - Invisibility and Arcane Runes.<br><br>Level 3 - Invisibility, Arcane, and Haste Runes."
+        "description": "The Tempest Double is infused with the bonuses of Power Runes for 12s when created.<br><br>Level 1 - Invisibility Rune.<br><br>Level 2 - Invisibility and Arcane Runes.<br><br>Level 3 - Invisibility, Arcane, and Haste Runes."
       },
       {
         "id": 3,
@@ -8616,7 +8616,7 @@
       {
         "id": 3,
         "name": "dawnbreaker_hearthfire",
-        "icon": "Speed",
+        "icon": "speed",
         "color": "Yellow",
         "gradient_id": 1,
         "title": "Trailblazer",
@@ -8785,7 +8785,7 @@
         "color": "Red",
         "gradient_id": 0,
         "title": "Provoke the Beast",
-        "description": "Gain 2 Uproar stacks upon being disabled by an enemy hero."
+        "description": "Gain 3 Uproar stacks upon being disabled by an enemy hero."
       },
       {
         "id": 2,
@@ -9034,7 +9034,10 @@
         "color": "Blue",
         "gradient_id": 3,
         "title": "Shadowhawk",
-        "description": "Triggering a Shodo Sai Mark from invisibility deals bonus critical damage.  When Kez triggers a Shodo Sai Mark, reduce the cooldown of Shodo Sai and Kazurai Katana."
+        "description": "Triggering a Shodo Sai Mark from invisibility deals bonus critical damage.",
+        "abilities": [
+          "kez_shadowhawk_passive"
+        ]
       }
     ]
   }
