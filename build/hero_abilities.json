@@ -116,9 +116,7 @@
         "gradient_id": 0,
         "title": "One Man Army",
         "description": "Axe gains Strength based on his armor as long as he's away from his allies.",
-        "abilities": [
-          "axe_one_man_army"
-        ]
+        "abilities": ["axe_one_man_army"]
       },
       {
         "id": 1,
@@ -398,9 +396,7 @@
         "gradient_id": 1,
         "title": "Vantage Point",
         "description": "Drow deals 30% more damage when attacking from high ground.",
-        "abilities": [
-          "drow_ranger_vantage_point"
-        ]
+        "abilities": ["drow_ranger_vantage_point"]
       },
       {
         "id": 1,
@@ -475,9 +471,7 @@
         "gradient_id": 1,
         "title": "Slugger",
         "description": "Enemies killed with Enchant Totem or Earthshaker's other abilities are sent flying, dealing damage to enemies they hit.",
-        "abilities": [
-          "earthshaker_slugger"
-        ]
+        "abilities": ["earthshaker_slugger"]
       }
     ]
   },
@@ -542,9 +536,7 @@
         "gradient_id": 2,
         "title": "Bladeform",
         "description": "Juggernaut gains Agility and Movement Speed as long as he's not taking damage.",
-        "abilities": [
-          "juggernaut_bladeform"
-        ]
+        "abilities": ["juggernaut_bladeform"]
       }
     ]
   },
@@ -601,9 +593,7 @@
         "gradient_id": 1,
         "title": "Moonlight Shadow Facet",
         "description": "Mirana's Ultimate grants allies invisiblity and movement speed.",
-        "abilities": [
-          "mirana_invis"
-        ]
+        "abilities": ["mirana_invis"]
       },
       {
         "id": 1,
@@ -614,9 +604,7 @@
         "gradient_id": 3,
         "title": "Solar Flare",
         "description": "Mirana's Ultimate grants allies increasing attack speed and damage over time.",
-        "abilities": [
-          "mirana_solar_flare"
-        ]
+        "abilities": ["mirana_solar_flare"]
       },
       {
         "id": 2,
@@ -758,9 +746,7 @@
         "gradient_id": 0,
         "title": "Ebb",
         "description": "Morphling's Primary Attribute is now Agility . Waveform attacks enemies in his path.",
-        "abilities": [
-          "morphling_ebb"
-        ]
+        "abilities": ["morphling_ebb"]
       },
       {
         "id": 1,
@@ -770,9 +756,7 @@
         "gradient_id": 0,
         "title": "Flow",
         "description": "Morphling's Primary Attribute is now Strength . Adaptive Strike stuns based on Morphling's strength. Morphling gains 1% Spell Amp per 4 Agility.",
-        "abilities": [
-          "morphling_flow"
-        ]
+        "abilities": ["morphling_flow"]
       }
     ]
   },
@@ -1049,9 +1033,7 @@
         "gradient_id": 0,
         "title": "Dynamo",
         "description": "Razor gains 1% spell amplification for every 20 points of attack damage.",
-        "abilities": [
-          "razor_dynamo"
-        ]
+        "abilities": ["razor_dynamo"]
       }
     ]
   },
@@ -1246,9 +1228,7 @@
         "gradient_id": 0,
         "title": "Wrath of God",
         "description": "Sven gains additional attack damage from Strength.",
-        "abilities": [
-          "sven_wrath_of_god"
-        ]
+        "abilities": ["sven_wrath_of_god"]
       }
     ]
   },
@@ -1314,9 +1294,7 @@
         "gradient_id": 4,
         "title": "Insurmountable",
         "description": "Tiny gains Status and Slow Resistance from Strength. Slow Resistance also reduces the impact of Attack Speed slows.",
-        "abilities": [
-          "tiny_insurmountable"
-        ]
+        "abilities": ["tiny_insurmountable"]
       }
     ]
   },
@@ -1381,9 +1359,7 @@
         "gradient_id": 1,
         "title": "Soul Strike",
         "description": "Vengeful Spirit's ranged attacks behave as if they were melee attacks.",
-        "abilities": [
-          "vengefulspirit_soul_strike"
-        ]
+        "abilities": ["vengefulspirit_soul_strike"]
       }
     ]
   },
@@ -1673,9 +1649,7 @@
         "gradient_id": 0,
         "title": "Slow Burn",
         "description": "Lina's spells deal extra damage over time.",
-        "abilities": [
-          "lina_slow_burn"
-        ]
+        "abilities": ["lina_slow_burn"]
       }
     ]
   },
@@ -1869,9 +1843,7 @@
         "gradient_id": 1,
         "title": "Chicken Fingers",
         "description": "Shadow Shaman's attacks can transform enemies into a chicken.",
-        "abilities": [
-          "shadow_shaman_voodoo_hands"
-        ]
+        "abilities": ["shadow_shaman_voodoo_hands"]
       },
       {
         "id": 2,
@@ -2010,9 +1982,7 @@
         "gradient_id": 0,
         "title": "Krill Eater",
         "description": "Tidehunter grows larger and gains extra bonuses per level.",
-        "abilities": [
-          "tidehunter_krill_eater"
-        ]
+        "abilities": ["tidehunter_krill_eater"]
       }
     ]
   },
@@ -2206,9 +2176,7 @@
         "gradient_id": 3,
         "title": "Event Horizon",
         "description": "Units in a 600 radius moving away from Enigma have a 8% movespeed penalty.",
-        "abilities": [
-          "enigma_event_horizon"
-        ]
+        "abilities": ["enigma_event_horizon"]
       },
       {
         "id": 1,
@@ -2218,9 +2186,7 @@
         "gradient_id": 0,
         "title": "Splitting Image",
         "description": "Enigma spawns Eidolons upon receiving damage.",
-        "abilities": [
-          "enigma_splitting_image"
-        ]
+        "abilities": ["enigma_splitting_image"]
       }
     ]
   },
@@ -2478,9 +2444,7 @@
         "gradient_id": 3,
         "title": "Black Grimoire",
         "description": "Grants Warlock the item Black Grimoire, which can be consumed to gain experience for each kill Warlock participated in. Starts with 1 charge.",
-        "abilities": [
-          "warlock_black_grimoire"
-        ]
+        "abilities": ["warlock_black_grimoire"]
       }
     ]
   },
@@ -2602,9 +2566,7 @@
         "gradient_id": 0,
         "title": "Succubus Facet",
         "description": "All sources of Spell Lifesteal also apply to Pure Damage. Queen of Pain gains Spell Lifesteal that increases with proximity to her enemies. Lifesteal is at its maximum when the enemy is 300 units or closer to her and at its minimum when the enemy is 800 units or further from her.",
-        "abilities": [
-          "queenofpain_succubus"
-        ]
+        "abilities": ["queenofpain_succubus"]
       },
       {
         "id": 1,
@@ -2614,9 +2576,7 @@
         "gradient_id": 0,
         "title": "Masochist",
         "description": "Queen of Pain has bonus Spell Amplification but a percentage of her spell damage is reflected back to her.",
-        "abilities": [
-          "queenofpain_masochist"
-        ]
+        "abilities": ["queenofpain_masochist"]
       },
       {
         "id": 2,
@@ -2626,9 +2586,7 @@
         "gradient_id": 0,
         "title": "Bondage",
         "description": "Queen of Pain returns spell damage back to enemies.",
-        "abilities": [
-          "queenofpain_bondage"
-        ]
+        "abilities": ["queenofpain_bondage"]
       }
     ]
   },
@@ -2758,9 +2716,7 @@
         "gradient_id": 0,
         "title": "Chronosphere",
         "description": "Faceless Void can cast Chronosphere , trapping enemies in a sphere.",
-        "abilities": [
-          "faceless_void_chronosphere"
-        ]
+        "abilities": ["faceless_void_chronosphere"]
       },
       {
         "id": 2,
@@ -2770,9 +2726,7 @@
         "gradient_id": 1,
         "title": "Time Zone",
         "description": "Faceless Void can cast Time Zone , dramatically slowing down enemies and speeding up allies in an area.",
-        "abilities": [
-          "faceless_void_time_zone"
-        ]
+        "abilities": ["faceless_void_time_zone"]
       }
     ]
   },
@@ -2828,9 +2782,7 @@
         "gradient_id": 0,
         "title": "Bone Guard",
         "description": "Wraith King can summon skeletons to fight for him.",
-        "abilities": [
-          "skeleton_king_bone_guard"
-        ]
+        "abilities": ["skeleton_king_bone_guard"]
       },
       {
         "id": 1,
@@ -2840,9 +2792,7 @@
         "gradient_id": 0,
         "title": "Spectral Blade",
         "description": "Wraith King's attacks curse enemies, dealing additional damage after a delay.",
-        "abilities": [
-          "skeleton_king_spectral_blade"
-        ]
+        "abilities": ["skeleton_king_spectral_blade"]
       }
     ]
   },
@@ -2908,9 +2858,7 @@
         "gradient_id": 1,
         "title": "Spirit Collector",
         "description": "Hero deaths empower your next Exorcism.",
-        "abilities": [
-          "death_prophet_spirit_collector"
-        ]
+        "abilities": ["death_prophet_spirit_collector"]
       },
       {
         "id": 2,
@@ -2920,9 +2868,7 @@
         "gradient_id": 1,
         "title": "Mourning Ritual",
         "description": "Death Prophet delays a percentage of incoming damage, taking the damage in even intervals over a short duration.",
-        "abilities": [
-          "death_prophet_mourning_ritual"
-        ]
+        "abilities": ["death_prophet_mourning_ritual"]
       }
     ]
   },
@@ -3404,9 +3350,7 @@
         "gradient_id": 1,
         "title": "Nothl Boon",
         "description": "Dazzle's overhealing is converted into a barrier. Weave is stronger on allies and amplifies incoming heals from Dazzle.",
-        "abilities": [
-          "dazzle_nothl_boon"
-        ]
+        "abilities": ["dazzle_nothl_boon"]
       },
       {
         "id": 1,
@@ -3536,9 +3480,7 @@
         "gradient_id": 1,
         "title": "Chronoptic Nourishment",
         "description": "Leshrac's attacks restore mana.",
-        "abilities": [
-          "leshrac_chronoptic_nourishment"
-        ]
+        "abilities": ["leshrac_chronoptic_nourishment"]
       },
       {
         "id": 1,
@@ -3669,9 +3611,7 @@
         "gradient_id": 3,
         "title": "Corpse Eater",
         "description": "Lifestealer gains 1 HP whenever he kills a creep, and 15 whenever he kills a hero.",
-        "abilities": [
-          "life_stealer_corpse_eater"
-        ]
+        "abilities": ["life_stealer_corpse_eater"]
       },
       {
         "id": 1,
@@ -3682,9 +3622,7 @@
         "gradient_id": 3,
         "title": "Rage",
         "description": "Lifestealer can cast Rage , becoming Debuff Immune and increasing magic resistance.",
-        "abilities": [
-          "life_stealer_rage"
-        ]
+        "abilities": ["life_stealer_rage"]
       },
       {
         "id": 2,
@@ -3695,9 +3633,7 @@
         "gradient_id": 0,
         "title": "Unfettered",
         "description": "Lifestealer can cast Unfettered to dispel himself and become more resilient. Can cast while stunned.",
-        "abilities": [
-          "life_stealer_unfettered"
-        ]
+        "abilities": ["life_stealer_unfettered"]
       },
       {
         "id": 3,
@@ -3771,9 +3707,7 @@
         "gradient_id": 3,
         "title": "Quick Wit",
         "description": "Dark Seer also gains Attack Speed from Intelligence.",
-        "abilities": [
-          "dark_seer_quick_wit"
-        ]
+        "abilities": ["dark_seer_quick_wit"]
       },
       {
         "id": 1,
@@ -3783,9 +3717,7 @@
         "gradient_id": 2,
         "title": "Heart of Battle",
         "description": "Dark Seer moves faster when near other heroes.",
-        "abilities": [
-          "dark_seer_heart_of_battle"
-        ]
+        "abilities": ["dark_seer_heart_of_battle"]
       }
     ]
   },
@@ -3915,9 +3847,7 @@
         "gradient_id": 0,
         "title": "Healing Hammer",
         "description": "Ability damage done to enemies by Omniknight heals him over time.",
-        "abilities": [
-          "omniknight_healing_hammer"
-        ]
+        "abilities": ["omniknight_healing_hammer"]
       }
     ]
   },
@@ -4133,9 +4063,7 @@
         "gradient_id": 0,
         "title": "Night Reign",
         "description": "The game now starts at night instead of day. Night is longer than day. Night Stalker starts with a bonus level of Hunter in the Night.",
-        "abilities": [
-          "night_stalker_night_reign"
-        ]
+        "abilities": ["night_stalker_night_reign"]
       },
       {
         "id": 2,
@@ -4273,9 +4201,7 @@
         "gradient_id": 0,
         "title": "Cutpurse",
         "description": "Bounty Hunter steals gold when targeting enemy heroes with his abilities or items.",
-        "abilities": [
-          "bounty_hunter_cutpurse"
-        ]
+        "abilities": ["bounty_hunter_cutpurse"]
       }
     ]
   },
@@ -4397,9 +4323,7 @@
         "gradient_id": 0,
         "title": "Liquid Fire Facet",
         "description": "Jakiro can imbue his attacks with Attack Speed Slow and Damage over Time in an AoE.",
-        "abilities": [
-          "jakiro_liquid_fire"
-        ]
+        "abilities": ["jakiro_liquid_fire"]
       },
       {
         "id": 1,
@@ -4410,9 +4334,7 @@
         "gradient_id": 1,
         "title": "Liquid Frost Facet",
         "description": "Jakiro can imbue his attacks with Movement Speed Slow and a debuff that amplifies damage from his other spells.",
-        "abilities": [
-          "jakiro_liquid_ice"
-        ]
+        "abilities": ["jakiro_liquid_ice"]
       },
       {
         "id": 2,
@@ -4431,9 +4353,7 @@
         "gradient_id": 1,
         "title": "Ice Breaker",
         "description": "Ice Path lasts longer and detonates upon expiration, dealing damage and stunning enemies a second time. Ice Path can be manually detonated early.",
-        "abilities": [
-          "jakiro_ice_path_detonate"
-        ]
+        "abilities": ["jakiro_ice_path_detonate"]
       }
     ]
   },
@@ -4489,9 +4409,7 @@
         "gradient_id": 1,
         "title": "Stoked",
         "description": "Batrider gains Move Speed and Spell Amplification when displacing enemies.",
-        "abilities": [
-          "batrider_stoked"
-        ]
+        "abilities": ["batrider_stoked"]
       },
       {
         "id": 1,
@@ -4732,9 +4650,7 @@
         "gradient_id": 0,
         "title": "Devil's Bargain",
         "description": "Doom can sell items for 90% of their value, but his buyback costs are increased by 20%.",
-        "abilities": [
-          "doom_bringer_devils_bargain"
-        ]
+        "abilities": ["doom_bringer_devils_bargain"]
       },
       {
         "id": 2,
@@ -4873,9 +4789,7 @@
         "gradient_id": 0,
         "title": "Bear Down",
         "description": "Debuffs inflicted by Ursa last longer.",
-        "abilities": [
-          "ursa_bear_down"
-        ]
+        "abilities": ["ursa_bear_down"]
       }
     ]
   },
@@ -5248,9 +5162,7 @@
         "gradient_id": 1,
         "title": "Irrepressible",
         "description": "Silencer cannot be silenced.",
-        "abilities": [
-          "silencer_irrepressible"
-        ]
+        "abilities": ["silencer_irrepressible"]
       },
       {
         "id": 1,
@@ -5527,9 +5439,7 @@
         "gradient_id": 0,
         "title": "Shadow Servant",
         "description": "Shadow Demon creates illusions of heroes that die near him.",
-        "abilities": [
-          "shadow_demon_shadow_servant"
-        ]
+        "abilities": ["shadow_demon_shadow_servant"]
       }
     ]
   },
@@ -5605,9 +5515,7 @@
         "gradient_id": 1,
         "title": "Bear Necessities",
         "description": "Lone Druid's items are more powerful and his inventory is smaller.",
-        "abilities": [
-          "lone_druid_bear_necessities"
-        ]
+        "abilities": ["lone_druid_bear_necessities"]
       }
     ]
   },
@@ -5664,9 +5572,7 @@
         "gradient_id": 1,
         "title": "Phantasmagoria",
         "description": "All Chaos Knight Illusions are Strong Illusions and take less damage when near him.",
-        "abilities": [
-          "chaos_knight_phantasmagoria"
-        ]
+        "abilities": ["chaos_knight_phantasmagoria"]
       },
       {
         "id": 1,
@@ -5685,9 +5591,7 @@
         "gradient_id": 1,
         "title": "Fundamental Forging",
         "description": "Chaos Knight can craft artifacts from the next tier when making a Neutral Item.",
-        "abilities": [
-          "chaos_knight_fundamental_forging"
-        ]
+        "abilities": ["chaos_knight_fundamental_forging"]
       },
       {
         "id": 3,
@@ -5773,9 +5677,7 @@
         "gradient_id": 1,
         "title": "Pack Rat",
         "description": "All Meepos can use the item in the neutral item slot. ",
-        "abilities": [
-          "meepo_pack_rat"
-        ]
+        "abilities": ["meepo_pack_rat"]
       }
     ]
   },
@@ -6103,9 +6005,7 @@
         "gradient_id": 1,
         "title": "Kinetic Fence",
         "description": "Replaces Kinetic Field with the ability to create impassable walls.",
-        "abilities": [
-          "disruptor_kinetic_fence"
-        ]
+        "abilities": ["disruptor_kinetic_fence"]
       }
     ]
   },
@@ -6227,9 +6127,7 @@
         "gradient_id": 2,
         "title": "Rip Tide",
         "description": "Every 6 attacks from Naga and her illusions, enemies around them are damaged and their Armor is reduced.",
-        "abilities": [
-          "naga_siren_rip_tide"
-        ]
+        "abilities": ["naga_siren_rip_tide"]
       },
       {
         "id": 1,
@@ -6239,9 +6137,7 @@
         "gradient_id": 2,
         "title": "Deluge",
         "description": "Naga Siren can create a splash around herself and her illusions, damaging enemies and reducing their Status Resistance.",
-        "abilities": [
-          "naga_siren_deluge"
-        ]
+        "abilities": ["naga_siren_deluge"]
       }
     ]
   },
@@ -6301,9 +6197,7 @@
         "gradient_id": 1,
         "title": "Solar Bind",
         "description": "Grants the Solar Bind ability while active.",
-        "abilities": [
-          "keeper_of_the_light_radiant_bind"
-        ]
+        "abilities": ["keeper_of_the_light_radiant_bind"]
       },
       {
         "id": 1,
@@ -6312,10 +6206,8 @@
         "color": "Gray",
         "gradient_id": 3,
         "title": "Recall",
-        "description": "After a short delay, teleports the targeted friendly hero to your location. If the targeted friendly hero takes player based damage during this time, the ability is interrupted. When cast, the teleport target's movement speed is increased. Upon teleporting, Chakra Magic and the increased movement speed buff are applied to both Keeper of the Light and the teleport target.\n\n If alt-cast, teleports Keeper of the Light to the target Ally instead. \n\n Ability Level increases with levels of Spirit Form.",
-        "abilities": [
-          "keeper_of_the_light_recall"
-        ]
+        "description": "Grants the Recall ability while active.",
+        "abilities": ["keeper_of_the_light_recall"]
       }
     ]
   },
@@ -6595,9 +6487,7 @@
         "gradient_id": 2,
         "title": "Venomous Volley",
         "description": "Every 6 attacks, Medusa applies poison to her arrow that briefly reduces movement speed, attack speed, and cast speed.",
-        "abilities": [
-          "medusa_venomed_volley"
-        ]
+        "abilities": ["medusa_venomed_volley"]
       },
       {
         "id": 3,
@@ -6607,9 +6497,7 @@
         "gradient_id": 0,
         "title": "Undulation",
         "description": "Medusa's movement speed is fixed at 310 (465 during Stone Gaze). Medusa is unslowable and does not benefit from movement speed increases.",
-        "abilities": [
-          "medusa_undulation"
-        ]
+        "abilities": ["medusa_undulation"]
       }
     ]
   },
@@ -6739,9 +6627,7 @@
         "gradient_id": 3,
         "title": "Horsepower",
         "description": "Centaur Warrunner gains Movement Speed based on his Strength.",
-        "abilities": [
-          "centaur_horsepower"
-        ]
+        "abilities": ["centaur_horsepower"]
       }
     ]
   },
@@ -6903,9 +6789,7 @@
         "gradient_id": 1,
         "title": "Twisted Chakram",
         "description": "Launches a second independent Chakram that follows a curved path and returns to Timbersaw, damaging and slowing enemies it passes through. Enemies caught in the saw blade will move more slowly for every 5% of health missing.",
-        "abilities": [
-          "shredder_twisted_chakram"
-        ]
+        "abilities": ["shredder_twisted_chakram"]
       }
     ]
   },
@@ -7037,9 +6921,7 @@
         "gradient_id": 3,
         "title": "Tag Team",
         "description": "Tusk can cast Tag Team causing nearby enemies to receive bonus damage from attacks.",
-        "abilities": [
-          "tusk_tag_team"
-        ]
+        "abilities": ["tusk_tag_team"]
       },
       {
         "id": 1,
@@ -7049,9 +6931,7 @@
         "gradient_id": 0,
         "title": "Drinking Buddies",
         "description": "Tusk can cast Drinking Buddies , pulling him and a teammate closer and granting both bonus Movement Speed and Attack Damage.",
-        "abilities": [
-          "tusk_drinking_buddies"
-        ]
+        "abilities": ["tusk_drinking_buddies"]
       }
     ]
   },
@@ -7107,9 +6987,7 @@
         "gradient_id": 0,
         "title": "Shield of the Scion",
         "description": "Skywrath Mage gains a magic damage barrier when dealing damage to heroes.",
-        "abilities": [
-          "skywrath_mage_shield_of_the_scion"
-        ]
+        "abilities": ["skywrath_mage_shield_of_the_scion"]
       },
       {
         "id": 1,
@@ -7119,9 +6997,7 @@
         "gradient_id": 2,
         "title": "Staff of the Scion",
         "description": "Skywrath Mage's Cooldowns are reduced when he deals spell damage to enemy heroes.",
-        "abilities": [
-          "skywrath_mage_staff_of_the_scion"
-        ]
+        "abilities": ["skywrath_mage_staff_of_the_scion"]
       }
     ]
   },
@@ -7177,9 +7053,7 @@
         "gradient_id": 0,
         "title": "The Quickening",
         "description": "Units dying nearby Abaddon lower his cooldowns.",
-        "abilities": [
-          "abaddon_the_quickening"
-        ]
+        "abilities": ["abaddon_the_quickening"]
       },
       {
         "id": 1,
@@ -7255,9 +7129,7 @@
         "gradient_id": 0,
         "title": "Momentum",
         "description": "Elder Titan's Base Attack Speed is reduced but his Movement Speed also grants Attack Speed.",
-        "abilities": [
-          "elder_titan_momentum"
-        ]
+        "abilities": ["elder_titan_momentum"]
       }
     ]
   },
@@ -7582,9 +7454,7 @@
         "gradient_id": 2,
         "title": "Dying Light",
         "description": "Phoenix deals 4.5% of his missing health as magic damage to all enemies in a 400 radius every second.",
-        "abilities": [
-          "phoenix_dying_light"
-        ]
+        "abilities": ["phoenix_dying_light"]
       },
       {
         "id": 1,
@@ -7649,9 +7519,7 @@
         "gradient_id": 2,
         "title": "Clairvoyant Curse",
         "description": "Spell amplification increased by 1% per hero level.",
-        "abilities": [
-          "oracle_clairvoyant_curse"
-        ]
+        "abilities": ["oracle_clairvoyant_curse"]
       },
       {
         "id": 1,
@@ -7661,9 +7529,7 @@
         "gradient_id": 1,
         "title": "Clairvoyant Cure",
         "description": "Heal amplification increased by 0.75% per hero level.",
-        "abilities": [
-          "oracle_clairvoyant_cure"
-        ]
+        "abilities": ["oracle_clairvoyant_cure"]
       }
     ]
   },
@@ -7719,9 +7585,7 @@
         "gradient_id": 0,
         "title": "Squee's Scope",
         "description": "Techies gains 1 attack range and attack projectile speed for each point of attack speed.",
-        "abilities": [
-          "techies_squees_scope"
-        ]
+        "abilities": ["techies_squees_scope"]
       },
       {
         "id": 1,
@@ -7740,9 +7604,7 @@
         "gradient_id": 1,
         "title": "Spoon's Stash",
         "description": "Techies stack all previously selected Enchantments onto newly crafted Neutral Items.",
-        "abilities": [
-          "techies_spoons_stash"
-        ]
+        "abilities": ["techies_spoons_stash"]
       }
     ]
   },
@@ -7799,9 +7661,7 @@
         "gradient_id": 0,
         "title": "Essence of the Blueheart",
         "description": "Winter Wyvern's heals also restore mana.",
-        "abilities": [
-          "winter_wyvern_essence_of_the_blueheart"
-        ]
+        "abilities": ["winter_wyvern_essence_of_the_blueheart"]
       },
       {
         "id": 1,
@@ -7812,9 +7672,7 @@
         "gradient_id": 3,
         "title": "Dragon Sight",
         "description": "Winter Wyvern gains bonus damage when her attack range is over 400.",
-        "abilities": [
-          "winter_wyvern_dragon_sight"
-        ]
+        "abilities": ["winter_wyvern_dragon_sight"]
       },
       {
         "id": 2,
@@ -7981,9 +7839,7 @@
         "gradient_id": 3,
         "title": "Abyssal Horde",
         "description": "Fiend's Gate periodically summons minions.",
-        "abilities": [
-          "abyssal_underlord_abyssal_horde"
-        ]
+        "abilities": ["abyssal_underlord_abyssal_horde"]
       }
     ]
   },
@@ -8384,9 +8240,7 @@
         "gradient_id": 3,
         "title": "Symmetry",
         "description": "Void Spirit gains a physical damage barrier when dealing magic damage to enemy heroes.",
-        "abilities": [
-          "void_spirit_symmetry"
-        ]
+        "abilities": ["void_spirit_symmetry"]
       },
       {
         "id": 2,
@@ -8677,9 +8531,7 @@
         "gradient_id": 3,
         "title": "Sidekick",
         "description": "Marci can protect an ally, granting them shared lifesteal and damage. Effect is stronger if she's close to the ally.",
-        "abilities": [
-          "marci_guardian"
-        ]
+        "abilities": ["marci_guardian"]
       },
       {
         "id": 1,
@@ -8690,9 +8542,7 @@
         "gradient_id": 1,
         "title": "Bodyguard Facet",
         "description": "Marci can protect an ally, countering attacks directed towards them if she's in range of the enemy.",
-        "abilities": [
-          "marci_bodyguard"
-        ]
+        "abilities": ["marci_bodyguard"]
       },
       {
         "id": 2,
@@ -8862,9 +8712,7 @@
         "gradient_id": 0,
         "title": "Ofrenda",
         "description": "Muerta can place a beneficial Ofrenda on the map to respawn there instead of the fountain.",
-        "abilities": [
-          "muerta_ofrenda"
-        ]
+        "abilities": ["muerta_ofrenda"]
       }
     ]
   },
@@ -9035,9 +8883,7 @@
         "gradient_id": 3,
         "title": "Shadowhawk",
         "description": "Triggering a Shodo Sai Mark from invisibility deals bonus critical damage.",
-        "abilities": [
-          "kez_shadowhawk_passive"
-        ]
+        "abilities": ["kez_shadowhawk_passive"]
       }
     ]
   }
