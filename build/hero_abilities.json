@@ -3321,7 +3321,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_attack_speed_90",
+        "name": "special_bonus_unique_dazzle_nothl_projection_duration",
         "level": 2
       },
       {
@@ -5088,7 +5088,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Scholar of Koryx",
-        "description": "<font color='#7998b5'>Quas</font> gains an additional max level. When Invoker reaches level 6, <font color='#7998b5'>Quas</font> gains an additional level.<br>When <b>Cold Snap</b> triggers, Invoker is healed and restores some mana."
+        "description": "<font color='#7998b5'>Quas</font> gains an additional max level. When Invoker reaches level 6, <font color='#7998b5'>Quas</font> gains an additional level.<br><br>When <b>Cold Snap</b> triggers, Invoker is healed and restores some mana.<br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Ghost Walk</b> and grants 2 current and max levels to <font color='#7998b5'>Quas</font>, increasing it to 10.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>Ice Wall</b>."
       },
       {
         "id": 3,
@@ -5097,7 +5097,7 @@
         "color": "Purple",
         "gradient_id": 0,
         "title": "Mind of Tornarus",
-        "description": "<font color='#d671a9'>Wex</font> gains an additional max level. When Invoker reaches level 6, <font color='#d671a9'>Wex</font> gains an additional level.<br><b>Alacrity</b> grants bonus attack range when used on Invoker or range units under his control.</b>"
+        "description": "<font color='#d671a9'>Wex</font> gains an additional max level. When Invoker reaches level 6, <font color='#d671a9'>Wex</font> gains an additional level.<br><br><b>Alacrity</b> grants bonus attack range when used on Invoker or range units under his control.</b><br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Tornado</b> and grants 2 current and max levels to <font color='#d671a9'>Wex</font>, increasing it to 10.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>E.M.P.</b>"
       },
       {
         "id": 4,
@@ -5106,7 +5106,7 @@
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Agent of Gallaron",
-        "description": "<font color='#cabe68'>Exort</font> gains an additional max level. When Invoker reaches level 6, <font color='#cabe68'>Exort</font> gains an additional level.<br><b>Chaos Meteor</b>'s radius and travel distance is increased."
+        "description": "<font color='#cabe68'>Exort</font> gains an additional max level. When Invoker reaches level 6, <font color='#cabe68'>Exort</font> gains an additional level.<br><br><b>Chaos Meteor</b>'s radius and travel distance is increased."
       }
     ]
   },
@@ -6486,7 +6486,7 @@
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Venomous Volley",
-        "description": "Every 6 attacks, Medusa applies poison to her arrow that briefly reduces movement speed, attack speed, and cast speed.",
+        "description": "Every 6 attacks, Medusa applies poison to her arrow that briefly reduces movement speed and attack speed.",
         "abilities": ["medusa_venomed_volley"]
       },
       {
@@ -7490,7 +7490,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_oracle_5",
+        "name": "special_bonus_unique_oracle_8",
         "level": 2
       },
       {
@@ -7498,7 +7498,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_oracle_8",
+        "name": "special_bonus_unique_oracle_5",
         "level": 3
       },
       {

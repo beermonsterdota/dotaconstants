@@ -1579,7 +1579,11 @@ function formatAttrib(attributes, strings, strings_prefix) {
 }
 
 function removeSigns(template) {
-  return template.replace('+', '').replace('-', '').replace('x', '').replace('=', '')
+  if (typeof template === 'string')
+    return template.replace('+', '').replace('-', '').replace('x', '').replace('=', '')
+  if (typeof template === 'object' && 'value' in template) {
+    return template.value
+  }
 }
 
 let specialBonusLookup = {}
