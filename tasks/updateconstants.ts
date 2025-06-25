@@ -1406,7 +1406,6 @@ function parseJsonOrVdf(text: string, url: string) {
       fixed = fixed.replace(/\t\t"ItemRequirements"\r\n\t\t""/g, '')
       fixed = fixed.replace(/\t\t\t"has_flying_movement"\t\r\n\t\t\t""/g, '')
       fixed = fixed.replace(/\t\t\t"damage_reduction"\t\r\n\t\t\t""/g, '')
-      const test = fixed.match(/\t"dota_base_ability"\r\n\t""/g)
       fixed = fixed.replaceAll(/\t"dota_base_ability"\r\n\t""/g, '')
       fixed = fixed.replaceAll(/\t"dota_empty_ability"\r\n\t""/g, '')
       fixed = fixed.replaceAll(/\t"default_attack"\r\n\t""/g, '')
