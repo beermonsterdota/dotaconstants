@@ -471,7 +471,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Tectonic Buildup",
-        "description": "Aftershock radius is increased by 40 for every level of Echo Slam."
+        "description": "Aftershock radius is increased by 30 for every level of Echo Slam."
       },
       {
         "id": 1,
@@ -2625,7 +2625,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Succubus Facet",
-        "description": "All sources of Spell Lifesteal also apply to Pure Damage. Queen of Pain gains Spell Lifesteal that increases with proximity to her enemies.",
+        "description": "All sources of Spell Lifesteal also apply to Pure Damage. Queen of Pain gains Spell Lifesteal that increases with proximity to her enemies. Lifesteal is at its maximum when the enemy is 150 units or closer to her and at its minimum when the enemy is 800 units or further from her.",
         "abilities": ["queenofpain_succubus"]
       },
       {
@@ -5147,7 +5147,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Scholar of Koryx",
-        "description": "<font color='#7998b5'>Quas</font> gains an additional max level. When Invoker reaches level 6, <font color='#7998b5'>Quas</font> gains an additional level."
+        "description": "<font color='#7998b5'>Quas</font> gains an additional max level. When Invoker reaches level 6, <font color='#7998b5'>Quas</font> gains an additional level.<br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Ice Wall</b>.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>Ghost Walk</b>."
       },
       {
         "id": 1,
@@ -5156,7 +5156,7 @@
         "color": "Purple",
         "gradient_id": 0,
         "title": "Mind of Tornarus",
-        "description": "<font color='#d671a9'>Wex</font> gains an additional max level. When Invoker reaches level 6, <font color='#d671a9'>Wex</font> gains an additional level."
+        "description": "<font color='#d671a9'>Wex</font> gains an additional max level. When Invoker reaches level 6, <font color='#d671a9'>Wex</font> gains an additional level.<br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Tornado</b>.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>E.M.P.</b>"
       },
       {
         "id": 2,
@@ -5165,7 +5165,7 @@
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Agent of Gallaron",
-        "description": "<font color='#cabe68'>Exort</font> gains an additional max level. When Invoker reaches level 6, <font color='#cabe68'>Exort</font> gains an additional level."
+        "description": "<font color='#cabe68'>Exort</font> gains an additional max level. When Invoker reaches level 6, <font color='#cabe68'>Exort</font> gains an additional level.<br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Sun Strike</b>.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>Sun Strike</b>."
       }
     ]
   },
@@ -6083,7 +6083,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Thunderstorm",
-        "description": "Thunder Strike additionally hits all enemies within Kinetic Field. Thunder Strike Slow duration is doubled."
+        "description": "Thunder Strike additionally hits all enemies within Kinetic Field. Thunder Strike Slow duration is increased."
       },
       {
         "id": 1,
@@ -6303,7 +6303,7 @@
         "color": "Gray",
         "gradient_id": 3,
         "title": "Recall",
-        "description": "Grants the Recall ability while active.",
+        "description": "After a short delay, teleports the targeted friendly hero to your location. If the targeted friendly hero takes player based damage during this time, the ability is interrupted. When cast, the teleport target's movement speed is increased. Upon teleporting, the increased movement speed buff are applied to both Keeper of the Light and the teleport target, and the latter also receives a Chakra Magic.\n\n If alt-cast, teleports Keeper of the Light to the target Ally instead. \n\n Ability Level increases with levels of Spirit Form.",
         "abilities": ["keeper_of_the_light_recall"]
       }
     ]
@@ -6885,7 +6885,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Twisted Chakram",
-        "description": "Launches a second independent Chakram that follows a curved path and returns to Timbersaw, damaging and slowing enemies it passes through.",
+        "description": "Launches a second independent Chakram that follows a curved path and returns to Timbersaw, damaging and slowing enemies it passes through. Enemies caught in the saw blade will move more slowly for every 5% of health missing.",
         "abilities": ["shredder_twisted_chakram"]
       }
     ]
@@ -7873,7 +7873,7 @@
         "color": "Blue",
         "gradient_id": 1,
         "title": "Runed Replica",
-        "description": "The Tempest Double is infused with the bonuses of Power Runes for 12s when created."
+        "description": "The Tempest Double is infused with the bonuses of Power Runes for 12s when created.<br><br>Level 1 - Arcane Rune.<br><br>Level 2 - Arcane and Invisibility Runes.<br><br>Level 3 - Arcane, Invisibility, and Haste Runes."
       },
       {
         "id": 3,
@@ -9003,7 +9003,7 @@
         "color": "Yellow",
         "gradient_id": 1,
         "title": "Flutter",
-        "description": "Kez deals extra damage on the first attack or ability after switching to Katana, and gains bonus movement speed after switching to Sai."
+        "description": "Kez deals extra damage on the first attack after switching to Katana, and gains bonus movement speed after switching to Sai."
       },
       {
         "id": 1,
