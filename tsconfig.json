@@ -1,8 +1,11 @@
 {
-    "include": ["index.ts"],
-    "compilerOptions": {
-      "resolveJsonModule": true,
-      "esModuleInterop": true,
-    },
-    "exclude": ["node_modules"]
+  "include": ["index.ts"],
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "module": "nodenext"
+  },
+  "exclude": ["node_modules"]
 }
