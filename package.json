@@ -1,6 +1,6 @@
 {
   "name": "@beermonster/dotaconstants",
-  "version": "9.3.0",
+  "version": "9.3.1",
   "description": "Constant data for Dota 2 applications",
   "main": "index.js",
   "type": "module",
