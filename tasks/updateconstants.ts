@@ -1385,7 +1385,7 @@ async function start() {
       (filename) =>
         `export { default as ${filename.split('.')[0]} } from './build/${
           filename.split('.')[0]
-        }.json';`
+        }.json with { type: 'json' };';`
     )
     .join('\n')
   fs.writeFileSync('./index.ts', code)
