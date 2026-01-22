@@ -3278,7 +3278,7 @@
       {
         "key": "bonus_all_stats",
         "display": "+ {value} All Attributes",
-        "value": "7"
+        "value": "6"
       },
       {
         "key": "bonus_health_regen",
@@ -3288,7 +3288,7 @@
       {
         "key": "bonus_mana_regen",
         "display": "+ {value} Mana Regeneration",
-        "value": "2.5"
+        "value": "2.25"
       },
       {
         "key": "slow",
@@ -8813,7 +8813,7 @@
       {
         "type": "active",
         "title": "Shadow Walk",
-        "description": "Makes you invisible for 17 seconds, or until you attack or cast a spell. While invisible, you move 25% faster and can move through units. \n\nAttacking to end the invisibility will deal 300 bonus physical damage, disable their passive abilities for 6 seconds, and cap their movement speed to 200."
+        "description": "Makes you invisible for 17 seconds, or until you attack or cast a spell. While invisible, you move 25% faster and can move through units. \n\nAttacking to end the invisibility will deal 300 bonus physical damage, disable their passive abilities for 5 seconds, and cap their movement speed to 200."
       }
     ],
     "hint": [],
@@ -8868,7 +8868,7 @@
       },
       {
         "key": "backstab_duration",
-        "value": "6"
+        "value": "5"
       },
       {
         "key": "max_movement_speed",
@@ -9581,6 +9581,10 @@
       {
         "key": "creep_damage_taken_cooldown",
         "value": "3"
+      },
+      {
+        "key": "bounty_pct",
+        "value": "100"
       }
     ],
     "mc": 50,

@@ -57815,7 +57815,8 @@
         "Roshan's Banner, Clinkz' Skeleton Archers, Lich's Ice Spire, Phoenix's Supernova, Pugna's Nether Ward, Templar Assassin's Psionic Traps, and Undying's Tombstone",
         "Spirit Bear already did hero damage to Shadow Shaman's Mass Serpent Wards, Couriers, Observer Wards and Sentry Wards",
         "Spirit Bear can now be targeted or affected as a hero by the following abilities:",
-        "Axe's Culling Blade, Legion Commander's Duel, Lion's Finger of Death, Mars' Spear of Mars, Necrophos' Reaper's Scythe, Slark's Pounce, and Underlord's Atrophy Aura",
+        "Axe's Culling Blade, Bounty Hunter's Track, Earth Spirit's Petrify, Legion Commander's Duel, Lion's Finger of Death, Mars' Spear of Mars, Necrophos' Reaper's Scythe, Slark's Pounce, Terrorblade's Reflection, Terrorblade's Sunder (only if the Bear is not Debuff Immune), and Underlord's Atrophy Aura",
+        "At the same time, Bounty Hunter will not steal Lone Druid's gold anymore by hitting Spirit Bear with Jinada or by using skills with Cutpurse facet on it",
         "Now can also break enemy Smoke of Deceit",
         "Spirit Bear's death will not provide charges for these spells:",
         "Charges for Urn of Shadows and its upgrades, Pudge's permanent Strength from Flesh Heap, Silencer's permanent Int from Brain Drain, Slark's permanent Agility from Essence Shift, and Storm Spirit's stacks for Galvanized",
@@ -58599,7 +58600,9 @@
           "Damage at level 1 increased from 54–62 to 55–63"
         ],
         "hero_facet": [
-          "No longer has decreased number of +2 All Attributes bonuses",
+          "No longer has decreased number of +2 All Attributes bonuses"
+        ],
+        "magnataur_reverse_polarity": [
           "Cooldown decreased from 120s to 115s"
         ]
       },
@@ -58863,9 +58866,7 @@
           "Max Damage rescaled from 1.25/2.75/4.5/6.75% to 1.5/3/4.5/6%"
         ],
         "talents": [
-          "Level 15 Talent Health Regen increased from +20 to +25",
-          "Level 25 Talent +1000 Icarus Dive Cast Range replaced with +70% Icarus Dive Cast Range/Damage",
-          "As a result, Cast Range bonus decreased from +1000 to +770/840/910/980"
+          "Level 15 Talent Health Regen increased from +20 to +25"
         ]
       },
       "primal_beast": {
@@ -59332,7 +59333,7 @@
       "abyssal_underlord": {
         "general": [
           "Strength gain increased from 3.0 to 3.2",
-          "Base Intelligence increased by from 17 to 18"
+          "Base Intelligence increased from 17 to 18"
         ],
         "abyssal_underlord_firestorm": [
           "Cast Range increased from 600/625/650/675 to 675"
@@ -59491,6 +59492,926 @@
         ],
         "talents": [
           "Level 25 Talent Static Field Damage increased from +1.5% to +2%"
+        ]
+      }
+    }
+  },
+  "7_40b": {
+    "general": [],
+    "items": {
+      "mask_of_madness": [
+        "Berserk now shows the overhead \\\"Silenced\\\" text when active"
+      ],
+      "silver_edge": [
+        "Shadow Walk debuff duration decreased from 6s to 5s"
+      ],
+      "spirit_vessel": [
+        "Soul Release will gain charges only for Spirit Vessel if the same hero has both Spirit Vessel and Urn of Shadows"
+      ],
+      "urn_of_shadows": [
+        "Soul Release can no longer gain charges on multiple copies of this item if the copies are on the same hero"
+      ]
+    },
+    "heroes": {
+      "abaddon": {
+        "talents": [
+          "Level 10 Talent Aphotic Shield HP Regen decreased from +10 to +8"
+        ]
+      },
+      "axe": {
+        "talents": [
+          "Level 15 Talent Battle Hunger Damage Per Second decreased from +12 to +10"
+        ]
+      },
+      "batrider": {
+        "batrider_flamebreak": [
+          "Mana Cost decreased from 110/115/120/125 to 110"
+        ]
+      },
+      "beastmaster": {
+        "general": [
+          "Agility gain increased from 1.9 to 2.0",
+          "Damage gain per level increased from 3.0 to 3.1"
+        ],
+        "beastmaster_wild_axes": [
+          "Damage Amp per stack increased from 6/8/10/12% to 7/9/11/13%"
+        ]
+      },
+      "brewmaster": {
+        "general": [
+          "Base Strength increased from 23 to 24",
+          "Damage at level 1 increased from 52–59 to 53–60"
+        ],
+        "brewmaster_liquid_courage": [
+          "Max Speed Increase increased from 25% to 30%"
+        ],
+        "brewmaster_thunder_clap": [
+          "Radius increased from 375 to 400"
+        ],
+        "brewmaster_drunken_brawler": [
+          "Brewed Up extend duration increased from 1s to 2s",
+          "Toggling is no longer disabled by silence"
+        ],
+        "brewmaster_primal_split": [
+          "Earth Brewling's Earth Element now also provides 80% Slow Resistance"
+        ]
+      },
+      "bristleback": {
+        "bristleback_viscous_nasal_goo": [
+          "Base Movement Slow increased from 10% to 12%"
+        ]
+      },
+      "broodmother": {
+        "talents": [
+          "Level 15 Talent Incapacitating Bite Attack Bonus decreased from +10 to +8",
+          "Level 20 Talent Incapacitating Bite Slow/Miss Chance decreased from +25% to +20%",
+          "Level 25 Talent Spin Web Move Speed decreased from +14% to +7%",
+          "Level 25 Talent BAT Reduction During Insatiable Hunger decreased from 0.25s to 0.2s"
+        ]
+      },
+      "centaur": {
+        "general": [
+          "Base Movement Speed decreased from 305 to 300"
+        ],
+        "centaur_work_horse": [
+          "Total Duration decreased from 7s to 6s"
+        ],
+        "talents": [
+          "Level 15 Talent Strength decreased from +12 to +10"
+        ]
+      },
+      "clinkz": {
+        "general": [
+          "Base Strength increased from 17 to 18"
+        ],
+        "clinkz_infernal_shred": [
+          "Debuff per Clinkz' attack increased from 2% to 3%"
+        ],
+        "clinkz_strafe": [
+          "Now also applies to skeletons that were created after the cast",
+          "Attack Speed Bonus increased from 100/140/180/220 to 120/160/200/240"
+        ],
+        "clinkz_searing_arrows": [
+          "Bonus Damage increased from 18/32/46/60 to 20/35/50/65"
+        ],
+        "talents": [
+          "Level 15 Talent +1 Death Pact Charge replaced with -10s Death Pact Charge Restore Time"
+        ]
+      },
+      "dazzle": {
+        "dazzle_poison_touch": [
+          "Slow decreased from 16/18/20/22% to 13/16/19/22%"
+        ],
+        "talents": [
+          "Level 20 Talent Shallow Grave Cooldown Reduction decreased from 4s to 3s"
+        ]
+      },
+      "death_prophet": {
+        "death_prophet_exorcism": [
+          "Spirits increased from 10/17/24 to 10/18/26"
+        ],
+        "talents": [
+          "Level 20 Talent Spirit Siphon Damage/Heal increased from +25 to +30"
+        ]
+      },
+      "doom_bringer": {
+        "general": [
+          "Strength gain increased from 3.5 to 3.6"
+        ]
+      },
+      "drow_ranger": {
+        "general": [
+          "Agility gain decreased from 2.9 to 2.8"
+        ],
+        "hero_facet": [
+          "Movement Speed Penalty increased from 25% to 35%"
+        ],
+        "drow_ranger_glacier": [
+          "Cooldown increased from 20s to 25s"
+        ],
+        "talents": [
+          "Level 10 Talent Frost Arrows Mana Cost Reduction decreased from 25% to 18%"
+        ]
+      },
+      "enigma": {
+        "enigma_black_hole": [
+          "Aghanim's Scepter Pull AoE decreased from 1200 to 1000"
+        ]
+      },
+      "faceless_void": {
+        "general": [
+          "Base Damage decreased by 3",
+          "Base Agility increased from 21 to 24",
+          "Damage at level 1 unchanged (58–64)"
+        ]
+      },
+      "huskar": {
+        "hero_facet": [
+          "Max HP Heal per Debuff decreased from 5% to 4%"
+        ],
+        "huskar_berserkers_blood": [
+          "HP for Max bonus decreased from 12% to 10%"
+        ],
+        "talents": [
+          "Level 15 Talent Lifesteal decreased from +15% to +12%",
+          "Level 25 Talent Life Break Damage decreased from +25% to +22%"
+        ]
+      },
+      "invoker": {
+        "hero_facet": [
+          "Aghanim's Scepter Twister Duration decreased by 0.5s",
+          "From 3.2/3.4/3.6/3.8/4/4.2/4.4/4.6/4.8/5s to 2.7/2.9/3.1/3.3/3.5/3.7/3.9/4.1/4.3/4.5s",
+          "Aghanim's Shard Burn Damage decreased from 90% to 80%"
+        ]
+      },
+      "jakiro": {
+        "jakiro_liquid_fire": [
+          "Burn Damage decreased from 20/30/40/50 to 15/25/35/45"
+        ],
+        "jakiro_liquid_ice": [
+          "Impact Damage rescaled from 15/20/25/30 to 8/16/24/32"
+        ]
+      },
+      "juggernaut": {
+        "juggernaut_healing_ward": [
+          "Duration decreased from 25s to 18/20/22/24s"
+        ],
+        "juggernaut_omni_slash": [
+          "Slashes Rate Multiplier decreased from 1.5 to 1.4"
+        ],
+        "talents": [
+          "Level 25 Talent Blade Dance Lifesteal decreased from +50% to +40%"
+        ]
+      },
+      "kez": {
+        "kez_switch_weapons": [
+          "Katana Base Attack Time worsened from 1.8s to 1.9s",
+          "Katana Bonus Agility Base Damage increased from 12% to 16%",
+          "Can no longer be disabled by Silence"
+        ],
+        "kez_falcon_rush": [
+          "Can no longer rush towards buildings or trigger on them",
+          "Echo Attack Damage decreased from 35/40/45/50% to 30/35/40/45%"
+        ],
+        "talents": [
+          "Level 20 Talent Attack Speed During Falcon Rush decreased from +60 to +40"
+        ]
+      },
+      "kunkka": {
+        "talents": [
+          "Level 25 Talent Tidebringer Cleave Damage increased from +120% to +130%"
+        ]
+      },
+      "largo": {
+        "largo_catchy_lick": [
+          "Enemy Pull Distance increased from 210/240/270/300 to 235/265/295/325",
+          "Bonus Health Regen increased from 4/6/8/10 to 4/7/10/13"
+        ],
+        "largo_croak_of_genius": [
+          "Reverberated damage is now only applied if the target is within 2000 range of the caster",
+          "Duration is no longer decreased on Largo from his own abilities"
+        ],
+        "talents": [
+          "Level 20 Talent Catchy Lick Damage increased from +140 to +170"
+        ]
+      },
+      "legion_commander": {
+        "hero_facet": [
+          "Press the Attack duration on allies after Duel win decreased from 50% to 25%",
+          "From 2.5s to 1.25s"
+        ],
+        "legion_commander_press_the_attack": [
+          "Mana Cost decreased from 100 to 90",
+          "Bonus Move Speed increased from 10/14/18/22% to 13/16/19/22%"
+        ],
+        "legion_commander_duel": [
+          "Aghanim's Scepter duration bonus decreased from +2s to +1.5s"
+        ],
+        "legion_commander_duel_info": [
+          "Total Duration decreased from 6/6.5/7s to 5.5/6/6.5s"
+        ]
+      },
+      "lich": {
+        "general": [
+          "Agility gain decreased from 2.0 to 1.7"
+        ]
+      },
+      "lone_druid": {
+        "general": [
+          "Base Strength increased from 18 to 20",
+          "Base Movement Speed increased from 295 to 300"
+        ],
+        "lone_druid_entangle": [
+          "Root Damage per second increased from 60/70/80/90 to 90",
+          "Cooldown decreased from 24/22/20/18s to 20/19/18/17s"
+        ],
+        "lone_druid_savage_roar": [
+          "Cooldown decreased from 38/32/26/20s to 29/26/23/20s"
+        ],
+        "talents": [
+          "Level 10 Talent Entangle Root Damage Per Second increased from +15 to +20"
+        ]
+      },
+      "misc": [
+        "Gold Bounty changed from 300 to 175 + 8 per Spirit Bear level up",
+        "Experience Bounty changed from 300 to 175 + 8 per Spirit Bear level up",
+        "Root Damage per second increased from 60/70/80/90 to 90"
+      ],
+      "marci": {
+        "general": [
+          "Strength gain increased from 3.0 to 3.2",
+          "Damage gain per level increased from 3.2 to 3.3"
+        ],
+        "marci_companion_run": [
+          "Radius increased from 275 to 300"
+        ],
+        "marci_unleash": [
+          "Cooldown decreased from 90/75/60s to 80/70/60s"
+        ],
+        "talents": [
+          "Level 10 Talent +75 Rebound Landing Radius decreased to +50"
+        ]
+      },
+      "mars": {
+        "general": [
+          "Base Agility decreased from 20 to 18"
+        ],
+        "talents": [
+          "Level 15 Talent God's Rebuke Cooldown Reduction increased from 2s to 2.5s",
+          "Level 20 Talent Spear of Mars Stun increased from +0.4 to +0.5s"
+        ]
+      },
+      "meepo": {
+        "meepo_petrify": [
+          "Now has a 0.3s cast point"
+        ],
+        "meepo_megameepo": [
+          "Poof damage factor per additional Meepo decreased from 100% to 75%"
+        ],
+        "talents": [
+          "Level 25 Talent Poof Cast Duration Reduction decreased from 1s to 0.75s"
+        ]
+      },
+      "monkey_king": {
+        "monkey_king_wukongs_command": [
+          "Duration increased from 13s to 14s",
+          "Aghanim's Scepter Soldier Duration increased from 12s to 15s"
+        ]
+      },
+      "morphling": {
+        "general": [
+          "Base armor increased by 1"
+        ]
+      },
+      "muerta": {
+        "muerta_gunslinger": [
+          "Toggling is no longer disabled by silence"
+        ]
+      },
+      "necrolyte": {
+        "necrolyte_ghost_shroud": [
+          "Restoration Amplification rescaled from 45/55/65/75% to 55/60/65/70%"
+        ]
+      },
+      "omniknight": {
+        "omniknight_martyr": [
+          "Bonus Strength decreased from 7/14/21/28 to 6/12/18/24"
+        ]
+      },
+      "obsidian_destroyer": {
+        "obsidian_destroyer_sanity_eclipse": [
+          "No longer deals bonus damage to illusions"
+        ],
+        "obsidian_destroyer_equilibrium": [
+          "Aghanim's Scepter barrier duration decreased from 15s to 12s"
+        ]
+      },
+      "pangolier": {
+        "general": [
+          "Intelligence gain increased from 2.2 to 2.5",
+          "Damage gain per level increased from 3.6 to 3.8",
+          "Base Movement Speed increased from 295 to 300"
+        ],
+        "pangolier_swashbuckle": [
+          "Cast Range and Dash Range increased from 400/500/600/700 to 575/650/725/800",
+          "Slash Range increased from 700 to 850",
+          "Damage per Strike increased from 30/60/90/120 to 35/65/95/125"
+        ],
+        "pangolier_shield_crash": [
+          "Cooldown decreased from 16/13/10/7s to 15/12/9/6s"
+        ],
+        "pangolier_gyroshell": [
+          "Duration increased from 9/10/11s to 10/11/12s",
+          "Damage increased from 75/150/225 to 100/200/300",
+          "Magic Resistance increased from 60% to 80%"
+        ],
+        "pangolier_rollup": [
+          "Magic Resistance increased from 60% to 80%"
+        ]
+      },
+      "phantom_assassin": {
+        "phantom_assassin_fan_of_knives": [
+          "Now pierces Debuff Immunity"
+        ],
+        "talents": [
+          "Level 10 Talent Phantom Strike Duration increased from +0.5s to +0.6s"
+        ]
+      },
+      "phantom_lancer": {
+        "phantom_lancer_spirit_lance": [
+          "Damage increased from 70/140/210/280 to 100/160/220/280"
+        ],
+        "phantom_lancer_phantom_edge": [
+          "Toggling is no longer disabled by silence"
+        ]
+      },
+      "primal_beast": {
+        "primal_beast_onslaught": [
+          "Stun Duration rescaled from 0.8/1/1.2/1.4s to 0.7/1/1.3/1.6s"
+        ],
+        "talents": [
+          "Level 15 Talent Basic Self-Dispel on Uproar Cast replaced with +6 Uproar Armor Per Stack",
+          "Level 20 Talent +7 Uproar Armor Per Stack replaced with Basic Self-Dispel on Uproar Cast"
+        ]
+      },
+      "pudge": {
+        "hero_facet": [
+          "Strength Increase decreased from 2/4/6 to 2/3/4"
+        ],
+        "pudge_meat_hook": [
+          "Mana Cost increased from 110 to 120"
+        ]
+      },
+      "pugna": {
+        "pugna_life_drain": [
+          "Mana Cost increased from 100/150/200 to 115/160/205"
+        ],
+        "talents": [
+          "Level 15 Talent Health decreased from +300 to +250"
+        ]
+      },
+      "riki": {
+        "riki_tricks_of_the_trade": [
+          "Attack Damage rescaled from 30/50/70/90 to 25/50/75/100"
+        ]
+      },
+      "ringmaster": {
+        "talents": [
+          "Level 10 Talent Impalement Arts Impact Damage increased from +75 to +85"
+        ]
+      },
+      "shadow_demon": {
+        "shadow_demon_disseminate": [
+          "Cast Range decreased from 700/800/900/1000 to 700/775/850/925"
+        ],
+        "talents": [
+          "Level 10 Talent Strength decreased from +10 to +8"
+        ]
+      },
+      "nevermore": {
+        "nevermore_necromastery": [
+          "Base Max Souls increased from 20 to 20/22/24/26",
+          "No longer upgraded with Aghanim's Scepter"
+        ],
+        "nevermore_requiem": [
+          "Magic Resist Reduction rescaled from 5/10/15% to 10%"
+        ]
+      },
+      "silencer": {
+        "talents": [
+          "Level 10 Talent Attack Speed increased from +20 to +25"
+        ]
+      },
+      "slark": {
+        "slark_saltwater_shiv": [
+          "Duration increased from 6/8/10/12s to 12s",
+          "Stack Regen Steal rescaled from 3 to 2/3/4/5",
+          "Stack Speed Steal rescaled from 3 to 2/3/4/5"
+        ]
+      },
+      "spectre": {
+        "general": [
+          "Base Agility increased from 25 to 26",
+          "Damage at level 1 increased from 48–52 to 49–53",
+          "Agility gain increased from 2.1 to 2.4"
+        ],
+        "spectre_shadow_step": [
+          "Cooldown decreased from 32/28/24/20s to 30/26/22/18s",
+          "Cast Range increased from 700/850/1000/1150 to 750/900/1050/1200",
+          "Illusion Damage increased from 20/30/40/50% to 32/38/44/50%"
+        ],
+        "spectre_dispersion": [
+          "Damage Reflected increased from 7/11/15/19% to 8/12/16/20%"
+        ],
+        "talents": [
+          "Level 10 Talent Desolate Damage increased from +10 to +12"
+        ]
+      },
+      "techies": {
+        "techies_land_mines": [
+          "Cast range increased from 400 to 450"
+        ]
+      },
+      "terrorblade": {
+        "general": [
+          "Base agility increased from 22 to 23",
+          "Damage at level 1 increased from 48–54 to 49–55"
+        ],
+        "terrorblade_metamorphosis": [
+          "Cooldown decreased from 155/150/145/140s to 145/140/135/130s"
+        ],
+        "talents": [
+          "Level 15 Talent Metamorphosis Cooldown Reduction decreased from 20s to 10s"
+        ]
+      },
+      "tidehunter": {
+        "hero_facet": [
+          "Strength gain decreased from 4.1 to 3.9"
+        ],
+        "tidehunter_dead_in_the_water": [
+          "No longer deals 100 damage"
+        ],
+        "talents": [
+          "Level 10 Talent Anchor Smash Damage Reduction decreased from +20% to +10%",
+          "Level 20 Talent Blubber effect triggers Anchor Smash now deals 50% less damage on the triggered Anchor Smash and is now considered reflection damage"
+        ]
+      },
+      "shredder": {
+        "shredder_whirling_death": [
+          "Stat Loss Duration decreased from 12/13/14/15s to 11/12/13/14s",
+          "Base Damage decreased from 85/130/175/220 to 75/120/165/210"
+        ],
+        "shredder_reactive_armor": [
+          "Aghanim's Scepter effect radius decreased from 600 to 450"
+        ]
+      },
+      "tinker": {
+        "tinker_laser": [
+          "Now shows the overhead \\\"Blinded\\\" text over affected units"
+        ]
+      },
+      "tiny": {
+        "tiny_tree_grab": [
+          "Splash Damage increased from 55/70/85/100% to 70/80/90/100%"
+        ]
+      },
+      "treant": {
+        "general": [
+          "Base Armor increased by 1"
+        ],
+        "treant_natures_guise": [
+          "Cooldown decreased from (50s - 3s per 2 levels ups) to (35s - 1s per level up)"
+        ],
+        "treant_living_armor": [
+          "Damage Blocked increased from 100 to 120",
+          "Cooldown decreased from 30/25/20/15s to 24/21/18/15s"
+        ],
+        "treant_overgrowth": [
+          "Aghanim's Scepter Cooldown increased from 80/70/60s to 85/75/65s"
+        ]
+      },
+      "troll_warlord": {
+        "troll_warlord_switch_stance": [
+          "Toggling is no longer disabled by silence"
+        ]
+      },
+      "abyssal_underlord": {
+        "talents": [
+          "Level 15 Talent Firestorm Cooldown Reduction increased from 3s to 4s"
+        ]
+      },
+      "ursa": {
+        "hero_facet": [
+          "Duration Bonus rescaled from 14/16/18/20% to 15%"
+        ],
+        "talents": [
+          "Level 15 Talent +5 Fury Swipes Damage replaced with +0.5% Maul Health as Damage",
+          "Level 20 Talent +0.5% Maul Health as Damage replaced with +6 Fury Swipes Damage",
+          "Level 20 Talent Earthshock Radius decreased from +400 to +300"
+        ]
+      },
+      "viper": {
+        "hero_facet": [
+          "Max bonus effect decreased from 100% to 75%"
+        ],
+        "talents": [
+          "Level 10 Talent +20 Corrosive Skin Damage Per Second replaced with +10% Poison Attack Slow/Damage",
+          "Level 15 Talent +15% Poison Attack Slow/Damage replaced with +20 Corrosive Skin Damage Per Second",
+          "Level 15 Talent Nethertoxin Min/Max Damage decreased from +40 to +30"
+        ]
+      },
+      "void_spirit": {
+        "void_spirit_aether_remnant": [
+          "Remnant Lifetime decreased from 20s to 17s"
+        ]
+      },
+      "warlock": {
+        "warlock_eldritch_summoning": [
+          "Imp explosion damage decreased from 25/70/115/160/205 to 20/65/110/155/200"
+        ],
+        "talents": [
+          "Level 20 Talent Upheaval Damage increased from +40 to +45",
+          "Level 25 Talent Fatal Bonds Targets increased from +3 to +4"
+        ]
+      },
+      "windrunner": {
+        "hero_facet": [
+          "Bonus Damage per Hero decreased from 40 to 35"
+        ],
+        "windrunner_powershot": [
+          "Slow duration decreased from 4s to 3s"
+        ],
+        "windrunner_windrun": [
+          "Aghanim's Scepter physical damage reduction decreased from 45% to 35%"
+        ]
+      },
+      "winter_wyvern": {
+        "talents": [
+          "Level 10 Talent HP/s Cold Embrace Heal decreased from +25 to +20",
+          "Level 15 Talent Splinter Blast Shatter Radius decreased from +300 to +250",
+          "Level 25 Talent Splinter Blast Stun Duration decreased from +1.25s to +1s"
+        ]
+      },
+      "witch_doctor": {
+        "hero_facet": [
+          "Damage decreased from 55/90/125 to 55/85/115"
+        ],
+        "witch_doctor_death_ward": [
+          "Damage decreased from 60/95/130 to 60/90/120"
+        ],
+        "talents": [
+          "Level 25 Talent Death Ward Damage decreased from +45 to +40"
+        ]
+      },
+      "skeleton_king": {
+        "hero_facet": [
+          "Skeleton movement speed decreased from 350 to 340"
+        ]
+      },
+      "zuus": {
+        "zuus_static_field": [
+          "Current HP Damage increased from 2.5/3/3.5/4% to 2.5/3.25/4/4.75%"
+        ]
+      }
+    }
+  },
+  "7_40c": {
+    "general": [],
+    "items": {
+      "angels_demise": [
+        "Can now be disassembled"
+      ],
+      "phylactery": [
+        "All Attributes bonus decreased from 7 to 6",
+        "Mana Regen decreased from 2.5 to 2.25"
+      ]
+    },
+    "heroes": {
+      "abaddon": {
+        "abaddon_frostmourne": [
+          "No longer applied by illusions"
+        ]
+      },
+      "axe": {
+        "general": [
+          "Strength gain decreased from 2.8 to 2.7"
+        ],
+        "talents": [
+          "Level 15 Talent Battle Hunger Damage Per Second decreased from +10 to +8"
+        ]
+      },
+      "batrider": {
+        "general": [
+          "Agility gain increased from 1.8 to 2.0",
+          "Damage gain per level increased from 3.4 to 3.5"
+        ]
+      },
+      "bloodseeker": {
+        "bloodseeker_bloodrage": [
+          "Max Health Damage per second decreased from 1.4% to 1.2%"
+        ],
+        "talents": [
+          "Level 10 Talent Health increased from +175 to +200",
+          "Level 20 Talent Agility decreased from +20 to +15",
+          "Level 20 Talent Rupture Cast Range decreased from +425 to +400"
+        ]
+      },
+      "brewmaster": {
+        "brewmaster_liquid_courage": [
+          "Aghanim's Shard Max HP Regen per second increased from 2% to 2.5%"
+        ],
+        "brewmaster_drunken_brawler": [
+          "Earth Brawler Armor increased from 2/4/6/8 to 3/5/7/9"
+        ]
+      },
+      "broodmother": {
+        "hero_facet": [
+          "Enemy Restoration Reduction decreased from 10/30/50/70% to 10/25/40/55%"
+        ],
+        "broodmother_spin_web": [
+          "Max Charges decreased from 4/6/8/10 to 3/5/7/9"
+        ],
+        "broodmother_incapacitating_bite": [
+          "No longer applied by illusions"
+        ],
+        "talents": [
+          "Level 15 Talent Incapacitating Bite Attack Bonus decreased from +8 to +6",
+          "Level 25 Talent BAT Reduction during Insatiable Hunger decreased from 0.2s to 0.15s"
+        ]
+      },
+      "clinkz": {
+        "clinkz_wind_walk": [
+          "Skeleton Building Damage penalty increased from 25% to 75%",
+          "No longer upgraded with Aghanim's Scepter",
+          "Now Aghanim's Scepter only provides Burning Army ability without increasing Skeleton Archer Hits to Kill by 1"
+        ],
+        "clinkz_wind_walk_info": [
+          "Also applies to Burning Army skeletons"
+        ],
+        "talents": [
+          "Level 15 Talent Attack Range decreased from +60 to +50",
+          "Level 25 Talent Searing Arrows Multishot no longer applies to Skeleton Archers"
+        ]
+      },
+      "dark_seer": {
+        "general": [
+          "Base Armor increased by 1"
+        ]
+      },
+      "doom_bringer": {
+        "doom_bringer_infernal_blade": [
+          "Mana Cost decreased from 40 to 35"
+        ]
+      },
+      "drow_ranger": {
+        "talents": [
+          "Level 25 Talent Marksmanship Chance decreased from +10% to +8%"
+        ]
+      },
+      "earthshaker": {
+        "earthshaker_fissure": [
+          "Mana Cost decreased from 120/125/130/135 to 115/120/125/130"
+        ]
+      },
+      "ember_spirit": {
+        "ember_spirit_searing_chains": [
+          "Duration decreased from 1.5/2/2.5/3s to 1.25/1.75/2.25/2.75s",
+          "Damage Per Second rescaled from 50/70/90/110 to 100"
+        ]
+      },
+      "grimstroke": {
+        "general": [
+          "Base damage increased by 1",
+          "Damage at level 1 decreased from 46–50 to 47–51"
+        ],
+        "grimstroke_spirit_walk": [
+          "Cast Range increased from 500/600/700/800 to 650/700/750/800"
+        ],
+        "talents": [
+          "Level 15 Talent Ink Swell Movement Speed increased from +12% to +15%"
+        ]
+      },
+      "gyrocopter": {
+        "general": [
+          "Base Attack Speed decreased from 125 to 115",
+          "Agility gain increased from 3.2 to 3.4"
+        ],
+        "talents": [
+          "Level 25 Talent Call Down Cooldown Reduction increased from 30s to 40s"
+        ]
+      },
+      "huskar": {
+        "hero_facet": [
+          "Cooldown increased from 50/40/30/20s to 60/50/40/30s"
+        ]
+      },
+      "jakiro": {
+        "general": [
+          "Base Intelligence decreased from 26 to 25",
+          "Damage at level 1 decreased from 53–61 to 52–60"
+        ],
+        "jakiro_ice_path": [
+          "Path Duration decreased from 3/3.5/4/4.5s to 2.6/3.1/3.6/4.1s"
+        ]
+      },
+      "largo": {
+        "general": [
+          "Added to Captains Mode",
+          "Intelligence gain increased from 2.4 to 2.6"
+        ],
+        "largo_frogstomp": [
+          "Damage per stomp increased from 35/45/55/65 to 36/48/60/72"
+        ],
+        "largo_amphibian_rhapsody": [
+          "Now can be toggled while silenced",
+          "Radius increased from 750 to 800"
+        ]
+      },
+      "legion_commander": {
+        "legion_commander_duel": [
+          "Aghanim's Scepter Duration decreased from 5.5/6/6.5s to 5/5.5/6s"
+        ]
+      },
+      "lone_druid": {
+        "general": [
+          "Base Agility increased from 20 to 22",
+          "Damage at level 1 increased from 42–46 to 44–48"
+        ],
+        "lone_druid_savage_roar": [
+          "Duration increased from 0.8/1.2/1.6/2s to 1.1/1.4/1.7/2s"
+        ],
+        "talents": [
+          "Level 25 Talent Slow Resistance during True Form increased from 60% to 70%"
+        ]
+      },
+      "misc": [
+        "Roots and leashes will now interrupt Return's channeling",
+        "Previously they only prevented casting of Return, but had no effect if applied during the channelling"
+      ],
+      "monkey_king": {
+        "monkey_king_jingu_mastery": [
+          "Bonus Damage increased from 30/75/120/165 to 30/80/130/180"
+        ],
+        "talents": [
+          "Level 10 Talent Primal Spring Max Damage increased from +85 to +90"
+        ]
+      },
+      "meepo": {
+        "meepo_megameepo": [
+          "Poof damage factor per additional Meepo decreased from 75% to 50%"
+        ],
+        "talents": [
+          "Level 10 Talent Poof Damage decreased from +50 to +40",
+          "Level 20 Talent Ransack Health Steal decreased from +8 to +7"
+        ]
+      },
+      "furion": {
+        "furion_force_of_nature": [
+          "Treant Damage increased from 16/24/32/40 to 16/25/34/43"
+        ]
+      },
+      "pangolier": {
+        "general": [
+          "Base Strength increased from 19 to 20"
+        ],
+        "pangolier_fortune_favors_the_bold": [
+          "Chance Reduction increased from 40% to 50%"
+        ],
+        "pangolier_swashbuckle": [
+          "Cooldown decreased from 20/17/14/11s to 19/16/13/10s"
+        ]
+      },
+      "phantom_assassin": {
+        "talents": [
+          "Level 10 Talent Stifling Dagger Cooldown Reduction increased from 1.5s to 2s"
+        ]
+      },
+      "phantom_lancer": {
+        "phantom_lancer_illusory_armaments": [
+          "Min Damage at level 1 decreased from 18% to 17%"
+        ],
+        "phantom_lancer_illusory_armaments_info": [
+          "Increment value per 3 level ups is still 2%"
+        ],
+        "phantom_lancer_doppelwalk": [
+          "Mana Cost increased from 50 to 70"
+        ]
+      },
+      "pudge": {
+        "pudge_flesh_heap": [
+          "Mana Cost increased from 50/60/70/80 to 65/70/75/80"
+        ]
+      },
+      "ringmaster": {
+        "general": [
+          "Base Agility decreased from 13 to 11",
+          "Agility gain increased from 1.4 to 1.6"
+        ],
+        "hero_facet": [
+          "Stink cloud radius increased from 200 to 250"
+        ]
+      },
+      "rubick": {
+        "rubick_telekinesis": [
+          "Cooldown decreased from 23/20/17/14s to 22/19/16/13s"
+        ]
+      },
+      "shadow_demon": {
+        "hero_facet": [
+          "Health loss decreased from 9/11/13/15% to 9/10/11/12%"
+        ]
+      },
+      "slardar": {
+        "general": [
+          "Strength gain decreased from 3.6 to 3.4"
+        ],
+        "talents": [
+          "Level 15 Talent Health decreased from +300 to +250"
+        ]
+      },
+      "slark": {
+        "slark_saltwater_shiv": [
+          "Stack Restoration Steal rescaled from 3/4/5/6% to 2/4/6/8%",
+          "Stack Regen Steal increased from 2/3/4/5 to 2/4/6/8",
+          "Stack Speed Steal increased from 2/3/4/5 to 2/4/6/8"
+        ]
+      },
+      "spectre": {
+        "general": [
+          "Strength gain decreased from 2.5 to 2.4"
+        ],
+        "talents": [
+          "Level 20 Talent Health decreased from +350 to +325",
+          "Level 25 Talent All Spectre Illusion Damage decreased from +20% to +15%"
+        ]
+      },
+      "terrorblade": {
+        "terrorblade_conjure_image": [
+          "Mana Cost decreased from 55/65/75/85 to 50/60/70/80"
+        ],
+        "terrorblade_sunder": [
+          "Cooldown decreased from 120/80/40s to 110/75/40s"
+        ],
+        "terrorblade_demon_zeal": [
+          "No longer affects Reflection illusions"
+        ],
+        "talents": [
+          "Level 15 Talent Reflection Slow/Damage increased from +10% to +15%"
+        ]
+      },
+      "tidehunter": {
+        "general": [
+          "Base Strength decreased from 27 to 26",
+          "Damage at level 1 decreased from 52–58 to 51–57"
+        ]
+      },
+      "shredder": {
+        "general": [
+          "Base Strength decreased from 26 to 23",
+          "Damage at level 1 decreased from 49–53 to 46–50",
+          "Strength gain increased from 3.5 to 3.6"
+        ],
+        "talents": [
+          "Level 15 Talent Whirling Death Stat Loss decreased from +2.5% to +2%"
+        ]
+      },
+      "treant": {
+        "treant_eyes_in_the_forest": [
+          "Eyes now have a 50g bounty when killed"
+        ]
+      },
+      "ursa": {
+        "ursa_fury_swipes": [
+          "Damage per attack decreased from 13/21/29/37 to 12/20/28/36"
+        ]
+      },
+      "viper": {
+        "viper_corrosive_skin": [
+          "Damage per second rescaled from 8/16/24/32 to 10/15/20/25"
+        ],
+        "talents": [
+          "Level 20 Talent Predator Damage Per Missing Health increased from +0.25 to +0.3",
+          "Level 20 Talent Viper Strike DPS decreased from +80 to +70"
         ]
       }
     }
