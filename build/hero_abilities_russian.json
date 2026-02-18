@@ -9112,7 +9112,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Quickdraw",
-        "description": "Попадание по герою рикошетом от Dead Shot увеличивает шанс срабатывания Gunslinger.<br><br>Срабатывание Gunslinger сокращает текущую перезарядку Dead Shot. "
+        "description": "Попадание по герою рикошетом от Dead Shot увеличивает шанс срабатывания Gunslinger."
       }
     ]
   },
