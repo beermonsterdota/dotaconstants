@@ -5278,7 +5278,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Scholar of Koryx",
-        "description": "Увеличивает максимальный уровень способности <font color='#7998b5'>Quas</font> на 1 и даёт ей дополнительный уровень, когда герой достигает 6-го уровня.<br><br><font color='#92acf5'>Aghanim's Scepter</font> улучшает способность <b>Ice Wall</b>."
+        "description": "Увеличивает максимальный уровень способности <font color='#7998b5'>Quas</font> на 1 и даёт ей дополнительный уровень, когда герой достигает 6-го уровня."
       },
       {
         "id": 1,
@@ -5287,16 +5287,16 @@
         "color": "Purple",
         "gradient_id": 0,
         "title": "Mind of Tornarus",
-        "description": "Увеличивает максимальный уровень способности <font color='#d671a9'>Wex</font> на 1 и даёт ей дополнительный уровень, когда герой достигает 6-го уровня.<br><br><font color='#92acf5'>Aghanim's Scepter</font> улучшает способность <b>Tornado</b>."
+        "description": "Увеличивает максимальный уровень способности <font color='#d671a9'>Wex</font> на 1 и даёт ей дополнительный уровень, когда герой достигает 6-го уровня."
       },
-      {
+      { 
         "id": 2,
         "name": "invoker_exort_focus",
         "icon": "invoker_exort",
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Agent of Gallaron",
-        "description": "Увеличивает максимальный уровень способности <font color='#cabe68'>Exort</font> на 1 и даёт ей дополнительный уровень, когда герой достигает 6-го уровня.<br><br><font color='#92acf5'>Aghanim's Scepter</font> улучшает способность <b>Sun Strike</b>."
+        "description": "Увеличивает максимальный уровень способности <font color='#cabe68'>Exort</font> на 1 и даёт ей дополнительный уровень, когда герой достигает 6-го уровня."
       }
     ]
   },
