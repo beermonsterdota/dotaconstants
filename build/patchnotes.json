@@ -60446,7 +60446,7 @@
       "<span class=\\\"Subtitle\\\">Health Restoration</span>",
       "Health Restoration now applies to all forms of life gain ",
       "Previously, it did not apply to incoming heals",
-      "Incoming Heal Amplification now stacks diminishingly with Health Restoration instead of additively with Outgoing Heal Amplfication",
+      "Incoming Heal Amplification now stacks diminishingly with Health Restoration instead of additively with Outgoing Heal Amplification",
       "Spells that previously had a separate value for incoming heal reduction now only modify Health Restoration ",
       "* Eye of Skadi's Cold Attack<br>* Spirit Vessel's Soul Release<br>* Omniknight's Guardian Angel with Aghanim's Scepter<br>* Pudge's Rot with Aghanim's Scepter",
       "As a result of the changes, spells that only modified Health Restoration will now additionally affect incoming heals ",
@@ -60632,7 +60632,7 @@
       "boots": [
         "No longer provides +8 Intelligence",
         "Swiftness Aura now also provides +2.5 Health Regen",
-        "Endurance now shares cooldown with Drums of Endurance"
+        "Endurance now shares cooldown with Drum of Endurance"
       ],
       "eternal_shroud": [
         "Item removed from the game"
@@ -60642,7 +60642,7 @@
       ],
       "gungir": [
         "Recipe changed",
-        "Now also requires Chasm Stone",
+        "Now also requires Chasm Stone (800)",
         "Recipe cost decreased from 1100 to 400. Total cost increased from 4550g to 4650g",
         "Area of Effect bonuses from multiple Chasm Stones or its upgrades do not stack"
       ],
@@ -60812,6 +60812,7 @@
         "Arctic Blast damage increased from 200 to 260",
         "Arctic Blast radius decreased from 900 to 825 ",
         "Effective spell radius unchanged due to item's built-in Area of Effect bonus",
+        "Arctic Blast no longer increases damage taken from spells",
         "Freezing Aura no longer reduces Health Restoration and Incoming Heal Amplification by 25%",
         "Freezing Aura now pierces debuff immunity"
       ],
@@ -61356,7 +61357,8 @@
         "bounty_hunter_big_game_hunter": [
           "Ability reworked",
           "Bounty Hunter receives 15% more kill and assist gold if the dying enemy hero is Big Game. An enemy hero is considered Big Game if they are one of the top 3 net worth heroes on the enemy team",
-          "These heroes will have a debuff, that points out that they're among these three heroes. Debuff is visible only to Bounty Hunter and his allies"
+          "Bounty Hunter has a list of heroes that are currently considered a big game, accessible by pressing special button over the innate",
+          "These heroes will also have a debuff, that points out that they're among these three heroes. Debuff is visible only to Bounty Hunter and his allies"
         ],
         "bounty_hunter_jinada": [
           "Gold Steal increased from 12/20/28/36 to 15/22/29/36"
@@ -61456,13 +61458,13 @@
         ],
         "chen_zealot": [
           "New innate ability, has both passive and active components. Improves with game's time",
-          "When Chen respawns, he is joined in battle by a Zealot, a melee creep warrior with the Martyrdom ability which allows him to sacrifice himself to deal damage or heal an ally. Zealot has the same stats as the current melee creeps on his team, including super or mega form, but has 125 attack range, base damage increased by 2 per Chen's level, base health regen increased from 0.5 to 2.5, and doesn't have Runty attack type",
+          "When Chen respawns, he is joined in battle by a Zealot, a melee creep warrior with the Martyrdom ability which allows him to sacrifice himself to deal damage or heal an ally. Zealot has the same stats as the current melee creeps on his team, including super or mega form, but has 125 attack range, base damage increased by 2 per Chen's level, base health regen increased from 0.5 to 2.5, and doesn't have Runty attack type. Zealot respawns after 60s dead",
           "Martyrdom ability: 500 range unit-targeted ability on the Zealot creep, targeting either an enemy or ally unit. When cast, the creep sacrifices itself, firing a projectile at 1000 speed at the target unit, dealing damage if it's an enemy or healing if it's an ally. Damage is 25 + 20% of the Zealot's health at the moment of the cast, and healing is 50% of these values",
           "This ability can be cast on a controlled unit to teleport it to Chen after a 6 second delay. Self-targeting will teleport all controlled units. Mana Cost: 50. Cooldown: 10s",
           "Mechanics moved from Divine Favor without any changes"
         ],
         "chen_holy_persuasion": [
-          "Lane creeps targeted by Holy Persuasion are upgraded into Zealots, and Zealots receive the benefits from Holy Persuasion",
+          "Zealots receive the benefits from Holy Persuasion",
           "Now may be cast on existing persuaded creeps that have not been damaged in the last 3 seconds to unsummon them",
           "Unsummoning a unit has a global cast range, costs no mana and sets ability to a 3s cooldown",
           "Now increases all of creature's outgoing damage by 0/6/12/18% instead of only increasing attack damage by 4/8/12/16"
@@ -61507,7 +61509,7 @@
           "Now also increases Power Cogs radius to 330 and provides 25% bonus armor to Clockwerk while he is near cogs",
           "No longer increases Clockwerk's attack speed while inside Power Cogs",
           "Now increases Rocket Flare damage, vision and slow duration by 35%",
-          "No longer decreases Rocket Flare cooldown by 3.5s"
+          "No longer decreases Rocket Flare cooldown to 3.5s"
         ],
         "talents": [
           "Level 10 Talent +0.4s Rocket Flare Slow Duration replaced with +1.5 Mana Regen",
@@ -61638,7 +61640,7 @@
       "doom_bringer": {
         "doom_bringer_lvl_pain": [
           "Ability slightly reworked",
-          "When Doom attacks enemy heroes, he applies a curse upon them. After 2.5s, the cursed hero bursts with a pillar of fire, damaging itself and all enemy units in a 66 AoE for 15% of the damage taken from Doom over this duration, including damage from the attack that applied the curse. If the cursed hero's level is a multiple of 6, the curse damage and radius will be increased by 66%"
+          "When Doom attacks enemy heroes, he applies a curse upon them. After 2.5s, the cursed hero bursts with a pillar of fire, damaging itself and all enemy units in a 66 AoE for 15% of the damage taken from Doom (the hero) over this duration, including damage from the attack that applied the curse. If the cursed hero's level is a multiple of 6, the curse damage and radius will be increased by 66%"
         ],
         "doom_bringer_devour": [
           "Now the default cast gained on learning Devour is the one that grants abilities of devoured creeps, and alt-cast state keeps the ones that Doom currently has",
@@ -62578,7 +62580,7 @@
         ],
         "talents": [
           "Level 20 Talent +15% Ghost Shroud Self Restoration Amp replaced with +75 Spell AoE",
-          "Level 25 Talent +0.5% Heartstopper Aura Damage replaced with +0.3 Reaper's Scythe Damage Per Health Missing"
+          "Level 25 Talent +0.5% Heartstopper Aura Damage replaced with +0.3 Reaper's Scythe Damage Per Missing HP"
         ]
       },
       "night_stalker": {
@@ -63103,7 +63105,7 @@
           "Active Bonus Attack Range rescaled from 100/150/200/250 to 75/150/225/300"
         ],
         "sniper_assassinate": [
-          "No longer increases attack damage by 100/110/120%"
+          "No longer amplifies attack damage to 100/110/120%"
         ],
         "talents": [
           "Level 10 Talent +55 Take Aim Attack Range Bonus replaced with +50 Take Aim Passive Attack Range"
@@ -63199,7 +63201,7 @@
           "Increases mana regen by a portion of Techies' max mana equal to 0.08% + 0.02% per level",
           "When Techies die, they leave behind a barrel that explodes after 1.5s, dealing magical damage equal to 50 + 30% of their max mana to enemies in a 400 area of effect. The barrel provides 400 obstructed vision until it explodes",
           "Upgraded with Aghanim's Shard",
-          "Increases mana to damage by 10%. Adds an active component. Techies plant the M.A.D. barrel, and detonate it later by using a sub-ability. The M.A.D. barrel is invisible and can be destroyed before the detonation process begins. Detonating the barrel makes it visible and immortal, and then it explodes after the same 1.5s delay. Only one M.A.D. can exist via the active cast at one time. Barrel is planted via a 1s channel. Barrel Health: 200. Cast Range: 450. No Mana Cost. Cooldown: 30s. Cast Point: 1s"
+          "Increases mana to damage by 10%. Adds an active component. Techies plant the M.A.D. barrel, and detonate it later by using a sub-ability. The M.A.D. barrel is invisible and can be destroyed before the detonation process begins. Detonating the barrel makes it visible and immortal, and then it explodes after the same 1.5s delay. Only one M.A.D. can exist via the active cast at one time. Barrel Health: 200. Cast Range: 450. No Mana Cost. Cooldown: 30s. Cast Point: 1s"
         ],
         "techies_reactive_tazer": [
           "Can now always be cast on allies",
@@ -63268,7 +63270,7 @@
           "Strength gain increased from 3.6 to 3.7",
           "Removed Blubber innate ability"
         ],
-        "tidehunter_krill_eater": [
+        "tidehunter_leviathans_catch": [
           "New Innate Ability. Passive",
           "Whenever an enemy hero dies while affected by any Tidehunter's debuff or is killed by him, they drop a fish. Tidehunter can eat the fish to grow in size and permanently gain 3 Max Health, 2 Attack Range and 1 Bonus Damage Block. Tidehunter automatically eats a fish on every level up",
           "Bonus Damage Block is only applied if there is a source of damage block being applied to an incoming physical attack",
@@ -63440,7 +63442,6 @@
       },
       "undying": {
         "general": [
-          "Base Health Regen increased from -0.25 to 0.25",
           "Base Agility increased from 10 to 13",
           "Base Armor decreased by 1"
         ],
@@ -63516,8 +63517,8 @@
           "Aghanim's Scepter now also gradually increases Corrosive Skin's magic resistance and damage per second while he is in Nethertoxin, up to 50% increased effect after 4s"
         ],
         "talents": [
-          "Level 10 Talent +10% Poison Attack slow/damage replaced with +15 Corrosive Skin Damage",
-          "Level 15 Talent +20 Corrosive Skin Damage replaced with +15% Poison Attack Slow / Damage",
+          "Level 10 Talent +10% Poison Attack slow/damage replaced with +15 Corrosive Skin Damage Per Second",
+          "Level 15 Talent +20 Corrosive Skin Damage Per Second replaced with +15% Poison Attack Slow / Damage",
           "Level 15 Talent +30 Nethertoxin Min/Max Damage replaced with +20/40 Nethertoxin Min/Max Damage",
           "Level 20 Talent Predator Damage Per Missing Health increased from +0.3 to +0.35"
         ]
@@ -63717,6 +63718,309 @@
         "talents": [
           "Level 15 Talent -0.4s Arc Lightning Cooldown replaced with -20% Arc Lightning Mana Cost/Cooldown",
           "Level 25 Talent +2% Static Field Damage replaced with 3 Heavenly Jump Charges"
+        ]
+      }
+    }
+  },
+  "7_41a": {
+    "general": [],
+    "items": {
+      "consecrated_wraps": [
+        "Magic Resistance bonus decreased from +15% to +12%",
+        "Hallowed movement speed on stack gain decreased from 20% to 15%",
+        "Hallowed barrier and movement speed duration decreased from 7s to 5s"
+      ],
+      "enhancement_crude": [
+        "Base Attack Time Reduction bonus worsened from 8/12/16% to 6/9/12%"
+      ]
+    },
+    "heroes": {
+      "misc": [
+        "Enchantment Changes"
+      ],
+      "alchemist": {
+        "general": [
+          "Base movement speed decreased from 295 to 290"
+        ],
+        "alchemist_goblins_greed": [
+          "Max Bonus Gold Per Kill decreased from 18 to 16",
+          "Bonus Damage per Scepter decreased from +25 to +15"
+        ]
+      },
+      "ancient_apparition": {
+        "ancient_apparition_bone_chill": [
+          "Base Strength Reduction increased from 0.1 to 0.2"
+        ]
+      },
+      "antimage": {
+        "general": [
+          "Base Movement Speed increased from 310 to 315",
+          "Base Health Regen increased by 0.5"
+        ],
+        "antimage_mana_break": [
+          "Mana Burned As Damage increased from 50% to 60%"
+        ]
+      },
+      "bloodseeker": {
+        "bloodseeker_bloodrage": [
+          "Attack Speed decreased from 60/90/120/150 to 55/80/105/130",
+          "Aghanim's Shard target's max health as damage decreased from 2% to 1.5%"
+        ]
+      },
+      "centaur": {
+        "centaur_horsepower": [
+          "Strength as Bonus Movement Speed increased from 30% to 40%"
+        ]
+      },
+      "chaos_knight": {
+        "general": [
+          "Base Damage increased by 3",
+          "Damage on level 1 increased from 53–73 to 56–76"
+        ]
+      },
+      "chen": {
+        "chen_penitence": [
+          "Damage increased from 50/75/100/125 to 50/100/150/200"
+        ],
+        "talents": [
+          "Level 15 Talent Penitence Slow increased from +14% to +15%"
+        ]
+      },
+      "rattletrap": {
+        "rattletrap_power_cogs": [
+          "Mana Burn increased from 35/75/115/155 to 40/80/120/160"
+        ],
+        "talents": [
+          "Level 15 Talent Battery Assault Damage increased from +24 to +25",
+          "Level 20 Talent Power Cogs Mana Burn increased from +70 to +80"
+        ]
+      },
+      "death_prophet": {
+        "death_prophet_spirit_siphon": [
+          "Mana Cost decreased from 80 to 60"
+        ]
+      },
+      "doom_bringer": {
+        "general": [
+          "Base Armor decreased by 1"
+        ],
+        "doom_bringer_lvl_pain": [
+          "Curse Damage decreased from 15% to 10%"
+        ]
+      },
+      "invoker": {
+        "general": [
+          "Base Intelligence increased from 20 to 22",
+          "Damage on level 1 increased from 39–45 to 41–47"
+        ],
+        "talents": [
+          "Level 10 Talent Tornado Cooldown Reduction increased from 4s to 5s"
+        ]
+      },
+      "wisp": {
+        "wisp_equilibrium": [
+          "Max Damage Amp and Max Heal Amplification decreased from 5 + 0.5% per level to 4 + 0.4% per level"
+        ],
+        "talents": [
+          "Level 25 Talent Attack Tethered Ally's Target Damage decreased from 75% to 50%"
+        ]
+      },
+      "juggernaut": {
+        "juggernaut_blade_fury": [
+          "Cooldown decreased from 36/30/24/18s to 30/26/22/18s"
+        ],
+        "juggernaut_blade_dance": [
+          "Critical Damage increased from 130/150/170/190% to 140/160/180/200%"
+        ]
+      },
+      "kez": {
+        "kez_raptor_dance": [
+          "Base Damage increased from 30/60/90 to 40/70/100"
+        ],
+        "kez_ravens_veil": [
+          "Buff Duration increased from 7/8/9s to 8/10/12s"
+        ]
+      },
+      "legion_commander": {
+        "legion_commander_outfight_them": [
+          "No longer grants a passive armor bonus before casting abilities"
+        ],
+        "talents": [
+          "Level 20 Talent Duel Duration decreased from +1s to +0.75s",
+          "Level 25 Talent Moment of Courage Lifesteal increased from +75% to +100%"
+        ]
+      },
+      "leshrac": {
+        "general": [
+          "Strength gain decreased from 2.8 to 2.5"
+        ],
+        "leshrac_diabolic_edict": [
+          "Damage per explosion decreased from 10/18/26/34 to 9/16/23/30"
+        ]
+      },
+      "life_stealer": {
+        "general": [
+          "Base Damage decreased by 3",
+          "Damage on level 1 decreased from 49–55 to 46–52"
+        ],
+        "life_stealer_ghoul_frenzy": [
+          "Bonus Attack Speed decreased from 5 per level to 4 per level"
+        ],
+        "life_stealer_rage": [
+          "Movespeed Bonus decreased from 9/12/15/18% to 6/9/12/15%"
+        ],
+        "life_stealer_feast": [
+          "Max HP per Hero Kill decreased from 10/15/20/25 to 10"
+        ]
+      },
+      "meepo": {
+        "meepo_divided_we_stand": [
+          "Evasion no longer diminishes when shared between Meepos and has full strength on each",
+          "Clones can no longer copy Bottle"
+        ]
+      },
+      "mirana": {
+        "mirana_celestial_quiver": [
+          "Bonus Damage changed from 3 per level to 5 + 3 per level"
+        ],
+        "talents": [
+          "Level 20 Talent Celestial Quiver Damage increased from +35 to +40"
+        ]
+      },
+      "morphling": {
+        "general": [
+          "Agility gain increased from 3.9 to 4.2"
+        ]
+      },
+      "muerta": {
+        "muerta_the_calling": [
+          "Cooldown decreased from 30s to 30/28/26/24s"
+        ],
+        "muerta_pierce_the_veil": [
+          "Base Damage Bonus rescaled from 75% to 70/85/100%"
+        ]
+      },
+      "oracle": {
+        "oracle_fortunes_end": [
+          "Mana Cost decreased from 100 to 80"
+        ]
+      },
+      "pangolier": {
+        "pangolier_gyroshell": [
+          "Cooldown increased from 90/85/80s to 100/90/80s"
+        ]
+      },
+      "phantom_lancer": {
+        "phantom_lancer_spirit_lance": [
+          "Slow Duration decreased from 3.75s to 3s"
+        ],
+        "talents": [
+          "Level 10 Talent Spirit Lance Slow Duration decreased from +1.25s to +1s"
+        ]
+      },
+      "primal_beast": {
+        "primal_beast_colossal": [
+          "Now slightly grows in size when crossing an HP threshold"
+        ]
+      },
+      "puck": {
+        "puck_illusory_orb": [
+          "Impact Damage decreased from 75/150/225/300 to 70/140/210/280"
+        ]
+      },
+      "slark": {
+        "slark_shadow_dance": [
+          "Bonus Movement Speed decreased from 24/36/48% to 20/30/40%"
+        ],
+        "talents": [
+          "Level 20 Talent +1 Agility gain/stolen per Essence Shift Stack replaced with +25s Essence Shift Duration",
+          "Level 25 Talent +35s Essence Shift Duration replaced with +1 Agility gain/stolen per Essence Shift Stack"
+        ]
+      },
+      "spectre": {
+        "spectre_spectral_dagger": [
+          "Damage rescaled from 70/120/170/220 to 80/120/160/200"
+        ],
+        "talents": [
+          "Level 20 Talent Health decreased from +325 to +300",
+          "Level 25 Talent Dispersion decreased from +5% to +4%"
+        ]
+      },
+      "spirit_breaker": {
+        "spirit_breaker_greater_bash": [
+          "Aghanim's Scepter upgrade unit collision radius no longer affected by Area of Effect bonuses"
+        ]
+      },
+      "techies": {
+        "techies_land_mines": [
+          "Damage decreased from 450/575/750 to 400/550/700",
+          "Portion of damage dealt on the edge of AoE decreased from 60% to 50%",
+          "Minimum Damage decreased from 240/345/450 to 200/225/350"
+        ],
+        "talents": [
+          "Level 10 Talent Proximity Mines Cooldown Reduction decreased from 3s to 2s"
+        ]
+      },
+      "tidehunter": {
+        "tidehunter_leviathans_catch": [
+          "Fish spawn launch distance decreased from 400 to 200"
+        ]
+      },
+      "shredder": {
+        "shredder_exposure_therapy": [
+          "Mana Restore increased from 3.75 + 0.25 per level to 4 + 0.5 per level"
+        ],
+        "shredder_chakram": [
+          "Mana Cost decreased from 100/140/180 to 90/120/150",
+          "Mana Cost per second decreased from 14/22/30 to 10/15/20"
+        ]
+      },
+      "tinker": {
+        "tinker_deploy_turrets": [
+          "Tinker Knockback increased from 350 to 400"
+        ]
+      },
+      "tiny": {
+        "tiny_tree_grab": [
+          "Number of Attacks increased from 4/5/6/7 to 5/6/7/8"
+        ],
+        "tiny_grow": [
+          "Bonus Damage increased from 55/110/165 to 60/120/180",
+          "Movement Speed Bonus increased from 10/15/20 to 10/20/30"
+        ]
+      },
+      "void_spirit": {
+        "general": [
+          "Base Mana Regen decreased by 0.6"
+        ]
+      },
+      "windrunner": {
+        "general": [
+          "Base Agility increased from 17 to 20",
+          "Damage on level 1 increased from 47–59 to 49–61"
+        ],
+        "windrunner_tailwind": [
+          "Duration increased from 2s to 2.5s",
+          "Aghanim's Scepter bonus is still +1s, so it's increased to 3.5s"
+        ],
+        "windrunner_focusfire": [
+          "Cooldown decreased from 70/50/30s to 50/40/30s"
+        ]
+      },
+      "skeleton_king": {
+        "general": [
+          "Base Attack Time worsened from 1.7s to 1.8s",
+          "Intelligence gain decreased from 1.6 to 1.4"
+        ],
+        "skeleton_king_bone_guard": [
+          "Skeleton Duration decreased from 46s to 40s"
+        ],
+        "skeleton_king_mortal_strike": [
+          "Cooldown rescaled from 6/5.5/5/4.5s to 5s"
+        ],
+        "talents": [
+          "Level 15 Talent Health decreased from +350 to +300",
+          "Level 15 Talent Wraithfire Blast Stun Duration decreased from +1s to +0.75s"
         ]
       }
     }

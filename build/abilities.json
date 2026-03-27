@@ -9022,7 +9022,7 @@
       {
         "key": "percent_damage_per_burn",
         "header": "MANA BURNED AS DAMAGE:",
-        "value": "50"
+        "value": "60"
       },
       {
         "key": "mana_per_hit",
@@ -10126,7 +10126,10 @@
   "bane_ichor_of_nyctasha": {
     "dname": "Ichor of Nyctasha",
     "is_innate": true,
-    "behavior": "Passive",
+    "behavior": [
+      "Passive",
+      "Hidden"
+    ],
     "dmg_type": "Pure",
     "desc": "Every time Bane kills an enemy hero or they die under the effect of Bane's debuff, they receive a Terror for the rest of the game that decreases their status resistance to Bane's subsequent debuffs.",
     "attrib": [
@@ -10164,7 +10167,7 @@
     "dmg_type": "Pure",
     "bkbpierce": "Yes",
     "dispellable": "Yes",
-    "desc": "Drives Bloodseeker into a bloodthirsty rage which causes him to attack faster and gain base attack damage at the cost of a percentage of his health per second.",
+    "desc": "Drives Bloodseeker into a bloodthirsty rage which causes him to attack faster and deal more spell damage at the cost of a percentage of his health per second.",
     "attrib": [
       {
         "key": "duration",
@@ -10175,10 +10178,10 @@
         "key": "attack_speed",
         "header": "ATTACK SPEED:",
         "value": [
-          "60",
-          "90",
-          "120",
-          "150"
+          "55",
+          "80",
+          "105",
+          "130"
         ]
       },
       {
@@ -10255,10 +10258,10 @@
         "key": "damage",
         "header": "DAMAGE:",
         "value": [
-          "105",
-          "175",
-          "245",
-          "315"
+          "100",
+          "155",
+          "210",
+          "265"
         ]
       },
       {
@@ -11974,10 +11977,10 @@
         "key": "blade_dance_crit_mult",
         "header": "CRITICAL DAMAGE:",
         "value": [
-          "130%",
-          "150%",
-          "170%",
-          "190%"
+          "140%",
+          "160%",
+          "180%",
+          "200%"
         ]
       },
       {
@@ -12081,9 +12084,9 @@
     "lore": "Yurnero's renowned katana techniques are feared by warriors and sorcerors alike.",
     "mc": "120",
     "cd": [
-      "36",
       "30",
-      "24",
+      "26",
+      "22",
       "18"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/juggernaut_blade_fury.png"
@@ -12964,6 +12967,11 @@
     ],
     "desc": "When a charge is available, Mirana's next attack will deal bonus magic damage.\n\nGains a charge every 7 hero levels.",
     "attrib": [
+      {
+        "key": "bonus_damage",
+        "header": "BONUS DAMAGE:",
+        "value": "5"
+      },
       {
         "key": "abilitycharges",
         "header": "MAX CHARGES:",
@@ -14199,7 +14207,7 @@
       {
         "key": "duration",
         "header": "SLOW DURATION:",
-        "value": "3.75"
+        "value": "3"
       },
       {
         "key": "movement_speed_pct",
@@ -14559,10 +14567,10 @@
         "key": "damage",
         "header": "IMPACT DAMAGE:",
         "value": [
-          "75",
-          "150",
-          "225",
-          "300"
+          "70",
+          "140",
+          "210",
+          "280"
         ]
       },
       {
@@ -16866,10 +16874,10 @@
         "key": "attack_count",
         "header": "NUMBER OF ATTACKS:",
         "value": [
-          "4",
           "5",
           "6",
-          "7"
+          "7",
+          "8"
         ]
       },
       {
@@ -17107,9 +17115,9 @@
         "key": "bonus_damage",
         "header": "BONUS DAMAGE:",
         "value": [
-          "55",
-          "110",
-          "165"
+          "60",
+          "120",
+          "180"
         ]
       },
       {
@@ -17131,8 +17139,8 @@
         "header": "MOVEMENT SPEED BONUS:",
         "value": [
           "10",
-          "15",
-          "20"
+          "20",
+          "30"
         ]
       }
     ],
@@ -17882,8 +17890,8 @@
       "125"
     ],
     "cd": [
-      "70",
       "50",
+      "40",
       "30"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/windrunner_focusfire.png"
@@ -17938,7 +17946,7 @@
       {
         "key": "duration",
         "header": "DURATION:",
-        "value": "2"
+        "value": "2.5"
       },
       {
         "key": "max_movespeed",
@@ -21670,10 +21678,13 @@
     "cd": "35",
     "img": "/apps/dota2/images/dota_react/abilities/tidehunter_dead_in_the_water.png"
   },
-  "tidehunter_krill_eater": {
+  "tidehunter_leviathans_catch": {
     "dname": "Leviathan's Catch",
     "is_innate": true,
-    "behavior": "Passive",
+    "behavior": [
+      "Passive",
+      "Hidden"
+    ],
     "dispellable": "No",
     "attrib": [
       {
@@ -21733,7 +21744,7 @@
       {
         "key": "max_fish_spawn_distance",
         "header": "MAX FISH SPAWN DISTANCE:",
-        "value": "400",
+        "value": "200",
         "generated": true
       },
       {
@@ -21749,7 +21760,7 @@
         "generated": true
       }
     ],
-    "img": "/apps/dota2/images/dota_react/abilities/tidehunter_krill_eater.png"
+    "img": "/apps/dota2/images/dota_react/abilities/tidehunter_leviathans_catch.png"
   },
   "tidehunter_blubber": {
     "dname": "Blubber",
@@ -23791,7 +23802,7 @@
       {
         "key": "drop_knockback_distance_tinker",
         "header": "TINKER KNOCKBACK:",
-        "value": "350"
+        "value": "400"
       },
       {
         "key": "drop_count",
@@ -27604,7 +27615,7 @@
       {
         "key": "skeleton_duration",
         "header": "SKELETON DURATION:",
-        "value": "46"
+        "value": "40"
       },
       {
         "key": "max_skeleton_charges",
@@ -27776,12 +27787,7 @@
       }
     ],
     "lore": "One blow to crush a foe.",
-    "cd": [
-      "6",
-      "5.5",
-      "5",
-      "4.5"
-    ],
+    "cd": "5",
     "img": "/apps/dota2/images/dota_react/abilities/skeleton_king_mortal_strike.png"
   },
   "skeleton_king_reincarnation": {
@@ -28128,7 +28134,7 @@
         "generated": true
       }
     ],
-    "mc": "80",
+    "mc": "60",
     "cd": "0",
     "img": "/apps/dota2/images/dota_react/abilities/death_prophet_spirit_siphon.png"
   },
@@ -30483,6 +30489,7 @@
     "dname": "Elder Dragon Form",
     "behavior": "No Target",
     "dmg_type": "Magical",
+    "bkbpierce": "Yes",
     "dispellable": "No",
     "desc": "Dragon Knight assumes the form of the Elder Dragon, increasing the range of his abilities, gaining bonus movement speed, and a ranged attack with various properties. The Dragon evolves per level. The bonuses are cumulative. \n\nLevel 1 Green : Grants a corrosive damage over time that can also damage buildings.\n\nLevel 2 Red : Grants splash damage to the dragon's attacks.\n\nLevel 3 Blue : Grants a debuff immunity piercing movement and attack frost slow on attack.",
     "attrib": [
@@ -31562,10 +31569,10 @@
         "key": "mana_burn",
         "header": "MANA BURN:",
         "value": [
-          "35",
-          "75",
-          "115",
-          "155"
+          "40",
+          "80",
+          "120",
+          "160"
         ]
       },
       {
@@ -32043,10 +32050,10 @@
         "key": "damage",
         "header": "DAMAGE PER EXPLOSION:",
         "value": [
-          "10",
-          "18",
-          "26",
-          "34"
+          "9",
+          "16",
+          "23",
+          "30"
         ]
       },
       {
@@ -33095,10 +33102,10 @@
         "key": "movespeed_bonus",
         "header": "MOVESPEED BONUS:",
         "value": [
+          "6%",
           "9%",
           "12%",
-          "15%",
-          "18%"
+          "15%"
         ]
       },
       {
@@ -33228,12 +33235,7 @@
       {
         "key": "bonus_hp_per_hero",
         "header": "MAX HP PER HERO KILL:",
-        "value": [
-          "10",
-          "15",
-          "20",
-          "25"
-        ]
+        "value": "10"
       },
       {
         "key": "bonus_hp_per_creep",
@@ -38040,7 +38042,8 @@
     "behavior": [
       "Unit Target",
       "Autocast",
-      "Attack Modifier"
+      "Attack Modifier",
+      "AOE"
     ],
     "dmg_type": "Magical",
     "bkbpierce": "No",
@@ -38894,9 +38897,9 @@
         "header": "DAMAGE:",
         "value": [
           "50",
-          "75",
           "100",
-          "125"
+          "150",
+          "200"
         ]
       },
       {
@@ -39197,6 +39200,12 @@
         "generated": true
       },
       {
+        "key": "unsummon_cooldown_reduction",
+        "header": "UNSUMMON COOLDOWN REDUCTION:",
+        "value": "12",
+        "generated": true
+      },
+      {
         "key": "abilitycastrange",
         "header": "CAST RANGE:",
         "value": "600",
@@ -39378,10 +39387,10 @@
         "key": "damage",
         "header": "DAMAGE:",
         "value": [
-          "70",
+          "80",
           "120",
-          "170",
-          "220"
+          "160",
+          "200"
         ]
       },
       {
@@ -39918,12 +39927,12 @@
       "Hidden"
     ],
     "dmg_type": [],
-    "desc": "Doom's attacks curse enemy heroes. After 2.5s, the cursed hero bursts with a pillar of fire, damaging itself and all units in a 66 AoE for 15% of the damage taken from Doom during the curse. The damage and radius of the curse is 66% stronger if the enemy's level is a multiple of 6.",
+    "desc": "Doom's attacks curse enemy heroes. After 2.5s, the cursed hero bursts with a pillar of fire, damaging itself and all units in a 66 AoE for 10% of the damage taken from Doom during the curse. The damage and radius of the curse is 66% stronger if the enemy's level is a multiple of 6.",
     "attrib": [
       {
         "key": "bonus_damage_pct_base",
         "header": "BONUS DAMAGE PCT BASE:",
-        "value": "15",
+        "value": "10",
         "generated": true
       },
       {
@@ -40663,7 +40672,7 @@
       {
         "key": "str_reduction",
         "header": "STRENGTH REDUCTION:",
-        "value": ".1"
+        "value": ".2"
       },
       {
         "key": "tooltip_scepter_bonus",
@@ -42378,18 +42387,18 @@
       {
         "key": "bonus_gold_cap",
         "header": "BONUS GOLD CAP:",
-        "value": "18",
+        "value": "16",
         "generated": true
       },
       {
         "key": "bonus_gold_cap_tooltip",
         "header": "MAX BONUS GOLD PER KILL:",
-        "value": "18"
+        "value": "16"
       },
       {
         "key": "scepter_bonus_damage",
         "header": "SCEPTER BONUS DAMAGE:",
-        "value": "25",
+        "value": "15",
         "generated": true
       },
       {
@@ -49605,7 +49614,7 @@
       "Basic",
       "Building"
     ],
-    "desc": "Infuses the target hero or structure with a protective coating which heals the target and blocks damage from player-controlled sources. Every time damage is blocked this way, the damage block amount is decreased.",
+    "desc": "Infuses the target hero or structure with a protective coating which heals the target and blocks damage from player-controlled sources. Each time this spell blocks damage, the block amount is decreased. If the damage block is decreased to 0, the buff is removed early.",
     "attrib": [
       {
         "key": "heal_per_second",
@@ -51358,6 +51367,11 @@
     "behavior": "Hidden",
     "attrib": [],
     "img": "/apps/dota2/images/dota_react/abilities/rubick_hidden4.png"
+  },
+  "rubick_hidden5": {
+    "behavior": "Hidden",
+    "attrib": [],
+    "img": "/apps/dota2/images/dota_react/abilities/rubick_hidden5.png"
   },
   "disruptor_thunder_strike": {
     "dname": "Thunder Strike",
@@ -53898,12 +53912,12 @@
       {
         "key": "damage_amplification",
         "header": "MAX DAMAGE AMP:",
-        "value": "5%"
+        "value": "4%"
       },
       {
         "key": "heal_amplification",
         "header": "MAX HEAL AMP:",
-        "value": "5%"
+        "value": "4%"
       }
     ],
     "img": "/apps/dota2/images/dota_react/abilities/wisp_equilibrium.png"
@@ -54838,9 +54852,9 @@
         "key": "bonus_movement_speed",
         "header": "BONUS MOVEMENT SPEED:",
         "value": [
-          "24%",
-          "36%",
-          "48%"
+          "20%",
+          "30%",
+          "40%"
         ]
       },
       {
@@ -56330,12 +56344,12 @@
     "dname": "Horsepower",
     "is_innate": true,
     "behavior": "Passive",
-    "desc": "Centaur Warrunner gains 30% of his strength as bonus movement speed.\n\n This Movement speed bonus does not stack with bonuses from boots.",
+    "desc": "Centaur Warrunner gains 40% of his strength as bonus movement speed.\n\n This Movement speed bonus does not stack with bonuses from boots.",
     "attrib": [
       {
         "key": "strength_to_movement_pct",
         "header": "STRENGTH TO MOVEMENT PCT:",
-        "value": "30",
+        "value": "40",
         "generated": true
       },
       {
@@ -57402,9 +57416,9 @@
         "key": "mana_per_second",
         "header": "MANA COST PER SECOND:",
         "value": [
-          "14",
-          "22",
-          "30"
+          "10",
+          "15",
+          "20"
         ]
       },
       {
@@ -57440,9 +57454,9 @@
     ],
     "lore": "The ultimate in anti-flora weaponry.",
     "mc": [
-      "100",
-      "140",
-      "180"
+      "90",
+      "120",
+      "150"
     ],
     "cd": "8",
     "img": "/apps/dota2/images/dota_react/abilities/shredder_chakram.png"
@@ -57690,7 +57704,7 @@
       {
         "key": "mana_restore",
         "header": "MANA RESTORE:",
-        "value": "3.75"
+        "value": "4"
       },
       {
         "key": "health_restore",
@@ -58050,13 +58064,12 @@
     "dmg_type": "Physical",
     "bkbpierce": "No",
     "dispellable": "Yes",
-    "desc": "Bristleback has 4.5% damage and debuff duration amp against enemy heroes that are behind him.",
+    "desc": "Bristleback has bonus damage and debuff duration amp against enemy heroes that are behind him.",
     "attrib": [
       {
         "key": "amp_pct",
-        "header": "AMP PCT:",
-        "value": "4.5",
-        "generated": true
+        "header": "DAMAGE AND DEBUFF DURATION AMP:",
+        "value": "4.5%"
       },
       {
         "key": "angle",
@@ -60437,7 +60450,7 @@
       "Passive",
       "Hidden"
     ],
-    "desc": "Passively grants Legion Commander armor.\n\nIf Legion or an allied Hero within 1200 range casts an ability, they gain bonus armor for 6s; allies gain 50% of the value. This bonus stacks independently.",
+    "desc": "When Legion Commander or an allied Hero within 1200 range casts an ability, they gain bonus armor for 6s; allies gain 50% of the value. This bonus stacks independently.",
     "attrib": [
       {
         "key": "radius",
@@ -62685,7 +62698,7 @@
       }
     ],
     "lore": "The astral orb crackles with power while raw energy lances out, temporarily disrupting an enemy's connection to their own body.",
-    "mc": "100",
+    "mc": "80",
     "cd": [
       "18",
       "14",
@@ -63050,7 +63063,7 @@
     "dmg_type": "Magical",
     "bkbpierce": "No",
     "dispellable": "Yes",
-    "desc": "Plant an invisible mine that cannot be detected by True Sight, but is visible if an enemy is within the active 500 AoE of the mine. Mines detonate if an enemy is standing within the active AoE for 1 seconds dealing damage and temporarily reducing the enemy's Magic Resistance. The explosion deals full damage if the target is within 150 radius and decreases up to 60% on the edge. Deals 30% damage to buildings.",
+    "desc": "Plant an invisible mine that cannot be detected by True Sight, but is visible if an enemy is within the active 500 AoE of the mine. Mines detonate if an enemy is standing within the active AoE for 1 seconds dealing damage and temporarily reducing the enemy's Magic Resistance. The explosion deals full damage if the target is within 150 radius and decreases down to 50% on the edge. Deals 30% damage to buildings.",
     "attrib": [
       {
         "key": "radius",
@@ -63068,8 +63081,8 @@
         "header": "DAMAGE:",
         "value": [
           "400",
-          "575",
-          "750"
+          "550",
+          "700"
         ]
       },
       {
@@ -63091,7 +63104,7 @@
       {
         "key": "outer_damage",
         "header": "OUTER DAMAGE:",
-        "value": "60",
+        "value": "50",
         "generated": true
       },
       {
@@ -66567,8 +66580,8 @@
       "150"
     ],
     "cd": [
+      "100",
       "90",
-      "85",
       "80"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/pangolier_gyroshell.png"
@@ -71947,6 +71960,12 @@
         "header": "TRAMPLE BONUS:",
         "value": "0",
         "generated": true
+      },
+      {
+        "key": "model_scale_per_stack",
+        "header": "MODEL SCALE PER STACK:",
+        "value": "1.1",
+        "generated": true
       }
     ],
     "img": "/apps/dota2/images/dota_react/abilities/primal_beast_colossal.png"
@@ -72249,7 +72268,12 @@
       "165",
       "180"
     ],
-    "cd": "30",
+    "cd": [
+      "30",
+      "28",
+      "26",
+      "24"
+    ],
     "img": "/apps/dota2/images/dota_react/abilities/muerta_the_calling.png"
   },
   "muerta_gunslinger": {
@@ -72312,7 +72336,11 @@
       {
         "key": "base_damage_percent",
         "header": "BASE DAMAGE PERCENT:",
-        "value": "75",
+        "value": [
+          "70",
+          "85",
+          "100"
+        ],
         "generated": true
       },
       {
@@ -74181,9 +74209,9 @@
         "key": "base_damage",
         "header": "BASE DAMAGE:",
         "value": [
-          "30",
-          "60",
-          "90"
+          "40",
+          "70",
+          "100"
         ]
       },
       {
@@ -74582,9 +74610,9 @@
         "key": "buff_duration",
         "header": "BUFF DURATION:",
         "value": [
-          "7",
           "8",
-          "9"
+          "10",
+          "12"
         ]
       },
       {
@@ -78477,7 +78505,7 @@
     "dname": "-{s:value}s Hand of God Cooldown"
   },
   "special_bonus_unique_chen_8": {
-    "dname": "-{s:bonus_bonus_movement_speed}% Penitence Slow"
+    "dname": "+{s:bonus_bonus_movement_speed}% Penitence Slow"
   },
   "special_bonus_unique_chen_9": {
     "dname": "Holy Persuasion Targets Ancients"
