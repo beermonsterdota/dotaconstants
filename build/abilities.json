@@ -1596,10 +1596,10 @@
         "key": "bonus_cdr",
         "header": "COOLDOWN REDUCTION:",
         "value": [
+          "8%",
+          "9%",
           "10%",
-          "11%",
-          "12%",
-          "14%"
+          "11%"
         ]
       },
       {
@@ -1959,7 +1959,7 @@
       {
         "key": "passive_reflection_bonus_per_interval",
         "header": "PASSIVE REFLECTION BONUS PER INTERVAL:",
-        "value": "2",
+        "value": "1.5",
         "generated": true
       },
       {
@@ -2045,13 +2045,13 @@
       {
         "key": "aura_duration",
         "header": "AURA DURATION:",
-        "value": "10",
+        "value": "15",
         "generated": true
       },
       {
         "key": "hp_restoration_pct",
         "header": "HP RESTORATION PCT:",
-        "value": "2",
+        "value": "2.25",
         "generated": true
       },
       {
@@ -9038,10 +9038,10 @@
         "key": "mana_per_hit_pct",
         "header": "MAX MANA BURNED PER HIT:",
         "value": [
-          "1.6",
-          "2.4",
-          "3.2",
-          "4"
+          "1.8",
+          "2.7",
+          "3.6",
+          "4.5"
         ]
       },
       {
@@ -9071,7 +9071,7 @@
     "is_innate": true,
     "behavior": "Passive",
     "bkbpierce": "No",
-    "desc": "Attacks slow enemies based on how much mana they are missing. Min slow at 50% mana, up to max slow at 0% mana. No effect if enemy is above 50% mana.",
+    "desc": "Attacks slow enemies based on how much mana they are missing. Min slow at 60% mana, up to max slow at 0% mana. No effect if enemy is above 60% mana.",
     "attrib": [
       {
         "key": "move_slow_min",
@@ -9086,7 +9086,7 @@
       {
         "key": "mana_threshold",
         "header": "MANA THRESHOLD:",
-        "value": "50",
+        "value": "60",
         "generated": true
       },
       {
@@ -9941,9 +9941,9 @@
     ],
     "lore": "Atropos finds no greater pleasure than to harvest the fear he creates.",
     "mc": [
+      "105",
       "120",
-      "130",
-      "140",
+      "135",
       "150"
     ],
     "cd": [
@@ -10467,9 +10467,9 @@
     ],
     "lore": "When the Bloodseeker hunts you, injuries become fatalities.",
     "mc": [
-      "100",
-      "150",
-      "200"
+      "125",
+      "175",
+      "225"
     ],
     "cd": [
       "75",
@@ -11033,7 +11033,7 @@
     ],
     "lore": "So convincing that some allies have spent minutes talking to the clone before they realized she wasn't speaking back.",
     "mc": "150",
-    "cd": "10",
+    "cd": "12",
     "img": "/apps/dota2/images/dota_react/abilities/crystal_maiden_crystal_clone.png"
   },
   "crystal_maiden_glacial_guard": {
@@ -11092,10 +11092,10 @@
         "key": "damage",
         "header": "BONUS DAMAGE:",
         "value": [
-          "10",
-          "15",
-          "20",
-          "25"
+          "12",
+          "18",
+          "24",
+          "30"
         ]
       },
       {
@@ -11342,7 +11342,7 @@
       }
     ],
     "lore": "Traxex is rather fond of the tranquility of physical combat, calling on her Drow heritage to end the incantations of opposing magi.",
-    "mc": "70",
+    "mc": "55",
     "cd": [
       "19",
       "17",
@@ -11390,7 +11390,7 @@
       "Hero",
       "Basic"
     ],
-    "desc": "Drow's experiences in battle grant her a chance to launch arrows with incredible accuracy and effectiveness. Pierces through the enemy's defenses, ignoring their base armor. This ability is disabled if there is an enemy hero within 325 range.",
+    "desc": "Drow's experiences in battle grant her a chance to launch arrows with incredible accuracy and effectiveness. Pierces through the enemy's defenses, ignoring their base armor. This ability is disabled if there is an enemy hero within 300 range.",
     "attrib": [
       {
         "key": "chance",
@@ -11413,7 +11413,7 @@
       {
         "key": "disable_range",
         "header": "DISABLE RANGE:",
-        "value": "325",
+        "value": "300",
         "generated": true
       }
     ],
@@ -11570,7 +11570,7 @@
     "dname": "-18% Frost Arrows Mana Cost"
   },
   "special_bonus_unique_drow_ranger_8": {
-    "dname": "+1 Multishot Wave"
+    "dname": "+2 Multishot Waves"
   },
   "special_bonus_unique_drow_ranger_gust_selfmovespeed": {
     "dname": "50% Gust Self Movement Speed"
@@ -12008,10 +12008,10 @@
         "key": "blade_fury_damage",
         "header": "DAMAGE PER SECOND:",
         "value": [
-          "80",
-          "110",
-          "140",
-          "170"
+          "85",
+          "115",
+          "145",
+          "175"
         ]
       },
       {
@@ -12310,7 +12310,7 @@
       },
       {
         "key": "agi_bonus_pct_per_stack",
-        "header": "BASE AGILITY PCT PER STACK:",
+        "header": "BASE AGILITY PER STACK:",
         "value": "2.5%"
       },
       {
@@ -12542,9 +12542,9 @@
     "desc": "Fires a long-range arrow with deadly precision, which stuns and damages the first enemy unit it strikes. The stun duration ranges from 0.01 to 2.6 seconds, with bonus damage up to 180 added, based on the distance the arrow travels to its target. Instantly kills the first non-ancient creep it hits.",
     "dmg": [
       "60",
-      "150",
-      "240",
-      "330"
+      "160",
+      "260",
+      "360"
     ],
     "attrib": [
       {
@@ -12965,13 +12965,8 @@
       "Hero",
       "Basic"
     ],
-    "desc": "When a charge is available, Mirana's next attack will deal bonus magic damage.\n\nGains a charge every 7 hero levels.",
+    "desc": "When a charge is available, Mirana's next attack will deal bonus magic damage.",
     "attrib": [
-      {
-        "key": "bonus_damage",
-        "header": "BONUS DAMAGE:",
-        "value": "5"
-      },
       {
         "key": "abilitycharges",
         "header": "MAX CHARGES:",
@@ -12979,10 +12974,9 @@
         "generated": true
       },
       {
-        "key": "levels_per_quiver_tooltip",
-        "header": "LEVELS PER QUIVER TOOLTIP:",
-        "value": "7",
-        "generated": true
+        "key": "bonus_damage",
+        "header": "BONUS DAMAGE:",
+        "value": "5"
       },
       {
         "key": "quiver_restore",
@@ -13006,7 +13000,7 @@
     "img": "/apps/dota2/images/dota_react/abilities/mirana_celestial_quiver.png"
   },
   "special_bonus_unique_mirana_1": {
-    "dname": "+90 Leap Attack Speed"
+    "dname": "+100 Leap Attack Speed"
   },
   "special_bonus_unique_mirana_2": {
     "dname": "+2 Multishot Sacred Arrows"
@@ -13116,7 +13110,7 @@
       }
     ],
     "lore": "Nevermore's trademark for harvesting souls.",
-    "mc": "80",
+    "mc": "75",
     "cd": "9",
     "img": "/apps/dota2/images/dota_react/abilities/nevermore_shadowraze1.png"
   },
@@ -13207,7 +13201,7 @@
       }
     ],
     "lore": "Nevermore's trademark for harvesting souls.",
-    "mc": "80",
+    "mc": "75",
     "cd": "9",
     "img": "/apps/dota2/images/dota_react/abilities/nevermore_shadowraze2.png"
   },
@@ -13298,7 +13292,7 @@
       }
     ],
     "lore": "Nevermore's trademark for harvesting souls.",
-    "mc": "80",
+    "mc": "75",
     "cd": "9",
     "img": "/apps/dota2/images/dota_react/abilities/nevermore_shadowraze3.png"
   },
@@ -13372,10 +13366,10 @@
         "key": "presence_armor_reduction",
         "header": "ARMOR REDUCTION:",
         "value": [
-          "-3",
+          "-2.5",
           "-4",
-          "-5",
-          "-6"
+          "-5.5",
+          "-7"
         ]
       },
       {
@@ -13972,7 +13966,7 @@
     "dispellable": "No",
     "target_team": [],
     "target_type": [],
-    "desc": "Morphling changes his form to match the targeted enemy, gaining their basic abilities. Can be toggled for the duration of the ability.",
+    "desc": "Morphling changes his form to match the targeted enemy, gaining their basic abilities and changing his primary attribute based on his target. Can be toggled for the duration of the ability.",
     "attrib": [
       {
         "key": "duration",
@@ -15215,12 +15209,12 @@
       "Hidden",
       "Passive"
     ],
-    "desc": "Pudge's skin thickens permanently every time he kills an enemy Hero, gaining 1.6 bonus Strength for each stack.",
+    "desc": "Pudge's skin thickens permanently every time he kills an enemy Hero, gaining 2 bonus Strength for each stack.",
     "attrib": [
       {
         "key": "flesh_heap_strength_buff_amount",
         "header": "FLESH HEAP STRENGTH BUFF AMOUNT:",
-        "value": "1.6",
+        "value": "2",
         "generated": true
       },
       {
@@ -15820,7 +15814,7 @@
       {
         "key": "epicenter_radius_base",
         "header": "BASE RADIUS:",
-        "value": "500"
+        "value": "450"
       },
       {
         "key": "epicenter_radius_increment",
@@ -15840,9 +15834,9 @@
         "key": "epicenter_slow_as",
         "header": "ATTACK SLOW:",
         "value": [
-          "-50",
-          "-55",
-          "-60"
+          "-30",
+          "-40",
+          "-50"
         ]
       },
       {
@@ -15947,12 +15941,7 @@
       {
         "key": "debuff_duration",
         "header": "SLOW DURATION:",
-        "value": [
-          "4",
-          "5",
-          "6",
-          "7"
-        ]
+        "value": "5"
       },
       {
         "key": "strike_slow",
@@ -16338,7 +16327,7 @@
     "is_innate": true,
     "behavior": "Passive",
     "dispellable": "No",
-    "desc": "Storm Spirit gains a charge of 0.2 mana regeneration per kill. Loses 2 charges per death. Additionally every time he gains a charge he also gains 0.1 Mana Regen permanently.",
+    "desc": "Storm Spirit gains a charge of 0.2 mana regeneration per kill, and a charge every 3 levels. Loses 2 charges per death. Additionally every time he gains a charge he also gains 0.1 Mana Regen permanently.",
     "attrib": [
       {
         "key": "perma_mp_per_kill",
@@ -16361,6 +16350,12 @@
         "key": "charges_per_death",
         "header": "CHARGES PER DEATH:",
         "value": "2",
+        "generated": true
+      },
+      {
+        "key": "level_divisor",
+        "header": "LEVEL DIVISOR:",
+        "value": "3",
         "generated": true
       }
     ],
@@ -16446,12 +16441,7 @@
       }
     ],
     "lore": "The Rogue Knight's iron gauntlet, taken from the school of his father, strikes his foes to their core.",
-    "mc": [
-      "110",
-      "115",
-      "120",
-      "125"
-    ],
+    "mc": "110",
     "cd": [
       "21",
       "18",
@@ -17130,8 +17120,8 @@
         "header": "TOSS BONUS DAMAGE:",
         "value": [
           "50",
-          "175",
-          "300"
+          "200",
+          "350"
         ]
       },
       {
@@ -17274,7 +17264,7 @@
     "behavior": "Passive",
     "bkbpierce": "Yes",
     "target_team": "Friendly",
-    "desc": "Vengeful Spirit's presence increases the damage of nearby friendly heroes. Vengeful Spirit herself receives 20% extra bonus.",
+    "desc": "Vengeful Spirit's presence increases the damage of nearby friendly heroes. Vengeful Spirit herself receives 25% extra bonus.",
     "attrib": [
       {
         "key": "bonus_base_damage",
@@ -17289,7 +17279,7 @@
       {
         "key": "self_multiplier",
         "header": "SELF MULTIPLIER:",
-        "value": "20%"
+        "value": "25%"
       },
       {
         "key": "aura_radius",
@@ -17540,7 +17530,7 @@
     ],
     "lore": "At last Lyralei has learned to call upon the might of her true birthright.",
     "mc": "125",
-    "cd": "30",
+    "cd": "25",
     "img": "/apps/dota2/images/dota_react/abilities/windrunner_gale_force.png"
   },
   "windrunner_shackleshot": {
@@ -17648,10 +17638,10 @@
         "key": "slow",
         "header": "SLOW:",
         "value": [
-          "20%",
-          "25%",
-          "30%",
-          "35%"
+          "22%",
+          "28%",
+          "34%",
+          "40%"
         ]
       },
       {
@@ -17770,16 +17760,6 @@
         "header": "CANNOT BE DISPELLED:",
         "value": "+0",
         "generated": true
-      },
-      {
-        "key": "duration",
-        "header": "DURATION:",
-        "value": [
-          "3",
-          "4",
-          "5",
-          "6"
-        ]
       },
       {
         "key": "abilityduration",
@@ -18932,7 +18912,7 @@
         "generated": true
       }
     ],
-    "cd": "60.5",
+    "cd": "50.5",
     "img": "/apps/dota2/images/dota_react/abilities/kunkka_admirals_rum.png"
   },
   "lina_dragon_slave": {
@@ -19054,9 +19034,9 @@
         "header": "DAMAGE:",
         "value": [
           "80",
-          "120",
-          "160",
-          "200"
+          "125",
+          "170",
+          "215"
         ]
       },
       {
@@ -19197,9 +19177,9 @@
         "key": "damage",
         "header": "DAMAGE:",
         "value": [
-          "380",
-          "565",
-          "750"
+          "400",
+          "580",
+          "760"
         ]
       },
       {
@@ -19611,7 +19591,7 @@
       {
         "key": "mana_drain",
         "header": "MANA DRAIN PER SECOND:",
-        "value": "20%"
+        "value": "25%"
       },
       {
         "key": "damage",
@@ -21101,10 +21081,10 @@
     "lore": "As Slardar has made the transition from the Deeps, it has been necessary to use his powerful tail for sprinting instead of swimming.",
     "mc": "25",
     "cd": [
-      "29",
-      "25",
-      "21",
-      "17"
+      "33",
+      "28",
+      "23",
+      "18"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/slardar_sprint.png"
   },
@@ -21202,7 +21182,12 @@
     ],
     "lore": "A swift crush of might and water breaks even the toughest of defenses.",
     "mc": "100",
-    "cd": "7",
+    "cd": [
+      "8.5",
+      "8",
+      "7.5",
+      "7"
+    ],
     "img": "/apps/dota2/images/dota_react/abilities/slardar_slithereen_crush.png"
   },
   "slardar_bash": {
@@ -21493,6 +21478,12 @@
       {
         "key": "targets_buildings",
         "header": "TARGETS BUILDINGS:",
+        "value": "0",
+        "generated": true
+      },
+      {
+        "key": "building_pct_damage",
+        "header": "BUILDING PCT DAMAGE:",
         "value": "0",
         "generated": true
       },
@@ -21905,12 +21896,7 @@
       {
         "key": "radius",
         "header": "RADIUS:",
-        "value": [
-          "500",
-          "550",
-          "600",
-          "650"
-        ]
+        "value": "650"
       },
       {
         "key": "heal",
@@ -22694,9 +22680,9 @@
         "header": "EIDOLON DAMAGE:",
         "value": [
           "16",
-          "27",
-          "38",
-          "49"
+          "28",
+          "40",
+          "52"
         ]
       },
       {
@@ -23134,7 +23120,7 @@
       {
         "key": "speed_bonus",
         "header": "MOVEMENT SLOW:",
-        "value": "4%"
+        "value": "5%"
       },
       {
         "key": "vision_cone",
@@ -23857,7 +23843,7 @@
       {
         "key": "missile_speed",
         "header": "MISSILE SPEED:",
-        "value": "1200",
+        "value": "1350",
         "generated": true
       },
       {
@@ -23926,7 +23912,7 @@
       {
         "key": "activation_time",
         "header": "ACTIVATION TIME:",
-        "value": "0.3",
+        "value": "0",
         "generated": true
       }
     ],
@@ -24419,7 +24405,7 @@
       }
     ],
     "lore": "The Rumusque Faithful consider Necrophos to be more plague than person.",
-    "mc": "125",
+    "mc": "160",
     "cd": "19",
     "img": "/apps/dota2/images/dota_react/abilities/necrolyte_death_seeker.png"
   },
@@ -25418,7 +25404,12 @@
       {
         "key": "duration",
         "header": "DEBUFF DURATION:",
-        "value": "12"
+        "value": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ]
       },
       {
         "key": "damage_amp",
@@ -25456,12 +25447,7 @@
       }
     ],
     "lore": "While learning to maneuver in nature alone, the Beastmaster also mastered the use of a pair of tomahawks, adept at cutting down trees as well as adversaries.",
-    "mc": [
-      "50",
-      "55",
-      "60",
-      "65"
-    ],
+    "mc": "65",
     "cd": "8",
     "img": "/apps/dota2/images/dota_react/abilities/beastmaster_wild_axes.png"
   },
@@ -25495,9 +25481,9 @@
         "key": "boar_base_damage",
         "header": "BOAR BASE DAMAGE:",
         "value": [
-          "30",
-          "45",
-          "60",
+          "24",
+          "41",
+          "58",
           "75"
         ],
         "generated": true
@@ -25506,9 +25492,9 @@
         "key": "boar_total_damage_tooltip",
         "header": "BOAR ATTACK DAMAGE:",
         "value": [
-          "30",
-          "45",
-          "60",
+          "24",
+          "41",
+          "58",
           "75"
         ]
       },
@@ -26027,7 +26013,7 @@
       {
         "key": "radius",
         "header": "DAMAGE RADIUS:",
-        "value": "600"
+        "value": "525"
       },
       {
         "key": "max_stacks",
@@ -26053,7 +26039,7 @@
       {
         "key": "base_damage",
         "header": "DRUM HIT DAMAGE:",
-        "value": "80"
+        "value": "70"
       },
       {
         "key": "heal_pct",
@@ -26224,10 +26210,10 @@
       "130"
     ],
     "cd": [
-      "13",
-      "10",
+      "11",
+      "9",
       "7",
-      "4"
+      "5"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/queenofpain_shadow_strike.png"
   },
@@ -26663,7 +26649,7 @@
       {
         "key": "movement_speed",
         "header": "MOVEMENT SLOW:",
-        "value": "10%"
+        "value": "8%"
       },
       {
         "key": "hp_regen_reduction",
@@ -26893,10 +26879,10 @@
         "key": "tick_damage",
         "header": "DAMAGE PER SECOND:",
         "value": [
+          "10",
           "20",
-          "25",
           "30",
-          "35"
+          "40"
         ]
       },
       {
@@ -28181,13 +28167,21 @@
       {
         "key": "min_damage",
         "header": "MIN DAMAGE:",
-        "value": "62",
+        "value": [
+          "62",
+          "65",
+          "68"
+        ],
         "generated": true
       },
       {
         "key": "max_damage",
         "header": "MAX DAMAGE:",
-        "value": "67",
+        "value": [
+          "68",
+          "71",
+          "74"
+        ],
         "generated": true
       },
       {
@@ -28198,7 +28192,11 @@
       {
         "key": "average_damage",
         "header": "SPIRIT DAMAGE:",
-        "value": "64"
+        "value": [
+          "65",
+          "68",
+          "71"
+        ]
       },
       {
         "key": "ghost_spawn_rate",
@@ -28457,16 +28455,16 @@
         "key": "bonus_attack_speed",
         "header": "BONUS ATTACK SPEED:",
         "value": [
-          "100",
-          "130",
+          "80",
+          "120",
           "160",
-          "190"
+          "200"
         ]
       },
       {
         "key": "duration",
         "header": "DURATION:",
-        "value": "2.5"
+        "value": "3"
       },
       {
         "key": "abilitycastrange",
@@ -28626,8 +28624,8 @@
         "header": "CRITICAL DAMAGE:",
         "value": [
           "200%",
-          "300%",
-          "400%"
+          "325%",
+          "450%"
         ]
       },
       {
@@ -29834,7 +29832,7 @@
     ],
     "lore": "It was thought that Netherdrake wings touch ground only in death, but some surmise that those who've witnessed more intentional landings merely haven't survived to tell the tale.",
     "mc": "75",
-    "cd": "20",
+    "cd": "25",
     "img": "/apps/dota2/images/dota_react/abilities/viper_nose_dive.png"
   },
   "luna_lucent_beam": {
@@ -30585,6 +30583,17 @@
           "0",
           "0",
           "20"
+        ],
+        "generated": true
+      },
+      {
+        "key": "flying_movement",
+        "header": "FLYING MOVEMENT:",
+        "value": [
+          "0",
+          "0",
+          "0",
+          "1"
         ],
         "generated": true
       },
@@ -32529,10 +32538,10 @@
         "key": "treant_bonus_hero_damage",
         "header": "TREANT BONUS HERO DAMAGE:",
         "value": [
-          "4",
-          "8",
-          "12",
-          "16"
+          "6",
+          "10",
+          "14",
+          "18"
         ]
       },
       {
@@ -32593,7 +32602,12 @@
       }
     ],
     "lore": "Verodicia bestowed the Prophet with the ability to summon the Treant Guard, a mythical sentient army of the wild.",
-    "mc": "100",
+    "mc": [
+      "85",
+      "90",
+      "95",
+      "100"
+    ],
     "cd": [
       "45",
       "40",
@@ -32625,9 +32639,9 @@
         "key": "damage",
         "header": "BASE DAMAGE:",
         "value": [
-          "90",
-          "130",
-          "170"
+          "100",
+          "140",
+          "180"
         ]
       },
       {
@@ -33047,7 +33061,7 @@
     "dname": "Removed Teleportation Cooldown"
   },
   "special_bonus_unique_furion_4": {
-    "dname": "+170 Sprout Damage"
+    "dname": "+220 Sprout Damage"
   },
   "special_bonus_unique_furion_5": {
     "dname": "+25 Wrath of Nature Base Damage"
@@ -33056,7 +33070,7 @@
     "dname": "-10s Nature's Call Cooldown"
   },
   "special_bonus_unique_furion_7": {
-    "dname": "-15s Wrath of Nature Cooldown"
+    "dname": "-20s Wrath of Nature Cooldown"
   },
   "special_bonus_unique_furion_teleportation_barrier": {
     "dname": "+100 Teleportation Barrier"
@@ -34707,7 +34721,7 @@
       "Hero",
       "Basic"
     ],
-    "desc": "Omniknight imbues his hammer with holy power, causing his attack to have increased range, deal pure damage based on a percentage of his base damage and slow his target for a short duration.\n\n Omniknight heals for 30% of the damage dealt over 5s.",
+    "desc": "Omniknight imbues his hammer with holy power, causing his attack to have increased range, deal pure damage based on a percentage of his base damage and slow his target for a short duration.\n\n Omniknight heals for 35% of the damage dealt over 5s.",
     "dmg": "0",
     "attrib": [
       {
@@ -34724,16 +34738,16 @@
         "key": "bonus_damage",
         "header": "DAMAGE:",
         "value": [
-          "20",
-          "40",
-          "60",
-          "80"
+          "25",
+          "45",
+          "65",
+          "85"
         ]
       },
       {
         "key": "heal_pct",
         "header": "HEAL PCT:",
-        "value": "30",
+        "value": "35",
         "generated": true
       },
       {
@@ -35083,9 +35097,9 @@
     ],
     "cd": [
       "40",
-      "36",
-      "32",
-      "28"
+      "35",
+      "30",
+      "25"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/omniknight_martyr.png"
   },
@@ -35106,8 +35120,8 @@
         "header": "DURATION:",
         "value": [
           "4",
-          "4.5",
-          "5"
+          "4.75",
+          "5.5"
         ]
       },
       {
@@ -37001,7 +37015,7 @@
       {
         "key": "aura_radius",
         "header": "SPIDERLING RADIUS:",
-        "value": "800"
+        "value": "1200"
       },
       {
         "key": "abilitycastpoint",
@@ -37064,7 +37078,7 @@
       }
     ],
     "lore": "The slightest tremor of her web is all Arachnia needs to find her prey.",
-    "mc": "100",
+    "mc": "70",
     "img": "/apps/dota2/images/dota_react/abilities/broodmother_sticky_snare.png"
   },
   "broodmother_spin_web_destroy": {
@@ -37167,9 +37181,9 @@
     "lore": "While the shuriken may be small, Gondar's precise aim can cause critical damage.",
     "mc": [
       "75",
-      "80",
       "85",
-      "90"
+      "95",
+      "105"
     ],
     "cd": "5",
     "img": "/apps/dota2/images/dota_react/abilities/bounty_hunter_shuriken_toss.png"
@@ -37282,9 +37296,9 @@
         "key": "bonus_move_speed_pct",
         "header": "BONUS SPEED:",
         "value": [
-          "8%",
-          "12%",
-          "16%",
+          "11%",
+          "14%",
+          "17%",
           "20%"
         ]
       },
@@ -37412,7 +37426,7 @@
       }
     ],
     "lore": "Using his elevated senses of sight and smell, Gondar's hits have quite a good chance of success.",
-    "mc": "60",
+    "mc": "50",
     "cd": [
       "6",
       "5",
@@ -37564,7 +37578,12 @@
       }
     ],
     "lore": "Skitskurr opens a gap in the space time fabric, allowing young Weavers to slip through and aid him in combat.",
-    "mc": "110",
+    "mc": [
+      "110",
+      "105",
+      "100",
+      "95"
+    ],
     "cd": [
       "44",
       "36",
@@ -37933,7 +37952,12 @@
       "165",
       "180"
     ],
-    "cd": "10",
+    "cd": [
+      "12",
+      "11",
+      "10",
+      "9"
+    ],
     "img": "/apps/dota2/images/dota_react/abilities/jakiro_dual_breath.png"
   },
   "jakiro_ice_path": {
@@ -38075,10 +38099,10 @@
         "key": "damage",
         "header": "BURN DAMAGE:",
         "value": [
-          "15",
-          "25",
-          "35",
-          "45"
+          "12",
+          "24",
+          "36",
+          "48"
         ]
       },
       {
@@ -38326,9 +38350,9 @@
     ],
     "lore": "Ice and fire combine to rip the battlefield to shreds with extreme temperatures.",
     "mc": [
-      "300",
-      "400",
-      "500"
+      "225",
+      "325",
+      "425"
     ],
     "cd": [
       "90",
@@ -38689,10 +38713,10 @@
         "key": "damage_per_second",
         "header": "DAMAGE PER SECOND:",
         "value": [
-          "25",
-          "50",
-          "75",
-          "100"
+          "20",
+          "40",
+          "60",
+          "80"
         ]
       },
       {
@@ -38737,9 +38761,9 @@
     "lore": "When an enemy escapes into the Yama Raskav Jungle, most would cut through the brush to find the fugitive.  Batrider just chooses to destroy the jungle along with his foes.",
     "mc": "100",
     "cd": [
-      "45",
-      "40",
-      "35",
+      "48",
+      "42",
+      "36",
       "30"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/batrider_firefly.png"
@@ -38782,9 +38806,9 @@
         "key": "damage",
         "header": "TOTAL DAMAGE:",
         "value": [
-          "200",
-          "350",
-          "500"
+          "125",
+          "250",
+          "375"
         ]
       },
       {
@@ -38838,7 +38862,7 @@
     "dname": "Attacks apply 1 Stack of Sticky Napalm"
   },
   "special_bonus_unique_batrider_7": {
-    "dname": "+0.5% Sticky Napalm Movement Slow"
+    "dname": "+0.75% Sticky Napalm Movement Slow"
   },
   "special_bonus_unique_batrider_smoldering_resin_ticks": {
     "dname": "+1s Smoldering Resin Duration"
@@ -39169,10 +39193,10 @@
         "key": "damage_bonus",
         "header": "BONUS DAMAGE:",
         "value": [
-          "0%",
-          "6%",
-          "12%",
-          "18%"
+          "5%",
+          "10%",
+          "15%",
+          "20%"
         ]
       },
       {
@@ -39520,10 +39544,10 @@
         "key": "damage_reflection_pct",
         "header": "DAMAGE REFLECTED:",
         "value": [
-          "8%",
+          "9%",
           "12%",
-          "16%",
-          "20%"
+          "15%",
+          "18%"
         ]
       },
       {
@@ -39534,7 +39558,7 @@
       {
         "key": "max_radius",
         "header": "MAX RADIUS:",
-        "value": "800"
+        "value": "700"
       },
       {
         "key": "activation_cooldown",
@@ -39975,20 +39999,15 @@
         "header": "DAMAGE:",
         "value": [
           "20",
-          "35",
-          "50",
-          "65"
+          "30",
+          "40",
+          "50"
         ]
       },
       {
         "key": "bonus_health_regen",
         "header": "BONUS HP REGEN:",
-        "value": [
-          "7",
-          "8",
-          "9",
-          "10"
-        ]
+        "value": "6.66"
       },
       {
         "key": "radius",
@@ -40145,8 +40164,8 @@
         "key": "damage",
         "header": "DAMAGE PER SECOND:",
         "value": [
-          "25",
-          "45",
+          "22",
+          "44",
           "66"
         ]
       },
@@ -40538,7 +40557,7 @@
       {
         "key": "radius_min",
         "header": "RADIUS MIN:",
-        "value": "275",
+        "value": "300",
         "generated": true
       },
       {
@@ -40556,7 +40575,7 @@
       {
         "key": "path_radius",
         "header": "PATH RADIUS:",
-        "value": "275"
+        "value": "300"
       },
       {
         "key": "frostbite_duration",
@@ -40677,7 +40696,7 @@
       {
         "key": "tooltip_scepter_bonus",
         "header": "TOOLTIP SCEPTER BONUS:",
-        "value": "0.3",
+        "value": "0.8",
         "generated": true
       },
       {
@@ -40746,7 +40765,7 @@
     "dname": "450 AoE Cold Feet"
   },
   "special_bonus_unique_ancient_apparition_2": {
-    "dname": "+80 Chilling Touch Damage"
+    "dname": "+100 Chilling Touch Damage"
   },
   "special_bonus_unique_ancient_apparition_3": {
     "dname": "-2s Ice Vortex Cooldown"
@@ -41835,12 +41854,7 @@
       "70",
       "80"
     ],
-    "cd": [
-      "26",
-      "24",
-      "22",
-      "20"
-    ],
+    "cd": "25",
     "img": "/apps/dota2/images/dota_react/abilities/gyrocopter_flak_cannon.png"
   },
   "gyrocopter_call_down": {
@@ -41938,9 +41952,9 @@
       "250"
     ],
     "cd": [
-      "90",
       "75",
-      "60"
+      "65",
+      "55"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/gyrocopter_call_down.png"
   },
@@ -42002,7 +42016,7 @@
       {
         "key": "bonus_movespeed_duration",
         "header": "DURATION:",
-        "value": "3.9"
+        "value": "4.9"
       },
       {
         "key": "bonus_movement_speed_per_hit",
@@ -42154,12 +42168,7 @@
     ],
     "lore": "Using traditional Alchemy from the Darkbrew family, Razzil concocts an acid that dissolves even the toughest metals.",
     "mc": "120",
-    "cd": [
-      "22",
-      "21",
-      "20",
-      "19"
-    ],
+    "cd": "21",
     "img": "/apps/dota2/images/dota_react/abilities/alchemist_acid_spray.png"
   },
   "alchemist_unstable_concoction": {
@@ -42376,7 +42385,7 @@
       {
         "key": "bonus_gold_per_scepter",
         "header": "BONUS GOLD PER SCEPTER:",
-        "value": "6",
+        "value": "3",
         "generated": true
       },
       {
@@ -42453,8 +42462,8 @@
         "key": "bonus_health_regen",
         "header": "BONUS HEALTH REGEN:",
         "value": [
-          "60",
-          "90",
+          "50",
+          "85",
           "120"
         ]
       },
@@ -42760,7 +42769,7 @@
       "No Target",
       "Instant Cast"
     ],
-    "desc": "Combines the properties of the elements currently being manipulated to create a new spell for Invoker to use. Invoke cooldown is reduced by 0.3 seconds for each orb level.\n\nInvoker's vast knowledge of magic allows him to choose from Multiple Aghanim's Scepter and Shard options. The items must be activated before they can be used, and cannot be changed after they are chosen.\n\n Click the help button to see the list of possible spells.",
+    "desc": "Combines the properties of the elements currently being manipulated to create a new spell for Invoker to use. Invoke cooldown is reduced by 0.3 seconds for each orb level. Invoker gains a bonus ability point for his orbs at levels 6, 12, and 18.\n\nInvoker's vast knowledge of magic allows him to choose from Multiple Aghanim's Scepter and Shard options. The items must be activated before they can be used, and cannot be changed after they are chosen.\n\n Click the help button to see the list of possible spells.",
     "attrib": [
       {
         "key": "max_invoked_spells",
@@ -42771,6 +42780,24 @@
         "key": "cooldown_reduction_per_orb",
         "header": "COOLDOWN REDUCTION PER ORB:",
         "value": "0.3",
+        "generated": true
+      },
+      {
+        "key": "first_ability_level",
+        "header": "FIRST ABILITY LEVEL:",
+        "value": "6",
+        "generated": true
+      },
+      {
+        "key": "second_ability_level",
+        "header": "SECOND ABILITY LEVEL:",
+        "value": "12",
+        "generated": true
+      },
+      {
+        "key": "third_ability_level",
+        "header": "THIRD ABILITY LEVEL:",
+        "value": "18",
         "generated": true
       }
     ],
@@ -45401,8 +45428,8 @@
         "key": "radius",
         "header": "RADIUS:",
         "value": [
-          "450",
           "500",
+          "525",
           "550"
         ]
       },
@@ -45509,7 +45536,7 @@
         "generated": true
       }
     ],
-    "mc": "250",
+    "mc": "175",
     "cd": [
       "36",
       "34",
@@ -45777,10 +45804,10 @@
         "key": "bonus_hp_regen",
         "header": "BONUS HP REGEN:",
         "value": [
-          "1",
-          "3",
-          "5",
-          "7"
+          "2",
+          "4",
+          "6",
+          "8"
         ]
       },
       {
@@ -45858,9 +45885,9 @@
     "lore": "Forever a slave to his lycanthropy, Banehallow has come to accept his curse, and embrace his own savagery.",
     "mc": "100",
     "cd": [
-      "110",
-      "100",
-      "90"
+      "105",
+      "95",
+      "85"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/lycan_shapeshift.png"
   },
@@ -46620,7 +46647,7 @@
     "desc": "Cancel the Primal Split.",
     "attrib": [],
     "mc": "0",
-    "cd": "0",
+    "cd": "3",
     "img": "/apps/dota2/images/dota_react/abilities/brewmaster_primal_split_cancel.png"
   },
   "brewmaster_primal_companion": {
@@ -47030,9 +47057,9 @@
         "key": "illusion_duration",
         "header": "ILLUSION DURATION:",
         "value": [
-          "11",
+          "8",
+          "10",
           "12",
-          "13",
           "14"
         ]
       },
@@ -47723,7 +47750,7 @@
       }
     ],
     "lore": "Sylla's lifelong companion is symbiotic with his spirit and heart, coming to aid him in any time of need.",
-    "mc": "75",
+    "mc": "100",
     "cd": "120",
     "img": "/apps/dota2/images/dota_react/abilities/lone_druid_spirit_bear.png"
   },
@@ -47803,6 +47830,12 @@
         ]
       },
       {
+        "key": "creep_lifesteal_penalty",
+        "header": "CREEP LIFESTEAL PENALTY:",
+        "value": "40",
+        "generated": true
+      },
+      {
         "key": "lifesteal_both_ways",
         "header": "LIFESTEAL BOTH WAYS:",
         "value": "1",
@@ -47860,6 +47893,12 @@
           "45%",
           "60%"
         ]
+      },
+      {
+        "key": "creep_lifesteal_penalty",
+        "header": "CREEP LIFESTEAL PENALTY:",
+        "value": "40",
+        "generated": true
       },
       {
         "key": "lifesteal_both_ways",
@@ -48385,7 +48424,7 @@
     "img": "/apps/dota2/images/dota_react/abilities/lone_druid_spirit_bear_demolish.png"
   },
   "special_bonus_unique_lone_druid_2": {
-    "dname": "-25s Summon Spirit Bear Cooldown"
+    "dname": "+5s True Form Duration"
   },
   "special_bonus_unique_lone_druid_4": {
     "dname": "-5s Savage Roar Cooldown"
@@ -48407,7 +48446,7 @@
     "dname": "+15% Damage to Entangled Units"
   },
   "special_bonus_unique_lone_druid_spirit_bear_demolish": {
-    "dname": "+20% Demolish Bonus Building Damage"
+    "dname": "+15% Demolish Bonus Building Damage"
   },
   "special_bonus_unique_lone_druid_spirit_bear_return_channel": {
     "dname": "-{s:bonus_AbilityChannelTime}s Return Channel Time"
@@ -48623,10 +48662,10 @@
         "key": "crit_max",
         "header": "CRITICAL MAX:",
         "value": [
-          "140%",
-          "180%",
-          "220%",
-          "260%"
+          "150%",
+          "190%",
+          "230%",
+          "270%"
         ]
       },
       {
@@ -48654,16 +48693,12 @@
     "behavior": "No Target",
     "target_team": "Friendly",
     "target_type": "Hero",
-    "desc": "Summons several phantasmal copies of the Chaos Knight from alternate dimensions. The phantasms are illusions that deal 100% damage, but take 350% damage.\nDISPEL TYPE: Basic Dispel",
+    "desc": "Summons several phantasmal copies of the Chaos Knight from alternate dimensions. The phantasms are illusions that deal 50% damage, but take 350% damage.\nDISPEL TYPE: Basic Dispel",
     "attrib": [
       {
         "key": "images_count",
         "header": "NUMBER OF PHANTASMS:",
-        "value": [
-          "1",
-          "2",
-          "3"
-        ]
+        "value": "3"
       },
       {
         "key": "illusion_duration",
@@ -48673,13 +48708,21 @@
       {
         "key": "outgoing_damage",
         "header": "OUTGOING DAMAGE:",
-        "value": "0",
+        "value": [
+          "-50",
+          "-25",
+          "0"
+        ],
         "generated": true
       },
       {
         "key": "outgoing_damage_tooltip",
         "header": "PHANTASM DAMAGE:",
-        "value": "100%"
+        "value": [
+          "50%",
+          "75%",
+          "100%"
+        ]
       },
       {
         "key": "incoming_damage",
@@ -48735,7 +48778,11 @@
       "200",
       "300"
     ],
-    "cd": "75",
+    "cd": [
+      "85",
+      "80",
+      "75"
+    ],
     "img": "/apps/dota2/images/dota_react/abilities/chaos_knight_phantasm.png"
   },
   "chaos_knight_phantasmagoria": {
@@ -48926,10 +48973,10 @@
         "key": "health_steal_heroes",
         "header": "HEALTH STEAL (HEROES):",
         "value": [
-          "9",
-          "12",
-          "15",
-          "18"
+          "7",
+          "10",
+          "13",
+          "16"
         ]
       }
     ],
@@ -48939,7 +48986,7 @@
   "meepo_divided_we_stand": {
     "dname": "Divided We Stand",
     "behavior": "Passive",
-    "desc": "Meepo summons another Meepo, which levels up and shares items with the main Meepo. Ability cooldowns are independent, but items share cooldowns between Meepos. Damage, attack speed, health / mana regeneration, mana burn, and proc chance bonuses from items are distributed equally among the amount of Meepos.\n\nIf any Meepo dies, they all die.",
+    "desc": "Meepo summons another Meepo, which levels up and shares items and experience with the main Meepo. Ability cooldowns are independent, but items share cooldowns between Meepos, except Teleport Scrolls. \n\nDamage, attack speed, health, mana, regeneration, mana burn, and proc chance bonuses from items are distributed equally among the amount of Meepos, making them 50% less effective.\n\nIf any Meepo dies, they all die.",
     "dmg": "0",
     "attrib": [
       {
@@ -48980,6 +49027,12 @@
           "80"
         ],
         "generated": true
+      },
+      {
+        "key": "attribute_penalty_pct",
+        "header": "ATTRIBUTE PENALTY PCT:",
+        "value": "0",
+        "generated": true
       }
     ],
     "lore": "Do I know you?",
@@ -49003,7 +49056,7 @@
       {
         "key": "duration",
         "header": "DURATION:",
-        "value": "25"
+        "value": "20"
       },
       {
         "key": "model_scale",
@@ -49056,7 +49109,7 @@
     ],
     "lore": "Hi, Meepos!",
     "mc": "0",
-    "cd": "60",
+    "cd": "90",
     "img": "/apps/dota2/images/dota_react/abilities/meepo_megameepo.png"
   },
   "meepo_megameepo_fling": {
@@ -49490,9 +49543,9 @@
     "lore": "The tendrils of Rooftrellen's influence stretch to all corners of the forest.",
     "mc": "90",
     "cd": [
-      "20",
+      "23",
+      "21",
       "19",
-      "18",
       "17"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/treant_natures_grasp.png"
@@ -49731,7 +49784,8 @@
     "dname": "Eyes In The Forest",
     "behavior": [
       "Unit Target",
-      "Hidden"
+      "Hidden",
+      "AOE"
     ],
     "target_type": "Tree",
     "desc": "Treant Protector enchants a tree, which grants him unobstructed vision in that location. The eyes last for 360 seconds and are invisible, but are destroyed if their host tree is destroyed or if they are attacked directly.",
@@ -52118,7 +52172,11 @@
       {
         "key": "duration",
         "header": "DURATION:",
-        "value": "60"
+        "value": [
+          "45",
+          "50",
+          "55"
+        ]
       },
       {
         "key": "fade_time",
@@ -52595,7 +52653,7 @@
       {
         "key": "evasion_per_naga",
         "header": "EVASION PER NAGA:",
-        "value": "4.9%"
+        "value": "4%"
       },
       {
         "key": "radius",
@@ -53232,8 +53290,8 @@
         "header": "CAST RANGE BONUS:",
         "value": [
           "100",
-          "200",
-          "300"
+          "175",
+          "250"
         ]
       },
       {
@@ -53457,12 +53515,12 @@
     "dname": "Bright Speed",
     "is_innate": true,
     "behavior": "Passive",
-    "desc": "Keeper of the Light gains 1 movement speed for every 2.5 Intelligence.\n\nWhenever Keeper of the Light moves 300 distance, he leaves behind light that allows him to see 400 range for 3 seconds.",
+    "desc": "Keeper of the Light gains 1 movement speed for every 3 Intelligence.\n\nWhenever Keeper of the Light moves 300 distance, he leaves behind light that allows him to see 400 range for 3 seconds.",
     "attrib": [
       {
         "key": "intelligence_per_speed",
         "header": "INTELLIGENCE PER SPEED:",
-        "value": "2.5",
+        "value": "3",
         "generated": true
       },
       {
@@ -53526,20 +53584,20 @@
         "key": "tether_heal_amp",
         "header": "HP/MANA TRANSFER:",
         "value": [
-          "60%",
-          "80%",
-          "100%",
-          "120%"
+          "55%",
+          "75%",
+          "95%",
+          "115%"
         ]
       },
       {
         "key": "tether_mana_amp",
         "header": "TETHER MANA AMP:",
         "value": [
-          "60",
-          "80",
-          "100",
-          "120"
+          "55",
+          "75",
+          "95",
+          "115"
         ],
         "generated": true
       },
@@ -53647,6 +53705,12 @@
         "key": "min_range",
         "header": "MIN RANGE:",
         "value": "200",
+        "generated": true
+      },
+      {
+        "key": "default_radius",
+        "header": "DEFAULT RADIUS:",
+        "value": "425",
         "generated": true
       },
       {
@@ -54143,6 +54207,12 @@
         "key": "minimum_damage",
         "header": "MINIMUM DAMAGE:",
         "value": "40"
+      },
+      {
+        "key": "minimum_damage_familiars",
+        "header": "MINIMUM DAMAGE FAMILIARS:",
+        "value": "0",
+        "generated": true
       },
       {
         "key": "radius",
@@ -54822,7 +54892,7 @@
       {
         "key": "duration",
         "header": "DURATION:",
-        "value": "12.5"
+        "value": "10"
       },
       {
         "key": "steal_radius",
@@ -55771,10 +55841,10 @@
         "key": "damage",
         "header": "DAMAGE:",
         "value": [
-          "50",
-          "100",
-          "150",
-          "200"
+          "75",
+          "120",
+          "165",
+          "210"
         ]
       },
       {
@@ -56614,9 +56684,9 @@
         "key": "basic_slow_duration",
         "header": "SLOW DURATION:",
         "value": [
-          "0.4",
-          "0.6",
-          "0.8",
+          "0.55",
+          "0.7",
+          "0.85",
           "1"
         ]
       },
@@ -57171,10 +57241,10 @@
         "key": "whirling_damage",
         "header": "DAMAGE:",
         "value": [
-          "75",
+          "60",
           "120",
-          "165",
-          "210"
+          "180",
+          "240"
         ]
       },
       {
@@ -57274,9 +57344,9 @@
         "header": "DAMAGE:",
         "value": [
           "45",
-          "100",
-          "155",
-          "210"
+          "105",
+          "165",
+          "225"
         ]
       },
       {
@@ -57317,10 +57387,10 @@
         "key": "bonus_hp_regen",
         "header": "BONUS HP REGEN:",
         "value": [
-          "0.4",
           "0.5",
           "0.6",
-          "0.7"
+          "0.7",
+          "0.8"
         ]
       },
       {
@@ -57381,9 +57451,9 @@
         "key": "pass_damage",
         "header": "PASS DAMAGE:",
         "value": [
-          "100",
+          "75",
           "150",
-          "200"
+          "225"
         ]
       },
       {
@@ -57767,7 +57837,7 @@
     ],
     "lore": "Every part of Bristleback's body is a weapon -- even the parts he accidentally swallowed.",
     "mc": "60",
-    "cd": "13",
+    "cd": "15",
     "img": "/apps/dota2/images/dota_react/abilities/bristleback_hairball.png"
   },
   "bristleback_viscous_nasal_goo": {
@@ -58121,9 +58191,9 @@
         "key": "damage_per_stack",
         "header": "DAMAGE PER STACK:",
         "value": [
-          "15",
-          "20",
-          "25"
+          "12",
+          "16",
+          "20"
         ]
       },
       {
@@ -58500,14 +58570,14 @@
   },
   "tusk_drinking_buddies": {
     "dname": "Drinking Buddies",
-    "behavior": [],
+    "behavior": "Unit Target",
     "dispellable": "Yes",
     "target_team": "Friendly",
     "target_type": [
       "Hero",
       "Basic"
     ],
-    "desc": "Tusk reaches out to tag an allied unit, pulling them closer. Once tagged, both Tusk and his tagged ally gain movement speed and armor. Can be put on alt-cast to only pull Tusk towards his ally with 50% reduced cast range.",
+    "desc": "Tusk reaches out to tag an allied unit, pulling them closer. Once tagged, both Tusk and his tagged ally gain movement speed and armor.",
     "attrib": [
       {
         "key": "abilitycastrange",
@@ -58552,7 +58622,7 @@
       {
         "key": "armor_bonus",
         "header": "BONUS ARMOR:",
-        "value": "10"
+        "value": "7"
       },
       {
         "key": "abilitycastpoint",
@@ -58584,7 +58654,7 @@
       {
         "key": "attack_speed_slow",
         "header": "ATTACK SLOW:",
-        "value": "17"
+        "value": "12"
       }
     ],
     "img": "/apps/dota2/images/dota_react/abilities/tusk_bitter_chill.png"
@@ -59007,9 +59077,9 @@
       "800"
     ],
     "cd": [
-      "60",
-      "40",
-      "20"
+      "55",
+      "35",
+      "15"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/skywrath_mage_mystic_flare.png"
   },
@@ -59406,7 +59476,7 @@
     "dname": "350 AoE Mist Coil"
   },
   "special_bonus_unique_abaddon_5": {
-    "dname": "+25 Curse of Avernus DPS"
+    "dname": "+30 Curse of Avernus DPS"
   },
   "special_bonus_unique_abaddon_6": {
     "dname": "+{s:bonus_heal_reduction_pct}% Withering Mist Health Restoration Reduction"
@@ -59452,10 +59522,10 @@
         "key": "stomp_damage",
         "header": "STOMP DAMAGE:",
         "value": [
-          "60",
-          "100",
-          "140",
-          "180"
+          "65",
+          "110",
+          "155",
+          "200"
         ]
       },
       {
@@ -60117,7 +60187,7 @@
       {
         "key": "armor_from_movespeed",
         "header": "BONUS SPEED TO ARMOR:",
-        "value": "3.6%"
+        "value": "5%"
       }
     ],
     "img": "/apps/dota2/images/dota_react/abilities/elder_titan_momentum.png"
@@ -60710,12 +60780,7 @@
       }
     ],
     "lore": "The studied warrior must whip and weave through its enemies, burning each without pause.",
-    "mc": [
-      "60",
-      "65",
-      "70",
-      "75"
-    ],
+    "mc": "75",
     "cd": [
       "13",
       "11",
@@ -62239,7 +62304,7 @@
     "dmg_type": "Magical",
     "bkbpierce": "No",
     "dispellable": "No",
-    "desc": "Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their health. The percentage increases as the beam continues to fire.",
+    "desc": "Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their max health. The percentage increases as the beam continues to fire.",
     "attrib": [
       {
         "key": "hp_cost_perc_per_second",
@@ -62258,7 +62323,7 @@
       },
       {
         "key": "hp_perc_damage",
-        "header": "MAX DAMAGE:",
+        "header": "MAX HEALTH AS DAMAGE:",
         "value": [
           "1.5%",
           "3%",
@@ -62278,12 +62343,12 @@
       },
       {
         "key": "hp_perc_heal",
-        "header": "MAX HEAL:",
+        "header": "MAX HEALTH AS HEAL:",
         "value": [
-          "0.5%",
-          "1%",
-          "1.5%",
-          "2%"
+          "0.4%",
+          "0.8%",
+          "1.2%",
+          "1.6%"
         ]
       },
       {
@@ -62314,6 +62379,12 @@
         "key": "turn_rate",
         "header": "TURN RATE:",
         "value": "25",
+        "generated": true
+      },
+      {
+        "key": "shard_move_slow_pct",
+        "header": "SHARD MOVE SLOW PCT:",
+        "value": "0",
         "generated": true
       },
       {
@@ -62403,9 +62474,9 @@
         "key": "damage_per_sec",
         "header": "DAMAGE PER SECOND:",
         "value": [
-          "60",
-          "90",
-          "120"
+          "50",
+          "80",
+          "110"
         ]
       },
       {
@@ -62548,7 +62619,7 @@
       "Hidden"
     ],
     "dispellable": "No",
-    "desc": "Phoenix deals 4% of its missing health as magic damage to all enemies in a 400 radius every second.",
+    "desc": "Phoenix deals 3.5% of its missing health as magic damage to all enemies in a 400 radius every second.",
     "attrib": [
       {
         "key": "radius",
@@ -62559,7 +62630,7 @@
       {
         "key": "damage_pct",
         "header": "DAMAGE PCT:",
-        "value": "4",
+        "value": "3.5",
         "generated": true
       },
       {
@@ -63564,7 +63635,7 @@
       {
         "key": "explosion_radius",
         "header": "EXPLOSION RADIUS:",
-        "value": "450"
+        "value": "400"
       },
       {
         "key": "damage",
@@ -63866,7 +63937,7 @@
       {
         "key": "bonus_mana_as_mana_regen",
         "header": "MANA POOL AS REGEN:",
-        "value": "0.08%"
+        "value": "0.1%"
       },
       {
         "key": "radius",
@@ -64022,7 +64093,7 @@
       "Hero",
       "Basic"
     ],
-    "desc": "Launches a ball of brittle ice toward a unit. The ice shatters on impact, leaving the primary target completely unaffected, while hurling damaging splinters into nearby enemies in a 500 base radius. Enemies struck by these splinters are slowed by 28%.",
+    "desc": "Launches a ball of brittle ice toward a unit. The ice shatters on impact, leaving the primary target completely unaffected, while hurling damaging splinters into nearby enemies in a 500 base radius. Enemies struck by these splinters are slowed by 27%.",
     "attrib": [
       {
         "key": "projectile_speed",
@@ -64045,10 +64116,10 @@
         "key": "bonus_movespeed",
         "header": "BONUS MOVESPEED:",
         "value": [
-          "-28",
-          "-32",
-          "-36",
-          "-40"
+          "-27",
+          "-30",
+          "-33",
+          "-36"
         ],
         "generated": true
       },
@@ -64056,10 +64127,10 @@
         "key": "movespeed_slow_tooltip",
         "header": "MOVEMENT SLOW:",
         "value": [
-          "28%",
-          "32%",
-          "36%",
-          "40%"
+          "27%",
+          "30%",
+          "33%",
+          "36%"
         ]
       },
       {
@@ -64200,7 +64271,7 @@
     "bkbpierce": "Yes",
     "target_team": "Enemy",
     "target_type": "Hero",
-    "desc": "Winter Wyvern dispells then freezes an enemy in place while striking those nearby with a maddening curse which causes them to attack their frozen ally with increased attack speed. The frozen ally and those cursed to attack their ally are immune to all damage from their enemies with the exception of damage from Winter Wyvern or her controlled units.",
+    "desc": "Winter Wyvern dispells then freezes an enemy in place while striking those nearby with a maddening curse which causes them to attack their frozen ally with increased attack speed. The frozen ally and those cursed to attack their ally are immune to all damage from their enemies with the exception of damage from Winter Wyvern or her controlled units. Enemy heroes which enter the cursed area after the cast add to the duration of the curse.",
     "attrib": [
       {
         "key": "radius",
@@ -64348,7 +64419,7 @@
     "dname": "Splinter Blast 1s Stun"
   },
   "special_bonus_unique_winter_wyvern_5": {
-    "dname": "+20 HP/s Cold Embrace Heal"
+    "dname": "+15 Cold Embrace Base Heal Per Second"
   },
   "special_bonus_unique_winter_wyvern_6": {
     "dname": "+3s Arctic Burn Debuff Duration"
@@ -64901,7 +64972,7 @@
     "img": "/apps/dota2/images/dota_react/abilities/arc_warden_runic_infusion.png"
   },
   "special_bonus_unique_arc_warden": {
-    "dname": "+200 Spark Wraith Damage"
+    "dname": "+240 Spark Wraith Damage"
   },
   "special_bonus_unique_arc_warden_3": {
     "dname": "+25 Magnetic Field Attack Speed"
@@ -64916,10 +64987,10 @@
     "dname": "+30s Spark Wraith Duration"
   },
   "special_bonus_unique_arc_warden_8": {
-    "dname": "+1.5 Runic Infusion All Attributes Bonus"
+    "dname": "+1.0 Runic Infusion All Attributes Bonus"
   },
   "special_bonus_unique_arc_warden_9": {
-    "dname": "-5s Magnetic Field Cooldown"
+    "dname": "-4s Magnetic Field Cooldown"
   },
   "special_bonus_unique_arc_warden_flux_silences": {
     "dname": "Flux Silences when target is alone"
@@ -65896,10 +65967,10 @@
         "key": "impact_movement_slow",
         "header": "MOVEMENT SLOW:",
         "value": [
-          "35%",
+          "30%",
+          "40%",
           "50%",
-          "65%",
-          "80%"
+          "60%"
         ]
       },
       {
@@ -66156,7 +66227,7 @@
       }
     ],
     "mc": "0",
-    "cd": "3",
+    "cd": "5",
     "img": "/apps/dota2/images/dota_react/abilities/monkey_king_transfiguration.png"
   },
   "pangolier_swashbuckle": {
@@ -66267,10 +66338,10 @@
     ],
     "lore": "The Pangolier's blade is even nimbler than his tongue.",
     "mc": [
-      "75",
-      "80",
       "85",
-      "90"
+      "90",
+      "95",
+      "100"
     ],
     "cd": [
       "19",
@@ -66440,10 +66511,10 @@
         "key": "attack_slow",
         "header": "ATTACK SPEED REDUCTION:",
         "value": [
-          "40",
-          "80",
-          "120",
-          "160"
+          "35",
+          "70",
+          "105",
+          "140"
         ]
       },
       {
@@ -66476,7 +66547,7 @@
       {
         "key": "damage_pct",
         "header": "TOTAL ATTACK DAMAGE AS DAMAGE:",
-        "value": "100%"
+        "value": "80%"
       },
       {
         "key": "cast_time_tooltip",
@@ -66730,7 +66801,7 @@
       }
     ],
     "lore": "It requires deft tailwork and immense balance to defy momentum in the heart of battle.",
-    "mc": "50",
+    "mc": "75",
     "cd": "40",
     "img": "/apps/dota2/images/dota_react/abilities/pangolier_rollup.png"
   },
@@ -66764,7 +66835,7 @@
     "dname": "+125 Shield Crash Barrier"
   },
   "special_bonus_unique_pangolier_luckyshot_armor": {
-    "dname": "+3 Lucky Shot Armor Reduction"
+    "dname": "+2 Lucky Shot Armor Reduction"
   },
   "special_bonus_unique_pangolier_shield_crash_cooldown": {
     "dname": "-1.5s Shield Crash Cooldown"
@@ -66964,12 +67035,6 @@
         "header": "DAMAGE REDUCTION PCT:",
         "value": "0",
         "generated": true
-      },
-      {
-        "key": "abilitycastrange",
-        "header": "CAST RANGE:",
-        "value": "900",
-        "generated": true
       }
     ],
     "lore": "You'll have to excuse my friend Jex. He's really into murder.",
@@ -67003,9 +67068,9 @@
         "key": "destination_radius",
         "header": "RADIUS:",
         "value": [
-          "400",
           "450",
-          "500"
+          "500",
+          "550"
         ]
       },
       {
@@ -67978,10 +68043,10 @@
     ],
     "lore": "The legendary Spear of Mars still glows with the heat of the forge god's fires.",
     "mc": [
+      "90",
       "100",
       "110",
-      "120",
-      "130"
+      "120"
     ],
     "cd": [
       "14",
@@ -68087,7 +68152,7 @@
       {
         "key": "health_regen_per_enemy",
         "header": "HP REGEN PER EXTRA ENEMY:",
-        "value": "40%"
+        "value": "50%"
       },
       {
         "key": "radius",
@@ -68516,10 +68581,10 @@
     ],
     "desc": "Void Spirit temporarily fades into the aether, creating a number of portals through which he can reassemble himself. Upon exiting a portal, he damages all enemies in the area.",
     "dmg": [
-      "120",
-      "200",
-      "280",
-      "360"
+      "105",
+      "185",
+      "265",
+      "345"
     ],
     "attrib": [
       {
@@ -68878,7 +68943,7 @@
       {
         "key": "blast_width_initial",
         "header": "BLAST WIDTH INITIAL:",
-        "value": "225",
+        "value": "250",
         "generated": true
       },
       {
@@ -68940,10 +69005,10 @@
       "100"
     ],
     "cd": [
-      "18",
-      "15",
-      "12",
-      "9"
+      "17",
+      "14",
+      "11",
+      "8"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/snapfire_scatterblast.png"
   },
@@ -69599,7 +69664,7 @@
       {
         "key": "mark_duration",
         "header": "DEBUFF DURATION:",
-        "value": "7"
+        "value": "6"
       },
       {
         "key": "slow_pct",
@@ -70693,9 +70758,9 @@
         "key": "land_stun_duration",
         "header": "LANDING STUN DURATION:",
         "value": [
+          "1.2",
           "1.4",
-          "1.6",
-          "1.8"
+          "1.6"
         ]
       },
       {
@@ -70778,7 +70843,7 @@
       {
         "key": "max_dmg_pct",
         "header": "MAX DAMAGE INCREASE:",
-        "value": "10%"
+        "value": "8%"
       },
       {
         "key": "max_vision_pct",
@@ -71363,7 +71428,7 @@
       {
         "key": "abilitycastrange",
         "header": "CAST RANGE:",
-        "value": "500",
+        "value": "600",
         "generated": true
       },
       {
@@ -71437,7 +71502,7 @@
     "dname": "+15% Unleash Movement Speed"
   },
   "special_bonus_unique_marci_grapple_damage": {
-    "dname": "+100 Dispose Damage"
+    "dname": "+115 Dispose Damage"
   },
   "special_bonus_unique_marci_unleash_extend_duration": {
     "dname": "Unleash Duration Extended By 6s On Kill"
@@ -71587,7 +71652,7 @@
       {
         "key": "effect_radius",
         "header": "DAMAGE AOE:",
-        "value": "230"
+        "value": "200"
       },
       {
         "key": "step_distance",
@@ -71834,9 +71899,9 @@
     "lore": "Though none are certain whether his utterances have true meaning, most concede the Beast's powerful grip and tendency to smash his enemies into naught but pulp and pieces communicates his intent well enough.",
     "mc": "100",
     "cd": [
+      "45",
       "40",
-      "35",
-      "30"
+      "35"
     ],
     "img": "/apps/dota2/images/dota_react/abilities/primal_beast_pulverize.png"
   },
@@ -72428,6 +72493,12 @@
         "key": "spell_amp_per_stack",
         "header": "SPELL AMP PER STACK:",
         "value": "1",
+        "generated": true
+      },
+      {
+        "key": "max_stacks_tooltip",
+        "header": "MAX STACKS TOOLTIP:",
+        "value": "5",
         "generated": true
       }
     ],
@@ -73914,7 +73985,7 @@
       "Hero",
       "Basic"
     ],
-    "desc": "Kez slashes forward in a 800 distance line with his Katana, attacking enemies in an area and applying a brief 100s impact slow. After a short delay, the area is attacked again. Heroes take bonus damage.",
+    "desc": "Kez slashes forward in a 800 distance line with his Katana, attacking enemies in an area and applying a brief 100% impact slow. After a short delay, the area is attacked again. Heroes take bonus damage.",
     "attrib": [
       {
         "key": "katana_echo_damage",
@@ -75156,9 +75227,9 @@
         "key": "duration",
         "header": "BUFF DURATION:",
         "value": [
-          "12",
-          "18",
-          "24",
+          "15",
+          "20",
+          "25",
           "30"
         ]
       },
@@ -75200,12 +75271,7 @@
       }
     ],
     "lore": "Largo loves to help his friends find glory through the power of music, never missing a chance at a killer duet.",
-    "mc": [
-      "25",
-      "35",
-      "45",
-      "55"
-    ],
+    "mc": "40",
     "cd": "25",
     "img": "/apps/dota2/images/dota_react/abilities/largo_croak_of_genius.png"
   },
@@ -75319,7 +75385,7 @@
       {
         "key": "buff_amplification",
         "header": "BONUS DURATION:",
-        "value": "9%"
+        "value": "10%"
       },
       {
         "key": "repeat_buff",
@@ -76234,7 +76300,7 @@
     "dname": "-{s:bonus_AbilityCooldown}s Venomous Gale CD"
   },
   "special_bonus_unique_venomancer_4": {
-    "dname": "+{s:bonus_tick_damage}% Snakebite Damage"
+    "dname": "+{s:bonus_base_damage} Snakebite Initial Damage"
   },
   "special_bonus_unique_venomancer_5": {
     "dname": "Snakebite Undispellable"
@@ -76764,6 +76830,9 @@
   "special_bonus_unique_invoker_additional_chaos_meteors": {
     "dname": "+{s:bonus_meteor_count} Chaos Meteors"
   },
+  "special_bonus_unique_invoker_forged_spirit_armor_reduction": {
+    "dname": "+{s:bonus_armor_removed}% Forged Spirit Armor Reduction"
+  },
   "special_bonus_unique_abaddon_borrowed_time_cd": {
     "dname": "-{s:bonus_AbilityCooldown}s Borrowed Time Cooldown"
   },
@@ -76888,7 +76957,7 @@
     "dname": "+{s:value} Burning Barrage arrows"
   },
   "special_bonus_unique_juggernaut": {
-    "dname": "+{s:bonus_blade_fury_damage} Blade Fury DPS"
+    "dname": "+{s:bonus_blade_fury_damage} Blade Fury Damage Per Second"
   },
   "special_bonus_unique_juggernaut_omnislash_dispel": {
     "dname": "Omnislash Dispels the Enemy Every Hit"
@@ -77161,7 +77230,7 @@
     "dname": "-{s:bonus_damage_reduction}% Powershot Reduction"
   },
   "special_bonus_unique_windranger_4": {
-    "dname": "+{s:bonus_duration}s Windrun Duration"
+    "dname": "+{s:bonus_AbilityDuration}s Windrun Duration"
   },
   "special_bonus_unique_windranger_5": {
     "dname": "+{s:bonus_max_movespeed} Tailwind Max Movespeed"
@@ -77338,7 +77407,7 @@
     "dname": "-{s:bonus_AbilityCooldown}s Static Remnant Cooldown"
   },
   "special_bonus_unique_storm_spirit_overload_aspd": {
-    "dname": "-{s:bonus_overload_move_slow} Overload Attack/Movement Speed Slow"
+    "dname": "+{s:bonus_overload_move_slow}/{s:bonus_overload_move_slow}% Overload Attack/Movement Speed Slow"
   },
   "special_bonus_unique_tidehunter": {
     "dname": "-{s:bonus_negative_armor} Gush Armor"
@@ -77369,6 +77438,9 @@
   },
   "special_bonus_unique_tidehunter_10": {
     "dname": "Anchor Smash affects buildings"
+  },
+  "special_bonus_unique_tidehunter_10_description": {
+    "dname": "Deals {s:bonus_building_pct_damage}% damage to buildings."
   },
   "special_bonus_unique_tidehunter_ravage_cooldown": {
     "dname": "-{s:bonus_AbilityCooldown}s Ravage Cooldown"
@@ -77452,7 +77524,7 @@
     "dname": "Toss Requires No Target"
   },
   "special_bonus_unique_tiny_6": {
-    "dname": "-{s:bonus_attack_speed_reduction}% Grow Attack Speed Reduction"
+    "dname": "+{s:bonus_attack_count} Tree Grab Attacks"
   },
   "special_bonus_unique_tiny_7": {
     "dname": "+{s:bonus_bonus_damage} Tree Grab Base Damage"
@@ -78337,7 +78409,7 @@
     "dname": "+{s:bonus_coil_stun_duration}s Dream Coil Stun Duration"
   },
   "special_bonus_unique_puck_5": {
-    "dname": "Dream Coil Pierces Debuff Immunity"
+    "dname": "+{s:bonus_mana_and_health_restore_pct}% Puckish Health and Mana Restoration"
   },
   "special_bonus_unique_puck_6": {
     "dname": "+{s:bonus_damage} Waning Rift Damage"
@@ -78409,7 +78481,7 @@
     "dname": "+{s:bonus_AbilityCastRange} Rupture Cast Range"
   },
   "special_bonus_unique_bloodseeker_4": {
-    "dname": "+{s:bonus_bonus_movement_speed}% Max Thirst MS"
+    "dname": "+{s:bonus_bonus_movement_speed}% Max Thirst Move Speed"
   },
   "special_bonus_unique_bloodseeker_5": {
     "dname": "+{s:bonus_attack_speed} Bloodrage Attack Speed"

@@ -917,7 +917,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_puck",
+        "name": "special_bonus_unique_puck_5",
         "level": 2
       },
       {
@@ -933,7 +933,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_puck_5",
+        "name": "special_bonus_unique_puck",
         "level": 4
       },
       {
@@ -1348,11 +1348,11 @@
         "level": 1
       },
       {
-        "name": "special_bonus_strength_8",
+        "name": "special_bonus_unique_tiny_6",
         "level": 1
       },
       {
-        "name": "special_bonus_unique_tiny_6",
+        "name": "special_bonus_strength_10",
         "level": 2
       },
       {
@@ -2639,7 +2639,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_armor_5",
+        "name": "special_bonus_armor_4",
         "level": 1
       },
       {
@@ -4932,7 +4932,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_unique_doom_3",
+        "name": "special_bonus_magic_resistance_10",
         "level": 1
       },
       {
@@ -4944,7 +4944,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_attack_damage_66",
+        "name": "special_bonus_unique_doom_1",
         "level": 2
       },
       {
@@ -4952,7 +4952,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_doom_1",
+        "name": "special_bonus_attack_damage_66",
         "level": 3
       },
       {
@@ -5295,7 +5295,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_unique_alchemist_5",
+        "name": "special_bonus_unique_alchemist_weaponry_power",
         "level": 1
       },
       {
@@ -5303,7 +5303,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_alchemist_weaponry_power",
+        "name": "special_bonus_unique_alchemist_5",
         "level": 2
       },
       {
@@ -5401,7 +5401,7 @@
         "level": 3
       },
       {
-        "name": "special_bonus_unique_invoker_orb_levels",
+        "name": "special_bonus_unique_invoker_forged_spirit_armor_reduction",
         "level": 3
       },
       {
@@ -5454,7 +5454,7 @@
       "silencer_brain_drain",
       "generic_hidden",
       "silencer_global_silence",
-      "silencer_oppressive_silence"
+      "generic_hidden"
     ],
     "talents": [
       {
@@ -5777,7 +5777,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_movement_speed_25",
+        "name": "special_bonus_movement_speed_20",
         "level": 2
       },
       {
@@ -6026,7 +6026,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_unique_meepo_2",
+        "name": "special_bonus_unique_meepo_3",
         "level": 1
       },
       {
@@ -6034,7 +6034,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_meepo_3",
+        "name": "special_bonus_unique_meepo_2",
         "level": 2
       },
       {
@@ -8002,7 +8002,7 @@
         "color": "Red",
         "gradient_id": 2,
         "title": "Dying Light",
-        "description": "Герой каждую секунду наносит врагам в радиусе 400 магический урон в размере 4% от недостающего у него здоровья.",
+        "description": "Герой каждую секунду наносит врагам в радиусе 400 магический урон в размере 3.5% от недостающего у него здоровья.",
         "abilities": [
           "phoenix_dying_light"
         ]
@@ -8105,7 +8105,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_magic_resistance_20",
+        "name": "special_bonus_magic_resistance_15",
         "level": 1
       },
       {
@@ -8295,7 +8295,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_arc_warden",
+        "name": "special_bonus_unique_arc_warden_7",
         "level": 3
       },
       {
@@ -8307,7 +8307,7 @@
         "level": 4
       },
       {
-        "name": "special_bonus_unique_arc_warden_7",
+        "name": "special_bonus_unique_arc_warden",
         "level": 4
       }
     ],
@@ -9218,7 +9218,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_attack_damage_30",
+        "name": "special_bonus_attack_damage_25",
         "level": 1
       },
       {
@@ -9581,7 +9581,7 @@
         "level": 2
       },
       {
-        "name": "special_bonus_unique_largo_5",
+        "name": "special_bonus_unique_largo_8",
         "level": 3
       },
       {
@@ -9593,7 +9593,7 @@
         "level": 4
       },
       {
-        "name": "special_bonus_unique_largo_8",
+        "name": "special_bonus_unique_largo_5",
         "level": 4
       }
     ],
