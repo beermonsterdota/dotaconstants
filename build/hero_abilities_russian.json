@@ -3143,7 +3143,7 @@
         "color": "Gray",
         "gradient_id": 0,
         "title": "Methodical",
-        "description": "Coup de Grace срабатывает каждые несколько атак по одному и тому же существу. Героям нужно 6 атак, а прочим существам — 4."
+        "description": "Coup de Grace срабатывает каждые несколько атак по одному и тому же существу. Героям нужно [object Object] атак, а прочим существам — [object Object]."
       },
       {
         "id": 2,
@@ -8191,7 +8191,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_attack_damage_35",
+        "name": "special_bonus_attack_damage_30",
         "level": 1
       },
       {
@@ -9096,7 +9096,7 @@
         "id": 3,
         "name": "dawnbreaker_hearthfire",
         "deprecated": "true",
-        "icon": "Speed",
+        "icon": "speed",
         "color": "Yellow",
         "gradient_id": 1,
         "title": "Trailblazer",
@@ -9488,7 +9488,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_magic_resistance_12",
+        "name": "special_bonus_unique_kez_switch_weapons_swap_bonus",
         "level": 1
       },
       {

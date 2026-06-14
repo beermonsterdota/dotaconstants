@@ -3143,7 +3143,7 @@
         "color": "Gray",
         "gradient_id": 0,
         "title": "Methodical",
-        "description": "Coup de Grace procs every 6 attacks on the same hero or 4 attacks on non hero units."
+        "description": "Coup de Grace procs every [object Object] attacks on the same hero or [object Object] attacks on non hero units."
       },
       {
         "id": 2,
@@ -8191,7 +8191,7 @@
         "level": 1
       },
       {
-        "name": "special_bonus_attack_damage_35",
+        "name": "special_bonus_attack_damage_30",
         "level": 1
       },
       {
@@ -9488,7 +9488,7 @@
     ],
     "talents": [
       {
-        "name": "special_bonus_magic_resistance_12",
+        "name": "special_bonus_unique_kez_switch_weapons_swap_bonus",
         "level": 1
       },
       {
