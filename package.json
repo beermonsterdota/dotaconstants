@@ -1,5 +1,5 @@
 {
-  "name": "dotaconstants",
+  "name": "@beermonster/dotaconstants",
   "version": "10.8.0",
   "description": "Constant data for Dota 2 applications",
   "exports": "./index.js",
