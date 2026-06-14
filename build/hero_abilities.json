@@ -2422,7 +2422,7 @@
         "color": "Yellow",
         "gradient_id": 2,
         "title": "Translocator",
-        "description": "When a Self-Defense Matrix barrier on Tinker is fully absorbed, he blinks in a random forward direction.<br><br>DISPEL TYPE: Basic Dispel"
+        "description": "When a Self-Defense Matrix barrier on Tinker is fully absorbed, he blinks in a random forward direction.\n\nDISPEL TYPE: Basic Dispel"
       }
     ]
   },
@@ -5422,7 +5422,7 @@
         "color": "Blue",
         "gradient_id": 0,
         "title": "Scholar of Koryx",
-        "description": "<font color='#7998b5'>Quas</font> gains an additional max level. When Invoker reaches level 6, <font color='#7998b5'>Quas</font> gains an additional level.<br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Ice Wall</b>.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>Ghost Walk</b>."
+        "description": "Quas gains an additional max level. When Invoker reaches level 6, Quas gains an additional level.\n\nAghanim's Scepter upgrades Ice Wall.\n\nAghanim's Shard upgrades Ghost Walk."
       },
       {
         "id": 1,
@@ -5432,7 +5432,7 @@
         "color": "Purple",
         "gradient_id": 0,
         "title": "Mind of Tornarus",
-        "description": "<font color='#d671a9'>Wex</font> gains an additional max level. When Invoker reaches level 6, <font color='#d671a9'>Wex</font> gains an additional level.<br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Tornado</b>.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>E.M.P.</b>"
+        "description": "Wex gains an additional max level. When Invoker reaches level 6, Wex gains an additional level.\n\nAghanim's Scepter upgrades Tornado.\n\nAghanim's Shard upgrades E.M.P."
       },
       {
         "id": 2,
@@ -5442,7 +5442,7 @@
         "color": "Yellow",
         "gradient_id": 0,
         "title": "Agent of Gallaron",
-        "description": "<font color='#cabe68'>Exort</font> gains an additional max level. When Invoker reaches level 6, <font color='#cabe68'>Exort</font> gains an additional level.<br><br><font color='#92acf5'>Aghanim's Scepter</font> upgrades <b>Sun Strike</b>.<br><br><font color='#92acf5'>Aghanim's Shard</font> upgrades <b>Sun Strike</b>."
+        "description": "Exort gains an additional max level. When Invoker reaches level 6, Exort gains an additional level.\n\nAghanim's Scepter upgrades Sun Strike.\n\nAghanim's Shard upgrades Sun Strike."
       }
     ]
   },
@@ -8340,7 +8340,7 @@
         "color": "Blue",
         "gradient_id": 1,
         "title": "Runed Replica",
-        "description": "The Tempest Double is infused with the bonuses of Power Runes for {s:bonus_rune_duration}s when created.<br><br>Level 1 - Arcane Rune.<br><br>Level 2 - Arcane and Invisibility Runes.<br><br>Level 3 - Arcane, Invisibility, and Haste Runes."
+        "description": "The Tempest Double is infused with the bonuses of Power Runes for {s:bonus_rune_duration}s when created.\n\nLevel 1 - Arcane Rune.\n\nLevel 2 - Arcane and Invisibility Runes.\n\nLevel 3 - Arcane, Invisibility, and Haste Runes."
       },
       {
         "id": 3,
@@ -9361,7 +9361,7 @@
         "color": "Red",
         "gradient_id": 1,
         "title": "Quickdraw",
-        "description": "Dead Shot fears increase Gunslinger chance.<br><br>Gunslinger procs reduce Dead Shot cooldown. "
+        "description": "Dead Shot fears increase Gunslinger chance.\n\nGunslinger procs reduce Dead Shot cooldown. "
       }
     ]
   },
