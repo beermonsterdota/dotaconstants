@@ -1045,7 +1045,7 @@ async function start() {
                 color: value.Color,
                 gradient_id: Number(value.GradientID),
                 title,
-                description,
+                description: removeHTML(description),
                 abilities: abilities.length > 0 ? abilities : undefined,
               });
             },
