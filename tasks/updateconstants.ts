@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import vdfparser from "vdf-parser";
-import { cleanupArray } from "./util.ts";
+import { cleanupArray, getAllChatWheelFiles } from "./util.ts";
 
 const extraStrings = {
   DOTA_ABILITY_BEHAVIOR_NONE: "None",
@@ -1233,11 +1233,13 @@ async function start() {
         "https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/chat_wheel.txt",
         localizationUrl,
         "https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/localization/hero_chat_wheel_english.txt",
+        ...(await getAllChatWheelFiles()),
       ],
       transform: (respObj: any) => {
         const chat_wheel = respObj[0].chat_wheel;
         const lang = respObj[1].lang.Tokens;
         const chat_wheel_lang = respObj[2].hero_chat_wheel;
+        const customChatWheelFiles = (respObj as any[]).slice(3);
 
         const result = {};
 
@@ -1249,7 +1251,7 @@ async function start() {
           return lang[key] || chat_wheel_lang[key] || key;
         }
 
-        function addMessage(key, message) {
+        function addMessage(key: string, message: any) {
           let data = {
             id: parseInt(message.message_id),
             name: key,
@@ -1282,6 +1284,11 @@ async function start() {
         for (let hero_id in chat_wheel.hero_messages) {
           for (let key in chat_wheel.hero_messages[hero_id]) {
             addMessage(key, chat_wheel.hero_messages[hero_id][key]);
+          }
+        }
+        for (const chatWheelFile of customChatWheelFiles) {
+          for (const key in chatWheelFile.chat_wheel.messages) {
+            addMessage(key, chatWheelFile.chat_wheel.messages[key], true);
           }
         }
         return result;
