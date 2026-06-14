@@ -1,16 +1,21 @@
 {
-  "name": "@beermonster/dotaconstants",
-  "version": "9.3.7",
+  "name": "dotaconstants",
+  "version": "10.8.0",
   "description": "Constant data for Dota 2 applications",
-  "main": "index.js",
-  "type": "module",
+  "exports": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsx tasks/updateconstants && tsc",
-    "patch": "tsx tasks/newpatch",
-    "prettier": "prettier --write tasks",
-    "build_node": "node --experimental-strip-types tasks/updateconstants.ts"
+    "patch": "node tasks/newpatch.ts",
+    "prettier": "npx prettier --write tasks",
+    "build": "node tasks/updateconstants.ts"
   },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "prettier": "^3.1.1",
+    "vdf-parser": "^1.2.1"
+  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/beermosnter/dotaconstants.git"
@@ -20,12 +25,5 @@
   "bugs": {
     "url": "https://github.com/beermosnter/dotaconstants/issues"
   },
-  "homepage": "https://github.com/beermosnter/dotaconstants#readme",
-  "devDependencies": {
-    "@types/node": "^22.13.4",
-    "prettier": "^3.1.1",
-    "tsx": "^4.19.3",
-    "typescript": "^5.7.3",
-    "vdf-parser": "^1.2.1"
-  }
+  "homepage": "https://github.com/beermosnter/dotaconstants#readme"
 }
